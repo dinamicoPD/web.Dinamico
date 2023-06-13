@@ -1,0 +1,9 @@
+/* SECCION FOOTER */
+
+footer .row:nth-child(1) .col{
+    background-color: var(--grisOscuro);
+    text-align: center;
+    padding: 1vw;
+    color: var(--blanco);
+    font-size: 2vw;
+}

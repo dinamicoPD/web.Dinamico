@@ -1,50 +1,5 @@
 /* FUENTES */
 
-@font-face {
-    font-family: 'HelveticaLTStd-BoldCond';
-    src: url(../fonts/HelveticaLTStd-BoldCond.otf);
-}
-@font-face {
-    font-family: 'HelveticaLTStd-Compressed';
-    src: url(../fonts/HelveticaLTStd-Comp.otf);
-}
-@font-face {
-    font-family: 'HelveticaLTStd-BoldCondensed';
-    src: url(../fonts/HelveticaLTStd-BoldCond.otf);
-}
-@font-face {
-    font-family: 'HelveticaLTStd-LightCondensed';
-    src: url(../fonts/HelveticaLTStd-LightCond.otf);
-}
-@font-face {
-    font-family: 'HelveticaLTStd-Condensed';
-    src: url(../fonts/HelveticaLTStd-Cond.otf);
-}
-@font-face {
-    font-family: 'Impossible-0';
-    src: url(../fonts/IMPOS0_.ttf);
-}
-@font-face {
-    font-family: 'Impact';
-    src: url(../fonts/impact.ttf);
-}
-@font-face {
-    font-family: 'Impact';
-    src: url(../fonts/impact.ttf);
-}
-@font-face {
-    font-family: 'poppins-black';
-    src: url(../fonts/Poppins-Black.otf);
-}
-@font-face {
-    font-family: 'geometric706';
-    src: url(../fonts/geometric706blackcondensedbt.ttf);
-}
-@font-face {
-    font-family: 'Rubik-bold';
-    src: url(../fonts/Rubik-Bold.ttf);
-}
-
 #registro1 h2, #p3 h1{
     font-family: 'Impossible-0', sans-serif;
 }
@@ -82,16 +37,6 @@
 }
 /* GENERAL */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-a{
-    text-decoration: none;
-}
-
 body{
     background: fixed;
     background-image: url(../img/textura-03.svg);
@@ -100,103 +45,10 @@ body{
     width: 100vw;
 }
 
-/* MENU */
-
-header {
-    z-index: 100;
-    position: fixed;
-    width: 100%;
-    font-size: 1.2vw;
-    transition: all 0.2s ease-out;
-}
-
-header.abajo {
-    background-color: #000;
-}
-
-.menuFont {
-    color: #ffffff;
-}
-
-nav, .modal{
-    font-family: 'HelveticaLTStd-BoldCond', sans-serif;
-}
-
-.tienda {
-    color: #F8BC00;
-}
-
-.menuActivo {
-    background-color: #F8BC00;
-    border-radius: 6px;
-    padding: 0px 5px;
-}
-
-.menuActivoTienda {
-    background-color: #FFFFFF;
-    border-radius: 6px;
-    padding: 0px 5px;
-}
-
-.linea {
-    border-left: 1px solid #ffffff;
-    height: 40px;
-    margin: 0px 21px 0px 3px;
-}
-
-.logoMenu img{
-    height: 2.5vw;
-}
-/* BOTONES */
-
-.btnPlataforma{
-    display: block;
-    background: rgb(225,44,56);
-    background: linear-gradient(90deg, rgba(225,44,56,1) 0%, rgba(193,36,42,1) 50%, rgba(151,25,23,1) 100%);
-    border-radius: 6px;    
-    color: #ffffff;
-    padding: 5px 10px;
-    text-decoration: none;
-    text-align: center;
-    border: none;
-}
-
-.btnPlataforma:hover{
-    transform: scale(1.03);
-}
-
-.btnRegistro{
-    display: block;
-    background: #F8BC00;
-    border-radius: 6px;    
-    color: #000000;
-    padding: 5px 10px;
-    text-decoration: none;
-    text-align: center;
-    width: 100%;
-    border: none;
-}
-
-.btnRegistro:hover{
-    transform: scale(1.03);
-}
-
-.btnMaterialGratis{
-    display: block;
-    background-color: #96C446;
-    color: #ffffff;
-    padding: 0.5vw;
-    font-size: 2vw;
-    width: 15vw;
-    text-align: center;
-    border: 0.6vw solid #83B925;
-    border-radius: 5px;
-}
-
 /* CARRUSEL */
 
 .carousel-indicators [data-bs-target] {
-    background-color: #fff;
+    background-color: var(--blanco);
     border-radius: 50%;
     width: 12px;
     height: 12px;
@@ -204,7 +56,7 @@ nav, .modal{
   }
 
 .carousel-indicators [data-bs-target] .active {
-    background-color: #fff;
+    background-color: var(--blanco);
 }
 
 .carousel-control-prev,
@@ -225,8 +77,8 @@ nav, .modal{
 }
 
 #carouselSlideIndicators{
-    background-color: #ffffff;
-    border-bottom: 0.5vw solid #F8BC00;
+    background-color: var(--blanco);
+    border-bottom: 0.5vw solid var(--amarillo);
     padding-bottom: 0.5vw;
 }
 
@@ -258,7 +110,7 @@ nav, .modal{
 }
 
 #registro1 h3{
-    color: #F8BC00;
+    color: var(--amarillo);
     font-size: 4.3vw;
     line-height: 0.1;
     padding-bottom: 1.5vw;
@@ -270,7 +122,7 @@ nav, .modal{
 }
 
 #registro1 .row .col-8{
-    border: 0.1vw solid #ffffff;
+    border: 0.1vw solid var(--blanco);
     border-radius: 5px;
 }
 
@@ -292,7 +144,7 @@ nav, .modal{
     width: 100%;
     background: transparent;
     border: none;
-    color: #ffffff;
+    color: var(--blanco);
 }
 
 #registro2 button:hover{
@@ -306,15 +158,15 @@ nav, .modal{
 }
 
 #registro2 .col-4{
-    background-color: #ED9502;
-    border: 0.3vw solid #ED9502;
+    background-color: var(--naranja);
+    border: 0.3vw solid var(--naranja);
     border-radius: 0px 5px 5px 0px;
     font-size: 2.3vw;
 }
 
 .boxMaquina {
-    background-color: #ffffff;
-    border: 0.3vw solid #ED9502;
+    background-color: var(--blanco);
+    border: 0.3vw solid var(--naranja);
     border-radius: 5px 0px 0px 5px;
 }
 
@@ -324,9 +176,9 @@ nav, .modal{
     white-space: nowrap;
     margin: 0 auto;
     font-family: "Courier New";
-    border-right: 0.15em solid #000000;
+    border-right: 0.15em solid var(--negro);
     animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
-    color: #B1A3A4;
+    color: var(--gris);
     font-size: 2.3vw;
     text-align: left;
 }
@@ -358,14 +210,14 @@ nav, .modal{
 }
 
 .soporte{
-    color: #80CBF1;
+    color: var(--cian);
 }
 
 /* SECCION DOS */
 
 .sl2{
     text-align: center;
-    color: #662E84;
+    color: var(--morado);
     width: 100vw;
     padding-top: 5vw;
 }
@@ -396,26 +248,26 @@ nav, .modal{
 }
 
 #p2 .articulos_3 article:nth-child(1) img:nth-child(2){
-    border: 1vw solid #ED9400;
+    border: 1vw solid var(--naranja);
 }
 #p2 .articulos_3 article:nth-child(2) img:nth-child(2){
-    border: 1vw solid #77932B;
+    border: 1vw solid var(--verdeOscuro);
 }
 #p2 .articulos_3 article:nth-child(3) img:nth-child(2){
-    border: 1vw solid #662E84;
+    border: 1vw solid var(--morado);
 }
 #p2 .articulos_3 article img:nth-child(2){
     border-radius: 5px;
 }
 
 #p2 .articulos_3 article:nth-child(1) p{
-    color: #E22339;
+    color: var(--rojo);
 }
 #p2 .articulos_3 article:nth-child(2) p{
-    color: #90BD1F;
+    color: var(--verde);
 }
 #p2 .articulos_3 article:nth-child(3) p{
-    color: #994992;
+    color: var(--morado);
 }
 #p2 .articulos_3 p{
     font-size: 3vw;
@@ -424,7 +276,7 @@ nav, .modal{
 #p2{
     padding-bottom: 12vw;
     background: fixed;
-    background-color: #ffffff;
+    background-color: var(--blanco);
     background-image: url(../img/txtDinamico.svg);
     background-position: center bottom;
     background-size: 95vw auto;
@@ -478,11 +330,11 @@ nav, .modal{
 /* SECCION TRES */
 
 #p3{
-    border-top: 1vw solid #2C2359;
-    border-bottom: 1vw solid #2C2359;
+    border-top: 1vw solid var(--moradoOscuro);
+    border-bottom: 1vw solid var(--moradoOscuro);
     height: 51.4vw;
     overflow: hidden;
-    color: #ffffff;
+    color: var(--blanco);
 }
 
 #p3 .col-7{
@@ -490,15 +342,14 @@ nav, .modal{
 }
 
 #p3 img{
-    height: 51.4vw;
-    transform: translateY(-1vw);
+    width: 100%;
 }
 
 #p3 .txt{
     width: 90%;
     margin: auto;
     margin-top: 1vw;
-    border-bottom: 0.3vw solid #ffffff;
+    border-bottom: 0.3vw solid var(--blanco);
     padding-bottom: 3vw;
 }
 
@@ -513,7 +364,7 @@ nav, .modal{
 /* SECCION CUATRO */
 
 #p4{
-    background-color: #ffffff;
+    background-color: var(--blanco);
     background-image: url(../img/textura2.svg);
     background-position: top left;
     background-size: 25% auto;
@@ -523,7 +374,7 @@ nav, .modal{
 
 #p4 .titulo{
     text-align: center;
-    color: #3B2358;
+    color: var(--moradoOscuro);
     font-size: 10vw;
 }
 
@@ -552,13 +403,13 @@ nav, .modal{
 }
 
 #p4 article:nth-child(1) .numero{
-    color: #EE8B27;
+    color: var(--naranja);
 }
 #p4 article:nth-child(2) .numero{
-    color: #662E84;
+    color: var(--morado);
 }
 #p4 article:nth-child(3) .numero{
-    color: #90BD1F;
+    color: var(--verde);
 }
 #p4 .btnPasos button{
     text-align: center;
@@ -583,23 +434,13 @@ nav, .modal{
     transform: scale(1.03);
 }
 
-/* SECCION FOOTER */
-
-footer .row:nth-child(1) .col{
-    background-color: #3F3E3C;
-    text-align: center;
-    padding: 1vw;
-    color: #ffffff;
-    font-size: 2vw;
-}
-
 /* RESPONSIVE */
 
 @media screen and (max-width: 991px){
     /* MENU */
 
     header{
-        background-color: #000;
+        background-color: var(--negro);
         font-size: 3vh;
     }
     
@@ -621,6 +462,6 @@ footer .row:nth-child(1) .col{
 
     .margen{
         height: 55px;
-        background-color: #000;
+        background-color: var(--negro);
     }
 }

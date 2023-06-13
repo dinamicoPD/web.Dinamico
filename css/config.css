@@ -1,0 +1,117 @@
+/* FUENTES */
+
+@font-face {
+    font-family: 'HelveticaLTStd-BoldCond';
+    src: url(../fonts/HelveticaLTStd-BoldCond.otf);
+}
+@font-face {
+    font-family: 'HelveticaLTStd-Compressed';
+    src: url(../fonts/HelveticaLTStd-Comp.otf);
+}
+@font-face {
+    font-family: 'HelveticaLTStd-BoldCondensed';
+    src: url(../fonts/HelveticaLTStd-BoldCond.otf);
+}
+@font-face {
+    font-family: 'HelveticaLTStd-LightCondensed';
+    src: url(../fonts/HelveticaLTStd-LightCond.otf);
+}
+@font-face {
+    font-family: 'HelveticaLTStd-Condensed';
+    src: url(../fonts/HelveticaLTStd-Cond.otf);
+}
+@font-face {
+    font-family: 'Impossible-0';
+    src: url(../fonts/IMPOS0_.ttf);
+}
+@font-face {
+    font-family: 'Impact';
+    src: url(../fonts/impact.ttf);
+}
+@font-face {
+    font-family: 'Impact';
+    src: url(../fonts/impact.ttf);
+}
+@font-face {
+    font-family: 'poppins-black';
+    src: url(../fonts/Poppins-Black.otf);
+}
+@font-face {
+    font-family: 'geometric706';
+    src: url(../fonts/geometric706blackcondensedbt.ttf);
+}
+@font-face {
+    font-family: 'Rubik-bold';
+    src: url(../fonts/Rubik-Bold.ttf);
+}
+
+/* Enlaces */
+
+a{
+    text-decoration: none;
+}
+
+:root {
+    /* COLORES */
+    --blanco: #ffffff;
+    --amarillo: #F8BC00;
+    --naranja: #ED9502;
+    --negro: #000000;
+    --gris: #B1A3A4;
+    --grisOscuro: #3F3E3C;
+    --cian: #80CBF1;
+    --morado: #662E84;
+    --moradoOscuro: #2C2359;
+    --verdeOscuro: #77932B;
+    --verde: #90BD1F;
+    --rojo: #E22339;
+    --rojoRGB_1: rgba(225,35,57,1);
+    --rojoRGB_2: rgba(193,36,42,1);
+    --rojoRGB_3: rgba(151,25,23,1);
+}
+
+/* BOTONES */
+
+.btnPlataforma{
+    display: block;
+    background: var(--rojoRGB_1);
+    background: linear-gradient(90deg, var(--rojoRGB_1) 0%, var(--rojoRGB_2) 50%, var(--rojoRGB_3) 100%);
+    border-radius: 6px;    
+    color: var(--blanco);
+    padding: 5px 10px;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+}
+
+.btnPlataforma:hover{
+    transform: scale(1.03);
+}
+
+.btnRegistro{
+    display: block;
+    background: var(--amarillo);
+    border-radius: 6px;    
+    color: var(--negro);
+    padding: 5px 10px;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    border: none;
+}
+
+.btnRegistro:hover{
+    transform: scale(1.03);
+}
+
+.btnMaterialGratis{
+    display: block;
+    background-color: var(--verde);
+    color: var(--blanco);
+    padding: 0.5vw;
+    font-size: 2vw;
+    width: 15vw;
+    text-align: center;
+    border: 0.6vw solid var(--verdeOscuro);
+    border-radius: 5px;
+}
