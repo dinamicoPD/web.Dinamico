@@ -6,6 +6,7 @@
     <title>Home | Dinámico pedagogía y diseño</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/config.css" type="text/css">
+    <script src="//code.jivosite.com/widget/K8kniJJst9" async></script>
 </head>
 <body>
 <?php echo $MENU; ?>
@@ -68,7 +69,8 @@
                         <div id="servicioTec">
                             <div class="row">
                                 <div class="col-2"></div>
-                                <div class="col"><p>¿NO PUEDES REGISTRARTE?<br><a class="soporte" href="https://wa.me/+573144705547?text=Hola,%20necesito%20tu%20ayuda!!!" target="_blank">SERVICIO TÉCNICO</a></p></div>
+                                <div class="col-7"><p>¿NO PUEDES REGISTRARTE?<br><a class="soporte" href="https://wa.me/+573144705547?text=Hola,%20necesito%20tu%20ayuda!!!" target="_blank">SERVICIO TÉCNICO</a></p></div>
+                                <div class="col-3"><img class="qr_wpp" src="img/QR_WPP.jpg" alt=""></div>
                             </div>
                         </div>
                     </div>
@@ -126,7 +128,7 @@
                             <p>Te enviaremos una muestra<br>
                                 gratis de nuestro material
                                 <br><br>SIGUE ESTOS PASOS</p>
-                                <a class="btnMaterialGratis" href="">¡¡VAMOS!!</a>
+                                <button class="btnMaterialGratis" type="button" data-bs-toggle="modal" data-bs-target="#pruebaGratis">¡¡VAMOS!!</button>
                         </div>
                     </div>
                 </div>
@@ -134,6 +136,43 @@
         <div class="col-7"><img src="img/profeImg.png" alt=""></div>
     </div>
 </section>
+<!-- FORMULARIO PARA PRUEBA GRATIS DOCENTES -->
+<div class="modal fade" id="pruebaGratis" tabindex="-1" data-bs-backdrop="static" aria-labelledby="SlideModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h1 class="modal-title fs-5" id="SlideModalLabel">MUESTRA GRATIS</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <p>Déjanos tu mensaje y nos pondremos en contacto contigo</p>
+            <form action="correosWeb.php" method="post">
+                <div class="mb-3">
+                    <label for="FormControlInput1" class="form-label">Nombre*</label>
+                    <input type="text" class="form-control form-control-sm" id="FormControlInput1" name="nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="FormControlInput2" class="form-label">Correo Electronico*</label>
+                    <input type="email" class="form-control form-control-sm" id="FormControlInput2" placeholder="name@example.com" name="correo" required>
+                </div>
+                <div class="mb-3">
+                    <label for="FormControlInput3" class="form-label">Telefono</label>
+                    <input type="number" class="form-control form-control-sm" id="FormControlInput3" name="telefono">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Escriba su solicitud*</label>
+                    <textarea class="form-control form-control-sm" id="exampleFormControlTextarea1" rows="3" name="mensaje" required></textarea>
+                </div>
+                    <input type="hidden" name="condicion" value="1">
+                    <input type="submit" value="Enviar" class="btnRegistro">
+            </form>
+        </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+    </div>
+    </div>
+</div>
 <section id="p4">
     <div class="titulo">
         <h2>MATERIAL INTERACTIVO EN 3 PASOS</h2>

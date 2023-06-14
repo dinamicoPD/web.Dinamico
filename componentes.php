@@ -63,7 +63,7 @@ $MENU =
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-            <a class="btnPlataforma" href="">Iniciar sesión</a>
+            <a class="btnPlataforma" href="moodle/" target="_blank">Iniciar sesión</a>
             <hr>
             <button type="button" data-bs-toggle="modal" data-bs-target="#perfilModal" class="btnRegistro">Registro</button>
         </div>
@@ -82,9 +82,9 @@ $MENU =
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-            <a class="btnPlataforma" href="">Estudiante</a>
+            <a class="btnPlataforma" href="moodle/dinapage/LoginSTD.php" target="_blank">Estudiante</a>
             <hr>
-            <a class="btnRegistro" href="">Docente</a>
+            <a class="btnRegistro" href="moodle/dinapage/LoginPRF.php" target="_blank">Docente</a>
         </div>
         <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
