@@ -1,4 +1,21 @@
-<?php require_once(dirname(__FILE__).'/componentes.php') ?>
+<?php
+require_once(dirname(__FILE__).'/componentes.php');
+if (isset($_GET['envioMuestra'])) {
+    $variable = $_GET['envioMuestra'];
+    // Hacer algo con la variable
+    
+    if ($variable = 'no'){
+        $MENSAJEmsm = '
+                    <div id="msmMuestra" class="alert alert-danger alert-dismissible fade show" role="alert">
+                        <p><strong>ERROR!!!</strong> Su correo no fue enviado por falta de validacion reCAPTCHA.</p>
+                        <button class="btnPlataforma" type="button" data-bs-toggle="modal" data-bs-target="#pruebaGratis">VUELVE A ENVIAR TU CORREO</button>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                    ';
+    }
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +24,7 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/config.css" type="text/css">
     <script src="//code.jivosite.com/widget/K8kniJJst9" async></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
 <?php echo $MENU; ?>
@@ -146,7 +164,7 @@
         </div>
         <div class="modal-body">
             <p>Déjanos tu mensaje y nos pondremos en contacto contigo</p>
-            <form action="correosWeb.php" method="post">
+            <form  action="correosWeb.php" method="post">
                 <div class="mb-3">
                     <label for="FormControlInput1" class="form-label">Nombre*</label>
                     <input type="text" class="form-control form-control-sm" id="FormControlInput1" name="nombre" required>
@@ -163,6 +181,7 @@
                     <label for="exampleFormControlTextarea1" class="form-label">Escriba su solicitud*</label>
                     <textarea class="form-control form-control-sm" id="exampleFormControlTextarea1" rows="3" name="mensaje" required></textarea>
                 </div>
+                <div class="g-recaptcha" data-sitekey="6LdWf58mAAAAAPSb7iAVH5i7Lpxint-PzbkedSZd"></div>
                     <input type="hidden" name="condicion" value="1">
                     <input type="submit" value="Enviar" class="btnRegistro">
             </form>
@@ -214,6 +233,7 @@
         </div>
     </div>
 </footer>
+<?php echo $MENSAJEmsm; ?>
 <script src="js/ajax.googleapis.com_ajax_libs_jquery_1.6.2_jquery.min.js"></script>
 <script src="js/menu.js"></script>
 </body>

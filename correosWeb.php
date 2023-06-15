@@ -5,10 +5,26 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 if ($_POST['condicion'] == 1) {
-    
-    funcionPruebaGratis();
-    header("Location: index.php");
-    exit();
+
+    $ip = $_SERVER['REMOTE_ADDR'];
+    $captcha = $_POST['g-recaptcha-response'];
+    $secretkey = "6LdWf58mAAAAAMk6pmEvOdHhH6S1LLP82zvWCYpr";
+    $url = "https://www.google.com/recaptcha/api/siteverify";
+
+    $respuesta = file_get_contents($url."?secret=".$secretkey."&response=".$captcha."&remoteip=".$ip);
+
+    $atributos = json_decode($respuesta, TRUE);
+
+    $error = array();
+
+    if(!$atributos['success']){
+        header("Location: index.php?envioMuestra=no");
+        exit();
+    }else{
+        funcionPruebaGratis();
+        header("Location: index.php");
+        exit();
+    }
 }
 
 
@@ -87,7 +103,7 @@ function funcionPruebaGratis() {
         //Recipients
         $mail->setFrom('dinamico.moodle@gmail.com', $nombre);
         $mail->addAddress('dinamicopdadm@gmail.com', 'Dinamico Ventas');        // a quien envia
-        $mail->addCC($correo);
+        $mail->addCC($correo); // CC
         
       
         // Content */
