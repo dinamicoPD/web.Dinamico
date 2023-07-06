@@ -48,7 +48,7 @@ $MENU =
                 </li>
             </ul>
             <span class="navbar-text">
-                <button type="button" data-bs-toggle="modal" data-bs-target="#plataformaModal" class="btnPlataforma">DINAMIC MOODLE</button>
+                <button type="button" data-bs-toggle="modal" data-bs-target="#plataformaModal" class="btnPlataforma">DYNAMIC MOODLE</button>
             </span>
           </div>
         </div>
