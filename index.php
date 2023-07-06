@@ -181,6 +181,7 @@ if (isset($_GET['envioMuestra'])) {
                     <label for="exampleFormControlTextarea1" class="form-label">Escriba su solicitud*</label>
                     <textarea class="form-control form-control-sm" id="exampleFormControlTextarea1" rows="3" name="mensaje" required></textarea>
                 </div>
+                <input type="text" name="hp" id="hp" style="display: none">
                 <div class="g-recaptcha" data-sitekey="6LdWf58mAAAAAPSb7iAVH5i7Lpxint-PzbkedSZd"></div>
                     <input type="hidden" name="condicion" value="1">
                     <input type="submit" value="Enviar" class="btnRegistro">

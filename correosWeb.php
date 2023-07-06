@@ -1,4 +1,9 @@
 <?php
+if(!empty($_POST['hp'])) {
+    // Es un bot, no procesar el formulario
+    exit();
+}
+
 require_once('config-ext.php');
 
 use PHPMailer\PHPMailer\PHPMailer;
