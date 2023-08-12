@@ -72,7 +72,7 @@ if (isset($_GET['envioMuestra'])) {
                                         <div class="row">
                                             <div class="col-10">
                                                 <div class="row">
-                                                    <div class="col-8 boxMaquina"><p class="maquina">Nikola Tesla</p></div>
+                                                    <div class="col-8 boxMaquina"><p class="maquina" id="nombreAleatorio"></p></div>
                                                     <div class="col-4">REGÍSTRATE</div>
                                                 </div>
                                             </div>
@@ -237,5 +237,23 @@ if (isset($_GET['envioMuestra'])) {
 <?php echo $MENSAJEmsm; ?>
 <script src="js/ajax.googleapis.com_ajax_libs_jquery_1.6.2_jquery.min.js"></script>
 <script src="js/menu.js"></script>
+<script>
+$(document).ready(function() {
+  // Nombres separados por comas en una variable
+  var nombresString = "Albert Einstein, Isaac Newton, Galileo Galilei, Marie Curie, Charles Darwin, Nikola Tesla, Aristóteles, Leonardo da Vinci, Carl Sagan, Stephen Hawking, Pitágoras, Johannes Kepler, Arquímedes, René Descartes, Alan Turing, Niels Bohr, Richard Feynman, Sigmund Freud, Ada Lovelace, Immanuel Kant, Max Planck, Werner Heisenberg, Marie Curie, Niels Henrik Abel, Blaise Pascal, James Clerk Maxwell, Antoine Lavoisier, Albert Michelson, George Washington Carver, Rosalind Franklin, Galeno, Hipatia, Alhazen, Aryabhata, Alan Guth, Dmitri Mendeléyev, Carl Friedrich Gauss, Erwin Schrödinger, Max Born, John Locke, Tomás de Aquino, Émilie du Châtelet, Werner Karl Heisenberg, Comte de Buffon, Euclides, Emmy Noether, Edwin Hubble, Ibn Sina, Hipatia de Alejandría, Pierre-Simon Laplace, John Stuart Mill, Mary Cartwright, Alain Connes, Johannes van der Waals, Robert Hooke, André-Marie Ampère, Edward Witten, Niels Bohr, Francis Bacon, Averroes";
+
+  // Dividir la cadena de nombres en un arreglo
+  var nombresArray = nombresString.split(", ");
+
+  // Generar un índice aleatorio
+  var indiceAleatorio = Math.floor(Math.random() * nombresArray.length);
+
+  // Obtener el nombre aleatorio usando el índice generado
+  var nombreAleatorio = nombresArray[indiceAleatorio];
+
+  // Mostrar el nombre aleatorio en el párrafo
+  $("#nombreAleatorio").text(nombreAleatorio);
+});
+</script>
 </body>
 </html>
