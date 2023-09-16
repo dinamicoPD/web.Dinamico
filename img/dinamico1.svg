@@ -7,12 +7,12 @@
       }
 
       .cls-2 {
-        fill: #ee8b27;
+        fill: #F7746D;
         opacity: .15;
       }
 
       .cls-3 {
-        fill: #e22339;
+        fill: #F7746D;
       }
     </style>
   </defs>

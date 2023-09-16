@@ -1,0 +1,366 @@
+.carousel-indicators [data-bs-target] {
+    background-color: var(--blanco);
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin: 0 4px;
+}
+.carousel-indicators [data-bs-target] .active {
+    background-color: var(--blanco);
+}
+.carousel-control-prev,
+.carousel-control-next {
+    filter: opacity(0%);
+    transition: all 0.2s ease-out;
+    width: 5vw;
+}
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    filter: opacity(80%);
+}
+#carouselSlideIndicators{
+    background-color: var(--blanco);
+    border-bottom: 0.5vw solid var(--amarillo);
+    padding-bottom: 0.5vw;
+}
+.buscaJuega{
+    position: absolute;
+    top: 47vw;
+    left: 79vw;
+}
+.buscaJuega svg{
+    width: 13.82vw;
+}
+.cont {
+    width: 100vw;
+    left: 0;
+}
+/*FESTIVALES*/
+.contenedorCarrusel{
+    width: 82vw;
+    display: grid;
+    margin: auto;
+}
+#festivales{
+    grid-template-columns: 50% 50%;
+    grid-template-areas:"fes_info fes_img";
+}
+.fes_img{
+    grid-area: fes_img;
+}
+.fes_info{
+    grid-area: fes_info;
+    display: grid;
+    column-gap: 0.7vw;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 6.5vw 5vw 20.5vw 5vw 3.2vw 5vw;
+    grid-template-areas: 
+    "fes_titulo fes_titulo fes_titulo fes_titulo"
+    "fes_subtitulo fes_subtitulo fes_subtitulo fes_subtitulo"
+    "fes_matematicas fes_ingles fes_sociales ."
+    ". . . ."
+    "fes_mas fes_mas fes_mas fes_mas"
+    ". . . .";
+    text-align: left;
+}
+.fes_titulo{
+    grid-area: fes_titulo;
+    font-family: 'Mikado_Medium', sans-serif;
+    font-size: 4.6vw;
+    padding: 0;
+    margin: 0;
+}
+.fes_titulo span{
+    font-family: 'Angeline_Vintage', sans-serif;
+    font-size: 5.2vw;
+}
+.fes_subtitulo{
+    grid-area: fes_subtitulo;
+    font-family: 'Baloo2_Medium', sans-serif;
+    font-size: 2.3vw;
+}
+.fes_subtitulo span{
+    font-family: 'Angeline_Vintage', sans-serif;
+    font-size: 2.5vw;
+}
+#fes_matematicas{
+    grid-area: fes_matematicas;
+    background-image: url(../img/festivales_1@3x.png);
+}
+#fes_ingles{
+    grid-area: fes_ingles;
+    background-image: url(../img/festivales_2@3x.png);
+}
+#fes_sociales{
+    grid-area: fes_sociales;
+    background-image: url(../img/festivales_3@3x.png);
+}
+.fes_art{
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2vw 2vw 0 0;
+    position: relative;
+    text-align: center;
+}
+.fes_categoria{
+    position: absolute;
+    width: 100%;
+    height: 6vw;
+    bottom: -2vw;
+    border-radius:  0 0 2vw 2vw;
+}
+
+.fes_categoria img{
+    height: 1.6vw;
+    margin-top: 3.5vw;
+}
+
+#fes_matematicas .fes_categoria{
+    background: linear-gradient(0deg, var(--verde) 40%, transparent 100%);
+}
+#fes_ingles .fes_categoria{
+    background: linear-gradient(0deg, var(--morado) 40%, transparent 100%);
+}
+#fes_sociales .fes_categoria{
+    background: linear-gradient(0deg, var(--amarillo) 40%, transparent 100%);
+}
+
+.fes_categoria p{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-family: 'Mikado_Medium', sans-serif;
+}
+
+.fes_mas{
+    grid-area: fes_mas;
+    font-family: 'Poppins_Medium', sans-serif;
+    font-size: 1.3vw;
+}
+.fes_mas a{
+    text-decoration: none;
+    color: var(--blanco);
+}
+.fes_mas img{
+    margin-top: 2vw;
+    margin-left: 1vw;
+    width: 10vw;
+}
+/*PLATAFORMA*/
+.contenedorPlataforma{
+    width: 88vw;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 60% 40%;
+    grid-template-areas: "plataforma_info .";
+    white-space: nowrap;
+}
+
+.texto_plataforma_1{
+    font-size: 2.5vw;
+    text-align: left;
+    margin-bottom: 2.5vw;
+}
+
+#plataforma_info{
+    grid-area: plataforma_info;
+}
+
+#plataforma_info p{
+    font-family: 'Bahnschrift_bold', sans-serif;
+}
+
+#plataforma_info span{
+    font-family: 'Sensations_and_Qualities', sans-serif;
+    font-size: 6vw;
+    line-height: 0.5;
+}
+
+.texto_plataforma_1 img{
+    height: 4vw;
+    padding-bottom: 1.5vw;
+    font-weight: bold;
+}
+
+.texto_plataforma_2{
+    text-align: left;
+    font-family: 'Bahnschrift_bold', sans-serif;
+    font-size: 2vw;
+    font-weight: bold;
+    margin-bottom: 2vw;
+}
+
+.texto_plataforma_2 strong{
+    color: var(--morado_2);
+}
+
+.btn_plataforma{
+    width: 92%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 66% 26% 8%;
+    grid-template-rows: 3vw;
+    grid-template-areas: "boxMaquina btn_registro check_btn";
+    margin-bottom: 1.5vw;
+}
+
+.boxMaquina{
+    background-color: var(--blanco);
+    border-radius: 5px 0px 0px 5px;
+    grid-area: boxMaquina;
+}
+
+.btn_registro{
+    grid-area: btn_registro;
+}
+
+.check_btn{
+    grid-area: check_btn;
+}
+
+.check_btn img{
+    width: 60%;
+    margin: auto;
+}
+
+.maquina{
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    font-family: "Courier New";
+    border-right: 0.15em solid var(--negro);
+    animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
+    color: var(--gris);
+    font-size: 2vw;
+    text-align: left;
+}
+
+.btn_Soporte{
+    display: grid;
+    grid-template-columns: 20% 20% 60%;
+    grid-template-areas: "txt_soporte btn_soporte .";
+    width: 92%;
+    margin: auto;
+    margin-bottom: 8vw;
+}
+
+#txt_soporte{
+    grid-area: txt_soporte;
+    font-family: 'Bahnschrift_bold', sans-serif;
+    font-weight: bold;
+    color: var(--morado_2);
+    font-size: 2vw;
+}
+
+#btn_soporte{
+    grid-area: btn_soporte;
+}
+
+#btn_soporte img{
+    height: 6vw;
+    margin: auto;
+}
+
+.btn_registro{
+    background-color: var(--blanco);
+}
+
+.btn_registro p{
+    display: block;
+    width: 95%;
+    margin: auto;
+    margin-top: 0.16vw;
+    background-color: var(--amarillo);
+    font-family: 'Bahnschrift_bold', sans-serif;
+    font-weight: bold;
+    font-size: 1.5vw;
+    border-radius: 0.5vw;
+    padding: 0.2vw;
+}
+/*LIBROS*/
+.contenedor_libros {
+    width: 100%;
+    margin: auto;
+    white-space: nowrap;
+}
+
+.contenedor_libros a{
+    display: block;
+    text-decoration: none;
+    color: var(--blanco);
+    font-family: 'Bahnschrift_bold', sans-serif;
+    font-size: 2.5vw;
+    font-weight: bold;
+    line-height: 0.5;
+    margin-bottom: 38vw;
+}
+
+.contenedor_libros span{
+    font-family: 'Sensations_and_Qualities', sans-serif;
+    font-size: 6vw;
+    font-weight: lighter;
+}
+
+.contenedor_libros img{
+    height: 4vw;
+    padding-bottom: 1.5vw;
+}
+
+/* JUEGOS   */
+
+.contenedor_juegos{
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    position: relative;
+}
+
+.text_juegos_1{
+    font-family: 'Mikado_Medium', sans-serif;
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.text_juegos_1 img{
+    vertical-align: middle;
+    height: 7vw;
+}
+
+.text_juegos_2{
+    display: block;
+    width: 50%;
+    margin-bottom: 2vw;
+}
+
+.text_juegos_3{
+    font-family: 'Poppins_Medium', sans-serif;
+    width: 50%;
+    font-size: 0.8vw;
+}
+
+.text_juegos_4{
+    display: block;
+    width: 40vw;
+    margin: auto;
+    text-align: center;
+}
+
+.text_juegos_4 img{
+    width: 40vw;
+}
+
+#text_juegos_1b{
+    position: absolute;
+    left: 1.5vw;
+    top: -3.5vw;
+}
+
+#text_juegos_1a{
+    position: absolute;
+    left: 1.5vw;
+    top: -7vw;
+}

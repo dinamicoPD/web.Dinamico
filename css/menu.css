@@ -6,10 +6,13 @@ header {
     width: 100%;
     font-size: 1.2vw;
     transition: all 0.2s ease-out;
+    padding: 0vw 2vw;
+    background: var(--negro_transparente);
 }
 
 header.abajo {
-    background-color: var(--negro);
+    background-color: var(--negro90);
+    border-bottom: 0.6vw solid var(--beigeClaro);
 }
 
 .menuFont {
@@ -17,17 +20,19 @@ header.abajo {
 }
 
 nav, .modal{
-    font-family: 'HelveticaLTStd-BoldCond', sans-serif;
+    font-family: 'Futura_Light_BT', sans-serif;
 }
 
 .tienda {
-    color: var(--amarillo);
+    color: var(--blanco);
+    font-family: 'Futura_Heavy_BT', sans-serif;
 }
 
 .menuActivo {
-    background-color: var(--amarillo);
+    background-color: var(--cian);
     border-radius: 6px;
     padding: 0px 5px;
+    font-family: 'Futura_Heavy_BT', sans-serif;
 }
 
 .menuActivoTienda {
@@ -43,5 +48,12 @@ nav, .modal{
 }
 
 .logoMenu img{
-    height: 2.5vw;
+    height: 4.3vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+
+.submenu{
+    background-color: var(--beigeClaro);
+    text-align: center;
 }

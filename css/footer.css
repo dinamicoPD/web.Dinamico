@@ -1,9 +1,146 @@
 /* SECCION FOOTER */
+footer{
+    width: 100vw;
+    height: auto;
+    font-family: 'Poppins_Regular', sans-serif;
+}
 
-footer .row:nth-child(1) .col{
-    background-color: var(--grisOscuro);
-    text-align: center;
-    padding: 1vw;
+#F_1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 43% 57%;
+    grid-template-areas: "F_2 F_3";
+
+    background-image: url(../img/fondoFooter.png);
+    background-size: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+/*
+#F_1 div{
+    border: 1px solid #ffffff;
+}
+*/
+#F_2{
+    grid-area: F_2;
+}
+#F_3{
+    grid-area: F_3;
+}
+#F_4{
+    width: 100%;
+    height: 35vw;
+}
+#F_4 img{
+    width: 94.4%;
+}
+#F_5{
+    width: 100%;
+    height: 18vw;
+    background-color: var(--negro90);
+}
+#F_6{
+    width: 100%;
+    height: 35vw;
+    position: relative;
+}
+#F_6 iframe{
+    display: block;
+    width: 25.5vw;
+    height: 13.5vw;
+    position: absolute;
+    top: 42%;
+    left: 30%;
+}
+.mapaPc{
+    width: 90%;
+    height: 35vw;
+    margin: auto;
+    position: absolute;
+    bottom: -1vw;
+    z-index: 2;
+    background-image: url(../img/pc@3x.png);
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    pointer-events: none;
+}
+#F_7{
+    width: 100%;
+    height: 18vw;
+    display: grid;
+    grid-template-columns: 50% 27% 22%;
+    grid-template-areas: "F_8 F_9 F_10";
+}
+#F_8{
+    grid-area: F_8;
+    height: 18vw;
+    background-color: var(--negro90);
+    white-space: nowrap;
+}
+
+#F_8 img{
+    width: 2.5vw;
+}
+
+#F_8 p{
+    margin-top: 1vw;
+    font-size: 1.3vw;
+    line-height: 3.5vw;
+}
+
+#F_8 a{
+    text-decoration: none;
     color: var(--blanco);
-    font-size: 2vw;
+}
+
+#F_9{
+    grid-area: F_9;
+    height: 18vw;
+    background-color: var(--negro90);
+    position: relative;
+}
+
+#F_9 img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80%;
+    margin: 2vw;
+}
+
+#F_10{
+    grid-area: F_10;
+    height: 18vw;
+    background-color: var(--negro60);
+    position: relative;
+    border-top: 2vw solid var(--rojoOscuro);
+}
+
+#F_10 img{
+    cursor: pointer;
+}
+
+#F_10 img:hover{
+    transform: scale(1.03);
+}
+
+.franjaMesa{
+    height: 2vw;
+    border-radius: 10px 0 0 10px;
+    background-color: var(--rojoOscuro);
+
+    position: absolute;
+    top: -2vw;
+    left: -0.9vw;
+    
+}
+
+#F_10 img{
+    height: 5vw;
+}
+
+.bordeMesa{
+    border-top: 2vw solid var(--rojoBTN);
 }

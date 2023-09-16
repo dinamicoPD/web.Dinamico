@@ -11,6 +11,7 @@ $HEAD =
     <link rel="stylesheet" href="css/getbootstrap.com_docs_5.3_assets_css_docs.css">
     <link rel="stylesheet" href="css/menu.css" type="text/css">
     <link rel="stylesheet" href="css/footer.css" type="text/css">
+    <link rel="stylesheet" href="css/aos.css" type="text/css">
     <script src="js/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_js_bootstrap.bundle.min.js"></script>
 ';
 // MENU
@@ -19,7 +20,7 @@ $MENU =
 <header>
     <nav class="navbar navbar-expand-lg bg-transparent navbar-dark">
         <div class="container-fluid">
-          <a class="navbar-brand logoMenu" href="#"><img src="img/logoH.png" alt="DinamicoPD"></a>
+          <a class="navbar-brand logoMenu" href="#"><img src="img/logo_blanco.png" alt="Dinámico pedagogía y diseño"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -40,15 +41,15 @@ $MENU =
                 </li>
                 <li class="nav-item dropdown" id="m5">
                     <label class="nav-link dropdown-toggle menuFont" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</label>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><label class="dropdown-item" for="select_21">Festivales</label></li>
-                        <li><label class="dropdown-item" for="select_22">Libros</label></li>
-                        <li><label class="dropdown-item" for="select_22">Juegos</label></li>
+                    <ul class="dropdown-menu submenu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a href="#" class="dropdown-item">Festivales</a></li>
+                        <li><a href="#" class="dropdown-item">Libros</a></li>
+                        <li><a href="#" class="dropdown-item">Juegos</a></li>
                     </ul>
                 </li>
             </ul>
             <span class="navbar-text">
-                <button type="button" data-bs-toggle="modal" data-bs-target="#plataformaModal" class="btnPlataforma">DYNAMIC MOODLE</button>
+                <button type="button" data-bs-toggle="modal" data-bs-target="#plataformaModal" class="btnPlataforma">Plataforma</button>
             </span>
           </div>
         </div>
@@ -94,31 +95,51 @@ $MENU =
 </div>
 <div class="margen"></div>
 ';
-// imgenes
-$CHECK = '
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-viewBox="0 0 53.22 49.72" style="enable-background:new 0 0 53.22 49.72;" xml:space="preserve">
-<style type="text/css">
-    .st0{opacity:0.4;fill:#ACABB2;}
-    .st1{fill:#ED9502;}
-    .st2{fill:#FFFFFF;}
-    .st3{opacity:0.08;fill:#FFFFFF;}
-</style>
-<g id="XMLID_00000083783220543813038690000005350770967306699676_">
-    <path id="XMLID_00000030446056605237924850000008037602890752380078_" class="st0" d="M48.48,49.72H9.44
-        c-2.62,0-4.74-2.12-4.74-4.74V9.31c0-2.62,2.12-4.74,4.74-4.74h39.04c2.62,0,4.74,2.12,4.74,4.74v35.67
-        C53.22,47.6,51.1,49.72,48.48,49.72z"/>
-    <path id="XMLID_00000123412537442126084460000011878613825081909908_" class="st1" d="M44.51,45.16H4.01C1.8,45.16,0,43.36,0,41.15
-        V4.01C0,1.8,1.8,0,4.01,0h40.5c2.22,0,4.01,1.8,4.01,4.01v37.13C48.53,43.36,46.73,45.16,44.51,45.16z"/>
-    <g id="XMLID_00000056429604082673223140000000840414866273872296_">
-        <path id="XMLID_00000075873450607987156450000014579037080408105358_" class="st2" d="M21.23,36.86c-0.87,0-1.72-0.35-2.34-0.97
-            l-7.53-7.53c-1.29-1.29-1.29-3.38,0-4.68c1.29-1.29,3.38-1.29,4.67,0l4.89,4.89l12.86-16.35c1.13-1.44,3.21-1.68,4.64-0.56
-            c1.44,1.13,1.68,3.21,0.56,4.64L23.83,35.6c-0.58,0.74-1.46,1.2-2.4,1.26C21.36,36.86,21.29,36.86,21.23,36.86z"/>
-    </g>
-    <path id="XMLID_00000070118222798841257900000008049771934165496988_" class="st3" d="M38.82,22.58c0,8.04-6.52,14.55-14.55,14.55
-        c-8.04,0-14.55-6.52-14.55-14.55c0-8.04,6.52-14.55,14.55-14.55C32.3,8.02,38.82,14.54,38.82,22.58z"/>
-</g>
-</svg>';
+// footer
+$FOOTER ='
+<footer>
+    <div id="F_1">
+        <div id="F_2">
+            <div id="F_4"><img data-aos="zoom-out-down" data-aos-duration="2000" data-aos-offset="300"
+     data-aos-easing="ease-in-sine" src="img/nino_footer@3x.png" alt=""></div>
+            <div id="F_5" class="bordeMesa"></div>
+        </div>
+        <div id="F_3">
+            <div id="F_6">
+                <div class="mapaPc"></div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d834.7962523888261!2d-73.33095007522928!3d5.569593751328263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6a7c78d0f43843%3A0xef1f8332ba7915e6!2sGreen%20Hills%20Tunja!5e0!3m2!1ses!2sco!4v1694208179177!5m2!1ses!2sco" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div id="F_7">
+                <div id="F_8" class="bordeMesa">
+                    <p> 
+                    <a href="https://www.instagram.com/dinamicopd/"><img src="img/instagram@3x.png" alt="">&nbsp;&nbsp;dinamicopd</a><br>
+                        <a href="https://www.youtube.com/@DinamicoPedagogiayDiseno"><img src="img/youtube@3x.png" alt="">&nbsp;&nbsp;Dinámico Pedagogía y Diseño</a><br>
+                        <a href=""><img src="img/wpp@3x.png" alt="">&nbsp;&nbsp;+57 312 300 0100  -  +57  312 301 0101</a><br>
+                        <a href=""><img src="img/email@3x.png" alt="">&nbsp;&nbsp;dinamicopdadm@gmail.com</a>
+                    </p>
+                </div>
+                <div id="F_9" class="bordeMesa">
+                    <img src="img/carpetaFooter.png" alt="">
+                </div>
+                <div id="F_10" class="row justify-content-center align-items-center">
+                    <div class="franjaMesa"></div>
+                    <div class="col text-center">
+                        <img onclick="scrollToTop()" src="img/logo_blanco.png" alt="Dinámico pedagogía y diseño" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script>
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }
+</script>
+';
 
 $BUSCA = '
 <svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 199.03 117.81">
