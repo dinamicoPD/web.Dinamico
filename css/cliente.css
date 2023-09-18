@@ -45,11 +45,13 @@
     flex-wrap: wrap;
 }
 
-.colegiosJD img{
-    width: 100%;
+.colegiosJD article{
+    height: 4vw;
+    width: auto;
+    margin: 1%;
 }
 
-.colegiosJD article{
-    width: 6%;
-    margin: 1%;
+.colegiosJD article img{
+    height: 4vw;
+    filter: grayscale(100%);
 }

@@ -19,7 +19,7 @@ header.abajo {
     color: var(--blanco);
 }
 
-nav, .modal{
+nav{
     font-family: 'Futura_Light_BT', sans-serif;
 }
 
@@ -56,4 +56,34 @@ nav, .modal{
 .submenu{
     background-color: var(--beigeClaro);
     text-align: center;
+}
+
+.sesionModal{
+    background-color: var(--blanco);
+    padding: 2vw 1vw 0 1vw;
+    position: relative;
+    font-family: 'Mikado_Medium', sans-serif;
+    font-size: 0.8vw;
+}
+
+.inicioTitulo{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+.inicioClose{
+    position: absolute;
+    top: 0.5vw;
+    right: 0.5vw;
+    background: transparent;
+    border: none;
+}
+
+.inicioClose svg{
+    width: 1.5vw;
+}
+
+.modal-header {
+    border: none !important;
 }

@@ -92,6 +92,11 @@
     margin-top: 2vw;
 }
 
+.btnMaterial button{
+    border: none;
+    background: transparent;
+}
+
 .materialTitulo{
     width: 100%;
     text-align: center;

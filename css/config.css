@@ -85,19 +85,9 @@ a{
     --morado: #91A7FF;
     --morado_2: #9DAEDA;
     --morado_3: #7482BC;
+    --morado_4: #D1DCFF;
     --gris: #7C7C7B;
     --azul2: #80D2E5;
-
-    --naranja: #ED9502;
-    
-    --grisOscuro: #3F3E3C;
-    --moradoOscuro: #2C2359;
-    
-    --verdeOscuro: #90BD1F;
-    --rojo: #E22339;
-    --rojoRGB_1: rgba(225,35,57,1);
-    --rojoRGB_2: rgba(193,36,42,1);
-    --rojoRGB_3: rgba(151,25,23,1);
 }
 
 /* BOTONES */
@@ -127,30 +117,50 @@ a{
     cursor: pointer;
 }
 
-.btnRegistro{
+.botonesDP{
     display: block;
-    background: var(--amarillo);
-    border-radius: 6px;    
-    color: var(--negro);
-    padding: 5px 10px;
-    text-decoration: none;
+    width: 90%;
+    margin: auto;
+    padding: 0.5vw;
     text-align: center;
-    width: 100%;
+    border-radius: 0.2vw;
+    font-size: 1.5vw;
+    color: var(--blanco);
     border: none;
 }
 
-.btnRegistro:hover{
-    transform: scale(1.03);
+.botonesDP:hover{
+    animation: sacudida 0.4s;
 }
 
-.btnMaterialGratis{
-    display: block;
-    background-color: var(--verde);
+.btnRegistro_1{
+    background-color: var(--cian);
+}
+
+.btnRegistro_2{
+    background-color: var(--amarillo);
+}
+
+.btnCerrar{
+    background-color: var(--morado_4);
     color: var(--blanco);
-    padding: 0.5vw;
-    font-size: 2vw;
-    width: 15vw;
-    text-align: center;
-    border: 0.6vw solid var(--verdeOscuro);
-    border-radius: 5px;
+    font-size: 1vw;
+}
+
+.btnCerrar:hover {
+    background-color: var(--morado_4) !important;
+    color: var(--blanco) !important;
+}
+
+.modal-footer{
+    border-top: 0.2vw dashed var(--amarillo) !important;
+}
+
+#pruebaGratis .sesionModal{
+    background-color: #E6E6E6 !important;
+    color: #4D4D4D;
+}
+
+#pruebaGratis .btnCerrar{
+    background-color: #999999 !important;
 }
