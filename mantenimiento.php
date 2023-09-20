@@ -29,14 +29,9 @@ require_once(dirname(__FILE__).'/componentes.php');
 </style>
 <section id="lfdskjfñls"></section>
 <section id="mantenimiento"></section>
+
 <?php echo $FOOTER; ?>
-<script src="js/aos.js"></script>
-<script src="js/ajax.googleapis.com_ajax_libs_jquery_1.6.2_jquery.min.js"></script>
-<script src="js/menu.js"></script>
-<script>
-$(document).ready(function() {
-    AOS.init();
-});
+<?php echo $BOTONWPP_HOME; ?>
 </script>
 </body>
 </html>

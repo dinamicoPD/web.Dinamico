@@ -5,7 +5,9 @@ body{
     background-image: url(../img/fondo@3x.png);
     background-size: 100vw;
     background-position: center;
-    width: 100vw;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
 }
 
 @keyframes typing {
@@ -19,6 +21,24 @@ body{
   @keyframes blink {
     50% {
       border-color: transparent;
+    }
+  }
+
+  @keyframes sacudida {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-5px) rotate(-5deg);
+    }
+    50% {
+      transform: translateX(5px) rotate(5deg);
+    }
+    75% {
+      transform: translateX(-5px) rotate(-5deg);
+    }
+    100% {
+      transform: translateX(0);
     }
   }
 

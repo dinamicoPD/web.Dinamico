@@ -1,0 +1,313 @@
+.nosotrosVM{
+    width: 100vw;
+    height: 97vw;
+    background-image: url(../../img/nosotros/nosotros_1@3x.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+    "we ."
+    "MyV MyV";
+}
+
+.we{
+    grid-area: we;
+    padding: 0.9vw;
+    display: flex;
+    align-items: flex-end;
+}
+
+.MyV{
+    grid-area: MyV;
+    display: flex;
+    align-items: flex-end;
+}
+
+.weArticulo{
+    background-color: var(--blanco);
+    border-radius: 2vw;
+    padding: 2vw;
+    border: 0.1vw solid var(--negro);
+    font-family: 'Poppins_Regular', sans-serif;
+    color: var(--negro);
+}
+
+.weTXT{
+    width: 100%;
+    padding-top: 1vw;
+}
+
+.weTXT p{
+    font-size: 1.68vw;
+    text-align: justify;
+}
+
+.weTitulo {
+    width: 70%;
+    border-bottom: 0.3vw solid var(--morado);
+}
+
+.weTitulo img{
+    height: 5vw;
+}
+
+.weIcono {
+    width: 100%;
+    text-align: right;
+}
+
+.weIcono img{
+    width: 5vw;
+}
+
+.CarruselMyV{
+    width: 80%;
+    margin: auto;
+}
+
+.MyVarticulo{
+    width: 70%;
+    margin: auto;
+}
+
+.cursorWe{
+    height: 4vw;
+}
+
+/* INFOGRAFIA */
+
+.infografiaIMG{
+    width: 90vw;
+    height: 170vw;
+    margin: auto;
+   
+    background-image: url(../../img/nosotros/infografia.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;
+}
+
+.infografiaTitulo{
+    width: 100vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.infografiaTitulo img{
+    width: 20vw;
+    display: block;
+    margin: auto;
+}
+
+/* CUADROS INFOGRAFIA */
+
+.cuadroDP_nosotros{
+    position: absolute;
+    width: 25vw;
+    font-family: 'Poppins_Regular', sans-serif;
+    color: var(--negro);
+}
+
+.elCuadroDP_nosotros{
+    width: 95%;
+    margin: auto;
+    border-radius: 2vw;
+    border: 1px solid var(--negro);
+    background-color: var(--blanco);
+    position: relative;
+    padding-bottom: 1vw;
+    box-shadow: 0.2vw 0.2vw 0vw 0vw rgba(232,233,238,1);
+}
+
+.tituloDP_nosotros{
+    width: 80%;
+    margin: auto;
+    border: 0.2vw solid var(--amarillo);
+    background-color: var(--blanco);
+    padding: 0.9vw;
+    border-radius: 1.6vw;
+    position: absolute;
+    top: -1vw;
+    left: 10%;
+}
+
+.tituloDP_nosotros img{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+.textoDP_nosotros{
+    margin-top: 5vw;
+    padding: 1.5vw;
+    text-align: center;
+}
+
+.textoDP_nosotros p{
+    font-size: 0.85vw;
+}
+
+.botonDP_nosotros {
+    width: 100%;
+}
+
+.botonDP_nosotros button{
+    width: 30%;
+    display: block;
+    margin: auto;
+    background-color: var(--morado);
+    color: var(--blanco);
+    font-size: 1.3vw;
+    border: none;
+    border-radius: 0.8vw;
+    padding: 0.5vw;
+    box-shadow: 0.2vw 0.2vw 0vw 0vw rgba(232,233,238,1);
+}
+
+.cositoDP_nosotros{
+    position: absolute;
+}
+
+.cositoDP_nosotros img{
+    height: 3.5vw;
+}
+
+.puntico{
+    position: absolute;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    background-color: #464747;
+    z-index: 2;
+}
+
+#nosotrosHistoria{
+    top: 3.2vw;
+    right: 12vw;
+}
+
+#nosotrosHistoria .puntico{
+    top: -1.4vw;
+    left: 4.4vw;
+}
+
+#nosotrosHistoria .cositoDP_nosotros{
+    top: -0.1vw;
+    left: -1vw;
+}
+
+#nosotrosValores{
+    top: 45.5vw;
+    left: 0vw;
+}
+
+#nosotrosValores .puntico{
+    top: -1.4vw;
+    right: 6.7vw;
+}
+
+#nosotrosValores .cositoDP_nosotros{
+    bottom: 0.6vw;
+    right: -2vw;
+}
+
+#nosotrosPoliticas{
+    bottom: 59.5vw;
+    right: 2.1vw;
+}
+
+#nosotrosPoliticas .puntico{
+    top: -1.4vw;
+    left: 4.4vw;
+}
+
+#nosotrosPoliticas .cositoDP_nosotros{
+    top: -0.8vw;
+    left: 1vw;
+}
+
+#nosotrosOrganigrama{
+    bottom: 19.5vw;
+    left: 0vw;
+}
+
+#nosotrosOrganigrama .puntico{
+    top: -1.4vw;
+    right: 7.1vw;
+}
+
+#nosotrosOrganigrama .cositoDP_nosotros{
+    bottom: 0.6vw;
+    right: -2vw;
+}
+
+/* NUMEROS INFOGRAFIA */
+
+.infografiaNumero{
+    display: block;
+    position: absolute;
+    height: 14vw;
+    width: auto;
+    animation: beat 2s ease-in-out infinite;
+}
+
+#infografia1{
+    top: 0vw;
+    left: 2.5vw;
+}
+
+#infografia2{
+    top: 26vw;
+    right: 26vw;
+}
+
+#infografia3{
+    top: 70vw;
+    left: 3vw;
+}
+
+#infografia4{
+    bottom: 40vw;
+    right: 10vw;
+}
+
+@keyframes beat {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
+
+.modalNosotros{
+    background-color: rgba(155, 177, 255, 0.44);
+}
+
+.weTituloimg{
+    display: block;
+    width: 50% !important;
+    height: auto !important;
+    padding-bottom: 1vw;
+}
+
+.vineta{
+    height: 1vw;
+}
+
+.TXTcentrar p{
+    margin-left: 2vw;
+}
+
+.imgFull {
+    display: block;
+    width: 95%;
+    margin: auto;
+}

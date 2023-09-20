@@ -24,13 +24,13 @@ if (isset($_GET['envioMuestra'])) {
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/config.css" type="text/css">
 
-    <link rel="stylesheet" href="css/carruselStyle.css" type="text/css">
-    <link rel="stylesheet" href="css/homeServicios.css" type="text/css">
-    <link rel="stylesheet" href="css/noticiasStyle.css" type="text/css">
-    <link rel="stylesheet" href="css/materialInteractivo.css" type="text/css">
-    <link rel="stylesheet" href="css/muestreagratis.css" type="text/css">
-    <link rel="stylesheet" href="css/cliente.css" type="text/css">
-    <link rel="stylesheet" href="css/tiendaHome.css" type="text/css">
+    <link rel="stylesheet" href="css/home/carruselStyle.css" type="text/css">
+    <link rel="stylesheet" href="css/home/homeServicios.css" type="text/css">
+    <link rel="stylesheet" href="css/home/noticiasStyle.css" type="text/css">
+    <link rel="stylesheet" href="css/home/materialInteractivo.css" type="text/css">
+    <link rel="stylesheet" href="css/home/muestreagratis.css" type="text/css">
+    <link rel="stylesheet" href="css/home/cliente.css" type="text/css">
+    <link rel="stylesheet" href="css/home/tiendaHome.css" type="text/css">
 
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
@@ -323,38 +323,38 @@ if (isset($_GET['envioMuestra'])) {
 
         <div class="catalogoColegios">
             <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-ride="true">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="colegiosJD">
-                        <article><img src="img/colegios/logo_1.png" alt="Materiales educativos para colegios"></article>
-                        <article><img src="img/colegios/logo_2.png" alt="Materiales educativos para colegios"></article>
-                        <article><img src="img/colegios/logo_3.png" alt="Materiales educativos para colegios"></article>
-                        <article><img src="img/colegios/logo_4.png" alt="Materiales educativos para colegios"></article>
-                        <article><img src="img/colegios/logo_5.png" alt="Materiales educativos para colegios"></article>
-                        <article><img src="img/colegios/logo_6.png" alt="Materiales educativos para colegios"></article>
-                        <article><img src="img/colegios/logo_7.png" alt="Materiales educativos para colegios"></article>
-                        <article><img src="img/colegios/logo_8.png" alt="Materiales educativos para colegios"></article>
-                        <article><img src="img/colegios/logo_9.png" alt="Materiales educativos para colegios"></article>
-                        <article><img src="img/colegios/logo_10.png" alt="Materiales educativos para colegios"></article>
-                        <article><img src="img/colegios/logo_11.png" alt="Materiales educativos para colegios"></article>
-                        <article><img src="img/colegios/logo_12.png" alt="Materiales educativos para colegios"></article>
-                        <article><img src="img/colegios/logo_13.png" alt="Materiales educativos para colegios"></article>
-                        <article><img src="img/colegios/logo_14.png" alt="Materiales educativos para colegios"></article>
-                        <article><img src="img/colegios/logo_15.png" alt="Materiales educativos para colegios"></article>
-                        <article><img src="img/colegios/logo_16.png" alt="Materiales educativos para colegios"></article>
-                        <article><img src="img/colegios/logo_17.png" alt="Materiales educativos para colegios"></article>
-                        <article><img src="img/colegios/logo_18.png" alt="Materiales educativos para colegios"></article>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="colegiosJD"><!--
+                            <article><img src="img/colegios/logo_1.png" alt="Materiales educativos para colegios"></article>
+                            <article><img src="img/colegios/logo_2.png" alt="Materiales educativos para colegios"></article>
+                            <article><img src="img/colegios/logo_3.png" alt="Materiales educativos para colegios"></article>
+                            <article><img src="img/colegios/logo_4.png" alt="Materiales educativos para colegios"></article>
+                            <article><img src="img/colegios/logo_5.png" alt="Materiales educativos para colegios"></article>
+                            <article><img src="img/colegios/logo_6.png" alt="Materiales educativos para colegios"></article>
+                            <article><img src="img/colegios/logo_7.png" alt="Materiales educativos para colegios"></article>
+                            <article><img src="img/colegios/logo_8.png" alt="Materiales educativos para colegios"></article>
+                            <article><img src="img/colegios/logo_9.png" alt="Materiales educativos para colegios"></article>
+                            <article><img src="img/colegios/logo_10.png" alt="Materiales educativos para colegios"></article>
+                            <article><img src="img/colegios/logo_11.png" alt="Materiales educativos para colegios"></article>
+                            <article><img src="img/colegios/logo_12.png" alt="Materiales educativos para colegios"></article>
+                            <article><img src="img/colegios/logo_13.png" alt="Materiales educativos para colegios"></article>
+                            <article><img src="img/colegios/logo_14.png" alt="Materiales educativos para colegios"></article>
+                            <article><img src="img/colegios/logo_15.png" alt="Materiales educativos para colegios"></article>
+                            <article><img src="img/colegios/logo_16.png" alt="Materiales educativos para colegios"></article>
+                            <article><img src="img/colegios/logo_17.png" alt="Materiales educativos para colegios"></article>
+                            <article><img src="img/colegios/logo_18.png" alt="Materiales educativos para colegios"></article>-->
+                        </div>
                     </div>
                 </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
     </div>
@@ -376,17 +376,10 @@ if (isset($_GET['envioMuestra'])) {
 </section>
 
 <?php echo $FOOTER; ?>
-
+<?php echo $BOTONWPP_HOME; ?>
 <?php echo $MENSAJEmsm; ?>
-
-<script src="js/ajax.googleapis.com_ajax_libs_jquery_1.6.2_jquery.min.js"></script>
-<script src="js/menu.js"></script>
-<script src="js/aos.js"></script>
-
 <script>
 $(document).ready(function() {
-    AOS.init();
-
     var nombresString = "Albert Einstein, Isabella Rueda, Alejandro Suarez, Karen Ospina, Javier Zuñiga, Mariana Sosa, Viviana Caballero, Alejandra Parra, Mabel Rincon, Steven Niño, Juan Rodriguez, Isaac Newton, Galileo Galilei, Marie Curie, Charles Darwin, Nikola Tesla, Aristóteles, Leonardo da Vinci, Carl Sagan, Stephen Hawking, Pitágoras, Arquímedes, René Descartes, Niels Bohr, Sigmund Freud, Max Planck, Werner Heisenberg, Marie Curie, Blaise Pascal, James Clerk Maxwell, Antoine Lavoisier, Galeno, Dmitri Mendeléyev, Carl Friedrich Gauss, Erwin Schrödinger, Max Born, Tomás de Aquino, Pierre-Simon Laplace, André-Marie Ampère, Niels Bohr";
     var nombresArray = nombresString.split(", ");
     var indiceAleatorio = Math.floor(Math.random() * nombresArray.length);

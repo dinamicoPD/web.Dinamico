@@ -12,6 +12,7 @@ $HEAD =
     <link rel="stylesheet" href="css/menu.css" type="text/css">
     <link rel="stylesheet" href="css/footer.css" type="text/css">
     <link rel="stylesheet" href="css/aos.css" type="text/css">
+    <link rel="stylesheet" href="css/btnWPP.css">
     <script src="js/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_js_bootstrap.bundle.min.js"></script>
 ';
 // MENU
@@ -20,7 +21,7 @@ $MENU =
 <header>
     <nav class="navbar navbar-expand-lg bg-transparent navbar-dark">
         <div class="container-fluid">
-          <a class="navbar-brand logoMenu" href="#"><img src="img/logo_blanco.png" alt="Dinámico pedagogía y diseño"></a>
+          <a class="navbar-brand logoMenu" href="index.php"><img src="img/logo_blanco.png" alt="Dinámico pedagogía y diseño"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -28,23 +29,23 @@ $MENU =
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navbarNav">
                 <li class="nav-item" id="m1">
-                    <a class="nav-link menuFont" aria-current="page" href="https://dinamicopd.com/">Home</a>
+                    <a class="nav-link menuFont" aria-current="page" href="index.php">Home</a>
                 </li>
                 <li class="nav-item" id="m2">
-                    <a class="nav-link menuFont" aria-current="page" href="mantenimiento.php">Nosotros</a>
+                    <a class="nav-link menuFont" aria-current="page" href="nosotros.php">Nosotros</a>
                 </li>
                 <li class="nav-item" id="m3">
                     <a class="nav-link tienda" aria-current="page" href="mantenimiento.php">Tienda</a>
                 </li>
                 <li class="nav-item" id="m4">
-                    <a class="nav-link menuFont" aria-current="page" href="mantenimiento.php">Beneficios</a>
+                    <a class="nav-link menuFont" aria-current="page" href="beneficios.php">Beneficios</a>
                 </li>
                 <li class="nav-item dropdown" id="m5">
                     <label class="nav-link dropdown-toggle menuFont" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</label>
                     <ul class="dropdown-menu submenu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a href="mantenimiento.php" class="dropdown-item">Festivales</a></li>
-                        <li><a href="mantenimiento.php" class="dropdown-item">Libros</a></li>
-                        <li><a href="mantenimiento.php" class="dropdown-item">Juegos</a></li>
+                        <li><a href="festivales.php" class="dropdown-item">Festivales</a></li>
+                        <li><a href="libros.php" class="dropdown-item">Libros</a></li>
+                        <li><a href="juegos.php" class="dropdown-item">Juegos</a></li>
                     </ul>
                 </li>
             </ul>
@@ -60,7 +61,7 @@ $MENU =
     <div class="modal-dialog">
     <div class="modal-content sesionModal">
         <div class="modal-header">
-            <h1 class="modal-title fs-5" id="SlideModalLabel"><img class="inicioTitulo" src="img/BienvenidoInicio.png" alt=""></h1>
+            <h1 class="modal-title fs-5" id="SlideModalLabel"><img class="inicioTitulo" src="img/BienvenidoInicio@3x.png" alt=""></h1>
             <button type="button" class="inicioClose hover" data-bs-dismiss="modal" aria-label="Close">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.65 27.23"><defs><style>.btnClose-1{fill:#f7746d;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="btnClose-1" d="M7.55,13.65C5.4,9.5.52,2.05.58,1.27.58,1,7.76.11,8.39.11S13,7.93,13.32,8.5C13.59,8.09,18.2.06,18.52,0s8.18,1.05,8.13,1.31c-.42,1.36-4.41,7.92-7.14,12,2.15,4.25,6.67,12,6.67,12.69-.06.37-7.24,1.26-7.87,1.26s-4.36-7.66-5-8.76c-.73,1.16-4.87,8.6-5.14,8.6S0,26,0,25.71C.37,24.5,4.56,18,7.55,13.65Z"/></g></g></svg>
             </button>
@@ -82,7 +83,7 @@ $MENU =
     <div class="modal-dialog">
     <div class="modal-content sesionModal">
         <div class="modal-header">
-            <h1 class="modal-title fs-5" id="SlideModalLabel"><img class="inicioTitulo" src="img/BienvenidoInicio.png" alt=""></h1>
+            <h1 class="modal-title fs-5" id="SlideModalLabel"><img class="inicioTitulo" src="img/BienvenidoInicio@3x.png" alt=""></h1>
             <button type="button" class="inicioClose hover" data-bs-dismiss="modal" aria-label="Close">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.65 27.23"><defs><style>.btnClose-1{fill:#f7746d;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="btnClose-1" d="M7.55,13.65C5.4,9.5.52,2.05.58,1.27.58,1,7.76.11,8.39.11S13,7.93,13.32,8.5C13.59,8.09,18.2.06,18.52,0s8.18,1.05,8.13,1.31c-.42,1.36-4.41,7.92-7.14,12,2.15,4.25,6.67,12,6.67,12.69-.06.37-7.24,1.26-7.87,1.26s-4.36-7.66-5-8.76c-.73,1.16-4.87,8.6-5.14,8.6S0,26,0,25.71C.37,24.5,4.56,18,7.55,13.65Z"/></g></g></svg>
             </button>
@@ -137,6 +138,9 @@ $FOOTER ='
         </div>
     </div>
 </footer>
+<script src="js/ajax.googleapis.com_ajax_libs_jquery_1.6.2_jquery.min.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/aos.js"></script>
 <script>
     function scrollToTop() {
         window.scrollTo({
@@ -144,6 +148,9 @@ $FOOTER ='
             behavior: "smooth"
         });
     }
+    $(document).ready(function() {
+        AOS.init();
+    });
 </script>
 ';
 
@@ -252,5 +259,52 @@ $BUSCA = '
         <text class="cls-2" transform="translate(9.22 105.41)"><tspan x="0" y="0">JU</tspan><tspan class="cls-13" x="26.81" y="0">E</tspan><tspan class="cls-4" x="38.85" y="0">G</tspan><tspan class="cls-7" x="52.2" y="0">A</tspan><tspan class="cls-11" x="64.98" y="0"> </tspan><tspan class="cls-12" x="69.69" y="0">Y</tspan><tspan class="cls-14" x="81.99" y="0"> </tspan><tspan x="86.88" y="0">APRENDE</tspan></text>
         </svg>';
 
-
+$BOTONWPP_HOME = '
+<div class="contenedorWPP">
+    <input type="checkbox" name="btnWpp" id="btnWpp">
+    <div class="agentesWPP">
+        <p><strong>Hola Dinamigo!!!</strong>
+        <br>Si necesitas ayuda consulta con alguno de nuestros agentes.</p>
+        <ul>
+            <li>
+                <a href="https://wa.me/+573123000100?text=Hola,%20necesito%20tu%20ayuda!!!" target="_blank">
+                    <i>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0z"/></svg>
+                    </i>
+                    Servicio al cliente 1
+                </a>
+            </li>
+            <li>
+                <a href="https://wa.me/+573123010101?text=Hola,%20necesito%20tu%20ayuda!!!" target="_blank">
+                    <i>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0z"/></svg>
+                    </i>
+                    Servicio al cliente 2
+                </a>
+            </li>
+            <li>
+                <a href="https://wa.me/+573173785250?text=Hola,%20necesito%20tu%20ayuda!!!" target="_blank">
+                    <i>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0z"/></svg>
+                    </i>
+                    Servicio al cliente 3
+                </a>
+            </li>
+            <li>
+                <a href="https://wa.me/+573144705547?text=Hola,%20necesito%20tu%20ayuda!!!" target="_blank">
+                    <i>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0z"/></svg>
+                    </i>
+                    Soporte técnico
+                </a>
+            </li>
+        </ul>
+    </div>
+    <label for="btnWpp" class="hover">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+        </svg>
+    </label>
+</div>
+';
 ?>
