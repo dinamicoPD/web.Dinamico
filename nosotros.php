@@ -21,12 +21,12 @@ require_once(dirname(__FILE__).'/componentes.php');
 <div class="nosotrosVM">
     <div class="we">
         <div class="weArticulo">
-            <div class="weTitulo"><img src="img/nosotros/WeNosotros@3x.png" alt=""></div>
+            <div class="weTitulo"><img src="img/nosotros/WeNosotros@3x.png" alt="Material didáctico de matemáticas"></div>
             <div class="weTXT">
                 <p>Somos un <strong>grupo pedagógico</strong> conformado por docentes, diseñadores gráficos y asesores comerciales cualificados en el campo educativo. Nuestra labor se deriva de la amplia experiencia en la creación de productos, actividades y servicios lúdicos, enfocados en el <strong>fortalecimiento de procesos</strong> de estudiantes de educación preescolar, básica y media. En el marco de nuestras prioridades, está el acompañamiento a las diferentes instituciones educativas a través de <strong>actividades transversales</strong> en múltiples áreas.</p>
             </div>
             <div class="weIcono">
-                <img src="img/nosotros/WeIco_1@3x.png" alt="">
+                <img src="img/nosotros/WeIco_1@3x.png" alt="Aprendizaje de matemáticas">
             </div>
         </div>
     </div>
@@ -37,12 +37,12 @@ require_once(dirname(__FILE__).'/componentes.php');
                     <div class="carousel-item active">
                         <div class="MyVarticulo">
                                 <div class="weArticulo">
-                                    <div class="weTitulo"><img src="img/nosotros/WeMision@3x.png" alt=""></div>
+                                    <div class="weTitulo"><img src="img/nosotros/WeMision@3x.png" alt="Ejercicios de matemáticas"></div>
                                     <div class="weTXT">
                                         <p>Generar <strong>recursos educativos</strong> que apoyen y acompañen constantemente los procesos llevados a cabo por los actores del panorama educativo, en los niveles de preescolar, básica y media, dentro y fuera del aula, con el objetivo de <strong>disminuir y superar</strong> conflictos y obstáculos provenientes de las actividades de aprehensión.</p>
                                     </div>
                                     <div class="weIcono">
-                                        <img src="img/nosotros/WeIco_2@3x.png" alt="">
+                                        <img src="img/nosotros/WeIco_2@3x.png" alt="Problemas matemáticos">
                                     </div>
                                 </div>
                         </div>
@@ -50,22 +50,22 @@ require_once(dirname(__FILE__).'/componentes.php');
                     <div class="carousel-item">
                         <div class="MyVarticulo">
                         <div class="weArticulo">
-                                    <div class="weTitulo"><img src="img/nosotros/WeVision@3x.png" alt=""></div>
+                                    <div class="weTitulo"><img src="img/nosotros/WeVision@3x.png" alt="Recursos para maestros de matemáticas"></div>
                                     <div class="weTXT">
                                         <p>Para el año <strong>2025</strong> seremos un grupo pedagógico reconocido <strong>a nivel nacional</strong>, por el <strong>impacto social</strong> generado al impulsar el aprendizaje en diferentes áreas del conocimiento, a través de nuestros productos, actividades y servicios, lúdico-pedagógicos y didácticos, para estudiantes de educación preescolar, básica y media.</p>
                                     </div>
                                     <div class="weIcono">
-                                        <img src="img/nosotros/WeIco_3@3x.png" alt="">
+                                        <img src="img/nosotros/WeIco_3@3x.png" alt="Enseñanza de matemáticas">
                                     </div>
                                 </div>
                         </div>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-                    <img class="cursorWe" src="img/nosotros/iz@3x.png" alt="">
+                    <img class="cursorWe" src="img/nosotros/iz@3x.png" alt="atras">
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-                    <img class="cursorWe" src="img/nosotros/de@3x.png" alt="">
+                    <img class="cursorWe" src="img/nosotros/de@3x.png" alt="adelante">
                 </button>
             </div>
         </div>
@@ -73,65 +73,65 @@ require_once(dirname(__FILE__).'/componentes.php');
 </div>
 <div class="infografia">
     <div class="infografiaTitulo">
-        <img src="img/nosotros/logo@3x.png" alt="">
+        <img src="img/nosotros/logo@3x.png" alt="Actividades de matemáticas escolares">
     </div>
     <div class="infografiaIMG">
         <div class="cuadroDP_nosotros" id="nosotrosHistoria" data-aos="flip-left">
             <div class="elCuadroDP_nosotros">
                 <div class="puntico"></div>
-                <div class="tituloDP_nosotros"><img src="img/nosotros/historia@3x.png" alt=""></div>
+                <div class="tituloDP_nosotros"><img src="img/nosotros/historia@3x.png" alt="historia"></div>
                 <div class="textoDP_nosotros"><p>“Este grupo pedagógico fue fundado en 2013 por Darío Fonseca Sandoval en Tunja, Boyacá, con el objetivo de abordar las necesidades educativas en matemáticas para docentes y estudiantes de primaria, básica y media.”</p></div>
                 <div class="botonDP_nosotros">
                     <button type="button" class="hover" data-bs-toggle="modal" data-bs-target="#ModalHistoria">Ver más</button>
                 </div>
-                <div class="cositoDP_nosotros"><img src="img/nosotros/otroCosito@3x.png" alt=""></div>
+                <div class="cositoDP_nosotros"><img src="img/nosotros/otroCosito@3x.png" alt="historia"></div>
             </div>
         </div>
         <div class="cuadroDP_nosotros" id="nosotrosValores" data-aos="flip-right">
             <div class="elCuadroDP_nosotros">
                 <div class="puntico"></div>
-                <div class="tituloDP_nosotros"><img src="img/nosotros/valores@3x.png" alt=""></div>
+                <div class="tituloDP_nosotros"><img src="img/nosotros/valores@3x.png" alt="valores"></div>
                 <div class="textoDP_nosotros">
-                    <p><img class="vineta" src="img/nosotros/vineta.png" alt=""> La máxima calidad como meta.</p>
-                    <p><img class="vineta" src="img/nosotros/vineta.png" alt=""> Aprendizaje y adaptabilidad.</p>
-                    <p><img class="vineta" src="img/nosotros/vineta.png" alt=""> Trabajo en equipo y compañerismo.</p>    
+                    <p><img class="vineta" src="img/nosotros/vineta.png" alt="valores"> La máxima calidad como meta.</p>
+                    <p><img class="vineta" src="img/nosotros/vineta.png" alt="valores"> Aprendizaje y adaptabilidad.</p>
+                    <p><img class="vineta" src="img/nosotros/vineta.png" alt="valores"> Trabajo en equipo y compañerismo.</p>    
                 </div>
                 <div class="botonDP_nosotros">
                     <button type="button" class="hover" data-bs-toggle="modal" data-bs-target="#ModalValores">Ver más</button>
                 </div>
-                <div class="cositoDP_nosotros"><img src="img/nosotros/otroCosito@3x.png" alt=""></div>
+                <div class="cositoDP_nosotros"><img src="img/nosotros/otroCosito@3x.png" alt="valores"></div>
             </div>
         </div>
         <div class="cuadroDP_nosotros" id="nosotrosPoliticas" data-aos="flip-left">
             <div class="elCuadroDP_nosotros">
                 <div class="puntico"></div>
-                <div class="tituloDP_nosotros"><img src="img/nosotros/politicas@3x.png" alt=""></div>
+                <div class="tituloDP_nosotros"><img src="img/nosotros/politicas@3x.png" alt="politicas"></div>
                 <div class="textoDP_nosotros">
                     <p>“Nuestro objetivo es ser reconocidos a nivel nacional por impulsar el aprendizaje a través de recursos lúdico-pedagógicos, centrándonos en la calidad, la mejora continua y la excelencia como principios fundamentales. Esforzándonos por mantenernos al día en pedagogía y tecnología educativa, buscando constantemente la innovación”</p>  
                 </div>
                 <div class="botonDP_nosotros">
                     <button type="button" class="hover" data-bs-toggle="modal" data-bs-target="#ModalPoliticas">Ver más</button>
                 </div>
-                <div class="cositoDP_nosotros"><img src="img/nosotros/otroCosito@3x.png" alt=""></div>
+                <div class="cositoDP_nosotros"><img src="img/nosotros/otroCosito@3x.png" alt="politicas"></div>
             </div>
         </div>
         <div class="cuadroDP_nosotros" id="nosotrosOrganigrama" data-aos="flip-right">
             <div class="elCuadroDP_nosotros">
                 <div class="puntico"></div>
-                <div class="tituloDP_nosotros"><img src="img/nosotros/organigrama@3x.png" alt=""></div>
+                <div class="tituloDP_nosotros"><img src="img/nosotros/organigrama@3x.png" alt="organigrama"></div>
                 <div class="textoDP_nosotros">
                     <p>“Estructura jerárquica de nuestra empresa, indicando las relaciones y responsabilidades de cada miembro o departamento dentro de la misma”.</p>  
                 </div>
                 <div class="botonDP_nosotros">
                     <button type="button" class="hover" data-bs-toggle="modal" data-bs-target="#ModalOrganigrama">Ver más</button>
                 </div>
-                <div class="cositoDP_nosotros"><img src="img/nosotros/otroCosito@3x.png" alt=""></div>
+                <div class="cositoDP_nosotros"><img src="img/nosotros/otroCosito@3x.png" alt="organigrama"></div>
             </div>
         </div>
-        <img class="infografiaNumero" id="infografia1" src="img/nosotros/1@3x.png" alt="">
-        <img class="infografiaNumero" id="infografia2" src="img/nosotros/2@3x.png" alt="">
-        <img class="infografiaNumero" id="infografia3" src="img/nosotros/3@3x.png" alt="">
-        <img class="infografiaNumero" id="infografia4" src="img/nosotros/4@3x.png" alt="">
+        <img class="infografiaNumero" id="infografia1" src="img/nosotros/1@3x.png" alt="Juegos de matemáticas educativas">
+        <img class="infografiaNumero" id="infografia2" src="img/nosotros/2@3x.png" alt="Libros de matemáticas para niños">
+        <img class="infografiaNumero" id="infografia3" src="img/nosotros/3@3x.png" alt="Ejercicios de matemáticas para niños de primaria">
+        <img class="infografiaNumero" id="infografia4" src="img/nosotros/4@3x.png" alt="Material didáctico para enseñar">
     </div>
 </div>
 
@@ -145,7 +145,7 @@ require_once(dirname(__FILE__).'/componentes.php');
             </button>
       </div>
       <div class="modal-body">
-        <div class="weTitulo"><img class="weTituloimg" src="img/nosotros/historia@3x.png" alt=""></div>
+        <div class="weTitulo"><img class="weTituloimg" src="img/nosotros/historia@3x.png" alt="Historia"></div>
         <div class="weTXT">
                 <p>Somos un <strong>grupo pedagógico</strong> fundado en el año <strong>2013</strong> en Tunja Boyacá por el licenciado en Electrónica <strong>Darío Fonseca Sandoval</strong>, a quien gracias a sus experiencias laborales, las cuales le permitieron el acercamiento a <strong>docentes</strong> del área de matemáticas y <strong>alumnos</strong> de diferentes instituciones educativas, realiza un proceso donde escuchó la opinión de ellos, siendo de está forma como identifica las necesidades que tenían en el área. De ahí surge la  <strong>idea</strong> de crear un material educativo y recreativo que brinda un acompañamiento transversal en la asignatura para educación primaria, básica y media.<br><br>
 
@@ -154,7 +154,7 @@ require_once(dirname(__FILE__).'/componentes.php');
                 Con el <strong>pensamiento</strong> de esparcir sus ideas a más alumnos del país generando un aprendizaje ameno, comienza una búsqueda de nuevos mercados. Tras la persecución de sus sueños, concentró sus esfuerzos en la incursión en nuevas instituciones, hoy en día, el grupo pedagógico se encuentra presente en <strong>Boyacá, Casanare, Cundinamarca y Santander</strong>, reconocidos entre sus clientes por sus <strong>olimpiadas y festivales de matemáticas</strong>, en estos momentos sigue incorporándose en más instituciones educativas a nivel nacional y ampliando su oferta a otras áreas del conocimiento, desde ciencias hasta humanidades, desde tecnología hasta artes, estamos comprometidos a brindar recursos de calidad que inspiran el <strong>aprendizaje</strong> en todas las disciplinas.</p>
         </div>
         <div class="weIcono">
-                <img src="img/nosotros/weIco_4@3x.png" alt="">
+                <img src="img/nosotros/weIco_4@3x.png" alt="Historia">
             </div>
       </div>
       <div class="modal-footer">
@@ -173,20 +173,20 @@ require_once(dirname(__FILE__).'/componentes.php');
             </button>
       </div>
       <div class="modal-body">
-        <div class="weTitulo"><img class="weTituloimg" src="img/nosotros/valoresEmpresariales@3x.png" alt=""></div>
+        <div class="weTitulo"><img class="weTituloimg" src="img/nosotros/valoresEmpresariales@3x.png" alt="Valores empresariales"></div>
         <div class="weTXT TXTcentrar">
-                <p><img class="vineta" src="img/nosotros/vineta.png" alt=""> Respeto por los compañeros.</p>
-                <p><img class="vineta" src="img/nosotros/vineta.png" alt=""> Trabajo en equipo y compañerismo.</p>
-                <p><img class="vineta" src="img/nosotros/vineta.png" alt=""> Organización empresarial.</p>
-                <p><img class="vineta" src="img/nosotros/vineta.png" alt=""> Ser críticos constructivos.</p>
-                <p><img class="vineta" src="img/nosotros/vineta.png" alt=""> Honestidad.</p>
-                <p><img class="vineta" src="img/nosotros/vineta.png" alt=""> La máxima calidad como meta.</p>
-                <p><img class="vineta" src="img/nosotros/vineta.png" alt=""> Aprendizaje y adaptabilidad.</p>
-                <p><img class="vineta" src="img/nosotros/vineta.png" alt=""> Transparencia y cultura abierta.</p>
-                <p><img class="vineta" src="img/nosotros/vineta.png" alt=""> Puntualidad.</p>
+                <p><img class="vineta" src="img/nosotros/vineta.png" alt="Valores empresariales"> Respeto por los compañeros.</p>
+                <p><img class="vineta" src="img/nosotros/vineta.png" alt="Valores empresariales"> Trabajo en equipo y compañerismo.</p>
+                <p><img class="vineta" src="img/nosotros/vineta.png" alt="Valores empresariales"> Organización empresarial.</p>
+                <p><img class="vineta" src="img/nosotros/vineta.png" alt="Valores empresariales"> Ser críticos constructivos.</p>
+                <p><img class="vineta" src="img/nosotros/vineta.png" alt="Valores empresariales"> Honestidad.</p>
+                <p><img class="vineta" src="img/nosotros/vineta.png" alt="Valores empresariales"> La máxima calidad como meta.</p>
+                <p><img class="vineta" src="img/nosotros/vineta.png" alt="Valores empresariales"> Aprendizaje y adaptabilidad.</p>
+                <p><img class="vineta" src="img/nosotros/vineta.png" alt="Valores empresariales"> Transparencia y cultura abierta.</p>
+                <p><img class="vineta" src="img/nosotros/vineta.png" alt="Valores empresariales"> Puntualidad.</p>
         </div>
         <div class="weIcono">
-                <img src="img/nosotros/weIco_5@3x.png" alt="">
+                <img src="img/nosotros/weIco_5@3x.png" alt="Valores empresariales">
             </div>
       </div>
       <div class="modal-footer">
@@ -205,7 +205,7 @@ require_once(dirname(__FILE__).'/componentes.php');
             </button>
       </div>
       <div class="modal-body">
-        <div class="weTitulo"><img class="weTituloimg" src="img/nosotros/politicasDeCalidad@3x.png" alt=""></div>
+        <div class="weTitulo"><img class="weTituloimg" src="img/nosotros/politicasDeCalidad@3x.png" alt="politicas de calidad"></div>
         <div class="weTXT">
                 <p><strong>DINÁMICO PEDAGOGÍA Y DISEÑO</strong> consciente de las necesidades educativas en diferentes áreas esenciales para un buen <strong>desempeño estudiantil</strong>, considera que es vital lograr un aprendizaje teniendo en cuenta los requisitos y expectativas de nuestros clientes dentro de los objetivos y estrategias empresariales.<br><br>
 
@@ -215,7 +215,7 @@ require_once(dirname(__FILE__).'/componentes.php');
                 </p>
         </div>
         <div class="weIcono">
-            <img src="img/nosotros/weIco_6@3x.png" alt="">
+            <img src="img/nosotros/weIco_6@3x.png" alt="politicas de calidad">
         </div>
       </div>
       <div class="modal-footer">
@@ -234,12 +234,12 @@ require_once(dirname(__FILE__).'/componentes.php');
             </button>
       </div>
       <div class="modal-body">
-        <div class="weTitulo"><img class="weTituloimg" src="img/nosotros/organigrama@3x.png" alt=""></div>
+        <div class="weTitulo"><img class="weTituloimg" src="img/nosotros/organigrama@3x.png" alt="organigrama"></div>
         <div class="weTXT">
-            <img class="imgFull" src="img/nosotros/allOrganigrama@3x.png" alt="">
+            <img class="imgFull" src="img/nosotros/allOrganigrama@3x.png" alt="organigrama">
         </div>
         <div class="weIcono">
-            <img src="img/nosotros/weIco_7@3x.png" alt="">
+            <img src="img/nosotros/weIco_7@3x.png" alt="organigrama">
         </div>
       </div>
       <div class="modal-footer">
