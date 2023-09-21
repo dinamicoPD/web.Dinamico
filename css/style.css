@@ -8,6 +8,7 @@ body{
     width: 100%;
     height: auto;
     overflow-x: hidden;
+    position: relative;
 }
 
 @keyframes typing {
@@ -58,7 +59,25 @@ body{
   transform: scale(1.03);
 }
 
+.juegoDinaMico{
+  width: 5vw;
+  position: absolute;
+  top: 30%;
+  left: -2.5vw;
+  z-index: 9;
+  transform: rotate(90deg);
+  transition: all 0.6s ease-out;
+  cursor: pointer;
+}
 
+.juegoDinaMico img{
+  width: 100%;
+}
+
+.juegoDinaMico:hover{
+  left: 0vw;
+  transition: all 0.6s ease-out;
+}
 
 @media screen and (max-width: 991px){
     /* MENU */

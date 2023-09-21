@@ -32,6 +32,8 @@ if (isset($_GET['envioMuestra'])) {
     <link rel="stylesheet" href="css/home/cliente.css" type="text/css">
     <link rel="stylesheet" href="css/home/tiendaHome.css" type="text/css">
 
+    <link rel="stylesheet" href="css/juegos/tangram.css" type="text/css">
+
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
@@ -40,6 +42,9 @@ if (isset($_GET['envioMuestra'])) {
     var posicionMenu = document.getElementById('m1');
     posicionMenu.classList.add('menuActivo');
 </script>
+<div class="juegoDinaMico" onclick="abrirTangram()">
+    <img src="img/dinamico1.svg" alt="Juegos">
+</div>
 <section id="p1">
     <div id="carouselSlideIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -375,9 +380,61 @@ if (isset($_GET['envioMuestra'])) {
     </div>
 </section>
 
+<div class="modal fade" id="juego_tangram" tabindex="-1" data-bs-backdrop="static" aria-labelledby="SlideModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content sesionModal">
+        <div class="modal-header">
+            <img class="tituloJuegos" src="img/juegos/tangram@3x.png" alt="tangram">
+            <button type="button" class="inicioClose hover" data-bs-dismiss="modal" aria-label="Close">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.65 27.23"><defs><style>.btnClose-1{fill:#f7746d;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="btnClose-1" d="M7.55,13.65C5.4,9.5.52,2.05.58,1.27.58,1,7.76.11,8.39.11S13,7.93,13.32,8.5C13.59,8.09,18.2.06,18.52,0s8.18,1.05,8.13,1.31c-.42,1.36-4.41,7.92-7.14,12,2.15,4.25,6.67,12,6.67,12.69-.06.37-7.24,1.26-7.87,1.26s-4.36-7.66-5-8.76c-.73,1.16-4.87,8.6-5.14,8.6S0,26,0,25.71C.37,24.5,4.56,18,7.55,13.65Z"/></g></g></svg>
+            </button>
+        </div>
+        <div class="modal-body">
+            <div class="contenedorTangram" onload="cambiarImagen()">
+                <div class="descripcionTangram">
+                    <ol>
+                        <li>Arrastra las formas para crear un nuevo tangram.</li>
+                        <li>Haga doble clic en una forma para rotar.</li>
+                        <li>
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" id="miCheckbox">
+                                <label class="form-check-label" for="miCheckbox">Marca esta casilla y luego haz doble clic en una forma para reflejar la pieza</label>
+                            </div>
+                        </li>
+                        <li>¡¡¡Disfrutar!!!</li>
+                    </ol>
+                    <div class="btnCambiarTangram">
+                        <button class="botonesDP btnRegistro_1 hover" onclick="cambiarImagen()">Cambiar Imagen</button>
+                    </div>
+                </div>
+                <div class="tangram" id="tangram">
+                    <div class="container">
+                    <div class="canvas t-l-1"></div>
+                    <div class="canvas t-l-2"></div>
+                    <div class="canvas t-s-1"></div>
+                    <div class="canvas s"></div>
+                    <div class="canvas t-s-2"></div>
+                    <div class="canvas p"></div>
+                    <div class="canvas t-m"></div>
+                    </div>
+                </div>
+                <div class="retoTangram">
+                    <img id="imagTangram" src="https://drive.google.com/uc?id=1wmbjWBk1YnAZWPThXNtoqwiQut8vfygc" alt="animal">
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btnCerrar hover" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+    </div>
+    </div>
+</div>
 <?php echo $FOOTER; ?>
 <?php echo $BOTONWPP_HOME; ?>
 <?php echo $MENSAJEmsm; ?>
+
+<script src="js/juegos/displace.js"></script>
+<script src="js/juegos/tangram.js"></script>
 <script>
 $(document).ready(function() {
     var nombresString = "Albert Einstein, Isabella Rueda, Alejandro Suarez, Karen Ospina, Javier Zuñiga, Mariana Sosa, Viviana Caballero, Alejandra Parra, Mabel Rincon, Steven Niño, Juan Rodriguez, Isaac Newton, Galileo Galilei, Marie Curie, Charles Darwin, Nikola Tesla, Aristóteles, Leonardo da Vinci, Carl Sagan, Stephen Hawking, Pitágoras, Arquímedes, René Descartes, Niels Bohr, Sigmund Freud, Max Planck, Werner Heisenberg, Marie Curie, Blaise Pascal, James Clerk Maxwell, Antoine Lavoisier, Galeno, Dmitri Mendeléyev, Carl Friedrich Gauss, Erwin Schrödinger, Max Born, Tomás de Aquino, Pierre-Simon Laplace, André-Marie Ampère, Niels Bohr";
@@ -386,6 +443,11 @@ $(document).ready(function() {
     var nombreAleatorio = nombresArray[indiceAleatorio];
     $("#nombreAleatorio").text(nombreAleatorio);
 });
+
+function abrirTangram() {
+    $('#juego_tangram').modal('show');
+}
+
 </script>
 </body>
 </html>

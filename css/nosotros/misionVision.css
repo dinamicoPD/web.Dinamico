@@ -37,6 +37,7 @@
 .weTXT{
     width: 100%;
     padding-top: 1vw;
+    font-family: 'Poppins_Regular', sans-serif;
 }
 
 .weTXT p{
@@ -50,7 +51,8 @@
 }
 
 .weTitulo img{
-    height: 5vw;
+    width: 95%;
+    height: auto;
 }
 
 .weIcono {
@@ -266,12 +268,12 @@
 }
 
 #infografia3{
-    top: 70vw;
+    top: 75vw;
     left: 3vw;
 }
 
 #infografia4{
-    bottom: 40vw;
+    bottom: 39vw;
     right: 10vw;
 }
 

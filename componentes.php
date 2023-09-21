@@ -5,6 +5,15 @@ $HEAD =
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta property="og:title" content="Dinámico pedagogía y diseño">
+    <meta property="og:description" content="Somos un grupo educativo especializado en crear recursos lúdicos para fortalecer la educación preescolar, básica y media. Además, colaboramos con instituciones educativas a través de actividades transversales en diversas áreas.">
+    <meta property="og:image" content="https://dinamicopd.com/img/libroMaterial@3x.png">
+    <meta name="author" content="Dinámico pedagogía y diseño">
+    <meta name="copyright" content="© 2023 Dinámico pedagogía y diseño">
+    <meta name="description" content="Somos un equipo de profesionales pedagógicos, diseñadores gráficos y asesores comerciales altamente calificados en educación. Nos especializamos en crear productos, actividades y servicios lúdicos para mejorar el aprendizaje en preescolar, primaria y secundaria. Trabajamos en estrecha colaboración con instituciones educativas, ofreciendo actividades transversales en diversas áreas.">
+    <meta name="robots" content="index, follow">
+    <meta name="geo.position" content="5.569915;-73.330243">
     <link rel="icon" href="img/cara.png" type="image/x-icon">
     <link rel="stylesheet" href="css/8_0_1_normalize.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap_5_3_0_min.css">
@@ -14,6 +23,15 @@ $HEAD =
     <link rel="stylesheet" href="css/aos.css" type="text/css">
     <link rel="stylesheet" href="css/btnWPP.css">
     <script src="js/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_js_bootstrap.bundle.min.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MFEVX8WHHG"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag("js", new Date());
+
+    gtag("config", "G-MFEVX8WHHG");
+    </script>
 ';
 // MENU
 $MENU =

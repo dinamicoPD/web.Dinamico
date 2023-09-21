@@ -1,0 +1,105 @@
+    .tituloJuegos{
+        width: 200px;
+    }
+
+    .btnCambiarTangram{
+        width: 30%;
+    }
+    
+    .volteado {
+        transform: scaleX(-1);
+    }
+    
+  .contenedorTangram{
+    position: relative;
+    width: 100%;
+    background-color: #ffffff;
+    background-image: url('https://drive.google.com/uc?id=1wmbjWBk1YnAZWPThXNtoqwiQut8vfygc'), repeating-linear-gradient(0deg, #f3f3f3, #f3f3f3 1px, transparent 1px, transparent 22px), repeating-linear-gradient(90deg, #f3f3f3, #f3f3f3 1px, transparent 1px, transparent 22px);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    border: 2px solid #d5d5d5;
+    border-radius: 20px;
+  }
+  
+  .descripcionTangram{
+    font-family: "Permanent Marker", cursive;
+    width: 100%;
+    font-size: 1.5vw;
+  }
+
+  .descripcionTangram ol{
+    margin-left: 1vw;
+  }
+  
+  .tangram{
+    width: 100%;
+    height: 80vh;
+  }
+  
+  .container {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .retoTangram{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    pointer-events: none;
+  }
+  
+  .retoTangram img{
+    width: 100%;
+    height: auto;
+  }
+  
+  .canvas {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    cursor: move;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .canvas.active {
+    opacity: 0.7;
+    box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.4);
+  }
+  .canvas.t-l-1 {
+    clip-path: polygon(50% 50%, 0px 100%, 100% 100%);
+    background-color: #82D5E8;
+  }
+  .canvas.t-l-2 {
+    clip-path: polygon(50% 50%, 0% 0%, 0px 100%);
+    background-color: #F7746D;
+  }
+  .canvas.t-s-1 {
+    clip-path: polygon(50% 0%, 25% 25%, 0px 0%);
+    background-color: #9BB1FF;
+  }
+  .canvas.s {
+    clip-path: polygon(75% 25%, 50% 0%, 25% 25%, 50% 50%);
+    background-color: #F8C62F;
+  }
+  .canvas.t-s-2 {
+    clip-path: polygon(75% 75%, 75% 25%, 50% 50%);
+    background-color: #A7DB77;
+  }
+  .canvas.p {
+    clip-path: polygon(75% 75%, 75% 25%, 100% 50%, 100% 100%);
+    background-color: #FFBDBB;
+  }
+  .canvas.t-m {
+    clip-path: polygon(100% 50%, 100% 0%, 50% 0%);
+    background-color: #E6DDD3;
+  }
