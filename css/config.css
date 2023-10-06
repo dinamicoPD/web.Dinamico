@@ -45,6 +45,10 @@
     src: url(../fonts/MikadoMedium.otf);
 }
 @font-face {
+    font-family: 'Mikado_Bold';
+    src: url(../fonts/MikadoBold.otf);
+}
+@font-face {
     font-family: 'Angeline_Vintage';
     src: url(../fonts/Angeline_Vintage.ttf);
 }
@@ -71,6 +75,7 @@ a{
 :root {
     /* COLORES */
     --cian: #82D5E8;
+    --cian2: #B5E9F3;
     --rojoBTN: #F8807A;
     --rojoOscuro: #F7746D;
     --beigeClaro: #FFF6E1;
@@ -163,4 +168,36 @@ a{
 
 #pruebaGratis .btnCerrar{
     background-color: #999999 !important;
+}
+
+/* Titulos */
+
+.inicio{
+    padding: 6vw;
+}
+
+.titulo1{
+    font-family: 'Mikado_Bold', sans-serif;
+    font-size: 10vw;
+    letter-spacing: 0.1vw;
+    color: var(--blanco);
+    position: relative;
+    text-align: center;
+}
+
+.titulo1::after{
+    color: var(--blanco);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#periodico{
+    background: fixed;
+    background-image: url(../img/fondoPeriodico@3x.png);
+    background-size: 100vw;
+    background-position: center;
+    width: 100vw;
+    position: relative;
 }

@@ -11,6 +11,10 @@ body{
     position: relative;
 }
 
+.ocultar{
+  display: none;
+}
+
 @keyframes typing {
     from {
       width: 0;

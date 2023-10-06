@@ -29,7 +29,7 @@
     top: 20vw;
 }
 
-#MuestraGratis button{
+#muestraBtn{
     position: absolute;
     bottom: 5vw;
     background-color: transparent;

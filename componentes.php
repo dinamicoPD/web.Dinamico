@@ -33,6 +33,7 @@ $HEAD =
     gtag("config", "G-MFEVX8WHHG");
     </script>
 ';
+
 // MENU
 $MENU =
 '
@@ -109,7 +110,7 @@ $MENU =
         <div class="modal-body">
             <a class="btnRegistro_1 botonesDP" href="moodle/dinapage/LoginSTD.php" target="_blank">Estudiante</a>
             <br>
-            <a class="btnRegistro_2 botonesDP" href="moodle/dinapage/LoginPRF.php" target="_blank">Docente</a>
+            <a class="btnRegistro_2 botonesDP" href="moodle/dinapage/PreRegistroDocente.php" target="_blank">Docente</a>
             <br>
         </div>
         <div class="modal-footer">
@@ -125,7 +126,7 @@ $FOOTER ='
 <footer>
     <div id="F_1">
         <div id="F_2">
-            <div id="F_4"><img data-aos="zoom-out-down" data-aos-duration="2000" data-aos-offset="300"
+            <div id="F_4"><img data-aos="zoom-out-down" data-aos-duration="300" data-aos-offset="300"
      data-aos-easing="ease-in-sine" src="img/nino_footer@3x.png" alt=""></div>
             <div id="F_5" class="bordeMesa"></div>
         </div>

@@ -1,0 +1,204 @@
+.titulo1{
+    -webkit-text-stroke: 1.25vw var(--cian);
+    -moz-text-stroke: 1.25vw var(--cian);
+    -ms-text-stroke: 1.25vw var(--cian);
+    -o-text-stroke: 1.25vw var(--cian);
+    text-stroke: 1.25vw var(--cian);
+}
+
+.titulo1::after{
+    content: "Beneficios";
+    -webkit-text-stroke: 0vw var(--cian);
+    -moz-text-stroke: 0vw var(--cian);
+    -ms-text-stroke: 0vw var(--cian);
+    -o-text-stroke: 0vw var(--cian);
+    text-stroke: 0vw var(--cian);
+}
+
+.tituloLoco{
+    position: relative;
+}
+
+.txtCinta{
+    width: 40vw;
+    height: 8vw;
+    position: absolute;
+    top: 20.5vw;
+    left: 51.6vw;
+    transform: translate(-50%, -50%);
+    background-image: url(../../img/beneficios/cinta2@3x.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.txtCinta p{
+    color: var(--blanco);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5vw;
+    white-space: nowrap;
+}
+
+.textoBeneficios{
+    font-family: 'Poppins_Regular', sans-serif;
+    width: 70vw;
+    margin: auto;
+    margin-top: 5vw;
+    text-align: center;
+    font-size: 2.4vw;
+}
+
+.resaltado{
+    background-color: var(--cian2);
+}
+
+.articulosBeneficios{
+    width: 100%;
+    padding: 5vw 2vw 5vw 2vw;
+}
+
+.articulosBeneficios{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+article{
+
+    transform: scale(0.9);
+
+    width: 25vw;
+    margin: 2vw;
+    min-width: 300px;
+    overflow-x: hidden;
+
+    background-color: var(--cian);
+
+    -webkit-box-shadow: 0px 10px 18px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 18px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 18px 0px rgba(0,0,0,0.75);
+
+    border-radius: 2vw;
+
+    cursor: pointer;
+
+    position: relative;
+}
+
+
+article:hover{
+    transform: scale(1);
+
+    background-color: var(--rojoBTN);
+    animation: sacudida 0.4s;
+}
+
+article:hover > .articleTitle::after{
+    color: var(--rojoBTN);
+}
+
+article:hover > .articleTitle{
+    -webkit-box-shadow: 0px -2vw 0px 0px var(--rojoBTN);
+    -moz-box-shadow: 0px -2vw 0px 0px var(--rojoBTN);
+    box-shadow: 0px -2vw 0px 0px var(--rojoBTN);
+}
+
+article img{
+    width: 100%;
+}
+
+.articleTitle{
+    width: 100%;
+    font-family: 'Mikado_Bold', sans-serif;
+    font-size: 3vw;
+    position: relative;
+    text-align: center;
+
+    -webkit-text-stroke: 1vw var(--blanco);
+    -moz-text-stroke: 1vw var(--blanco);
+    -ms-text-stroke: 1vw var(--blanco);
+    -o-text-stroke: 1vw var(--blanco);
+    text-stroke: 1vw var(--blanco);    
+}
+
+.RallysSer::after{
+    content: "Rallys";
+}
+.CartillasSer::after{
+    content: "Cartillas";
+}
+.JuegosSer::after{
+    content: "Juegos";
+}
+
+.articleTitle::after{
+    color: var(--cian);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-text-stroke: 0vw transparent;
+    -moz-text-stroke: 0vw transparent;
+    -ms-text-stroke: 0vw transparent;
+    -o-text-stroke: 0vw transparent;
+    text-stroke: 0vw transparent;
+}
+
+.articulosFormulario{
+    padding: 5vw 0 5vw 0;
+    font-family: 'Poppins_Regular', sans-serif;
+}
+
+.articulosFormulario form{
+    width: 100%;
+    background-color: var(--blanco);
+    border-radius: 2vw;
+    -webkit-box-shadow: 0px 10px 18px 0px var(--morado_4);
+    -moz-box-shadow: 0px 10px 18px 0px var(--morado_4);
+    box-shadow: 0px 10px 18px 0px var(--morado_4);
+}
+
+.inputBeneficios, .labelBeneficios {
+    color: var(--azul2);
+}
+
+.inputBeneficios{
+    border-radius: 5vw 0.5vw 0.5vw 5vw;
+    background-color: #EEF3FF;
+    border: none;
+}
+
+.termycond{
+    text-align: center;
+    font-size: 1vw;
+    font-style: italic;
+}
+
+.contenedorElform{
+    padding: 2vw;
+}
+
+.formTitleJD{
+    text-align: center;
+    width: 100%;
+    background-color: var(--morado);
+    color: var(--blanco);
+    border-radius: 2vw 2vw 0 0;
+    font-size: 3vw;
+    padding: 1vw 0 1vw 0;
+}
+
+.contenedorElform span{
+    border: none;
+    background-color: var(--azul2);
+    color: var(--blanco)
+}
+
+.contenedorElform span img{
+    width: 16px;
+    height: 16px;
+}

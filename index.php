@@ -28,13 +28,11 @@ if (isset($_GET['envioMuestra'])) {
     <link rel="stylesheet" href="css/home/homeServicios.css" type="text/css">
     <link rel="stylesheet" href="css/home/noticiasStyle.css" type="text/css">
     <link rel="stylesheet" href="css/home/materialInteractivo.css" type="text/css">
-    <link rel="stylesheet" href="css/home/muestreagratis.css" type="text/css">
     <link rel="stylesheet" href="css/home/cliente.css" type="text/css">
     <link rel="stylesheet" href="css/home/tiendaHome.css" type="text/css">
+    <link rel="stylesheet" href="css/home/muestreagratis.css" type="text/css">
 
     <link rel="stylesheet" href="css/juegos/tangram.css" type="text/css">
-
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
 <?php echo $MENU; ?>
@@ -274,50 +272,8 @@ if (isset($_GET['envioMuestra'])) {
     &nbsp;Profesor?</h2>
     <p>Te enviaremos una <strong><u>muestra gratis</u></strong><br>
     de nuestro material.<br><br><br><br>Sigue estos pasos:</p>
-    <button type="button" data-bs-toggle="modal" data-bs-target="#pruebaGratis" class="hover" href="mantenimiento.php"><img src="img/btnMuestra@3x.png" alt="Materiales educativos para colegios"></button>
+    <a id="muestraBtn" href="beneficios.php" class="hover"><img src="img/btnMuestra@3x.png" alt="Materiales educativos para colegios"></a>
 </section>
-
-<div class="modal fade" id="pruebaGratis" tabindex="-1" data-bs-backdrop="static" aria-labelledby="SlideModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-    <div class="modal-content sesionModal">
-        <div class="modal-header">
-            <h1 class="modal-title fs-5" id="SlideModalLabel"><img class="inicioTitulo" src="img/muestraGratis@3x.png" alt="Libros didácticos para niños"></h1>
-            <button type="button" class="inicioClose hover" data-bs-dismiss="modal" aria-label="Close">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.65 27.23"><defs><style>.btnClose-1{fill:#f7746d;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="btnClose-1" d="M7.55,13.65C5.4,9.5.52,2.05.58,1.27.58,1,7.76.11,8.39.11S13,7.93,13.32,8.5C13.59,8.09,18.2.06,18.52,0s8.18,1.05,8.13,1.31c-.42,1.36-4.41,7.92-7.14,12,2.15,4.25,6.67,12,6.67,12.69-.06.37-7.24,1.26-7.87,1.26s-4.36-7.66-5-8.76c-.73,1.16-4.87,8.6-5.14,8.6S0,26,0,25.71C.37,24.5,4.56,18,7.55,13.65Z"/></g></g></svg>
-            </button>
-        </div>
-        <div class="modal-body">
-            <p>Déjanos tu mensaje y nos pondremos en contacto contigo</p>
-            <form  action="correosWeb.php" method="post">
-                <div class="mb-3">
-                    <label for="FormControlInput1" class="form-label">Nombre*</label>
-                    <input type="text" class="form-control form-control-sm" id="FormControlInput1" name="nombre" required>
-                </div>
-                <div class="mb-3">
-                    <label for="FormControlInput2" class="form-label">Correo Electronico*</label>
-                    <input type="email" class="form-control form-control-sm" id="FormControlInput2" placeholder="name@example.com" name="correo" required>
-                </div>
-                <div class="mb-3">
-                    <label for="FormControlInput3" class="form-label">Telefono</label>
-                    <input type="number" class="form-control form-control-sm" id="FormControlInput3" name="telefono">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Escriba su solicitud*</label>
-                    <textarea class="form-control form-control-sm" id="exampleFormControlTextarea1" rows="3" name="mensaje" required></textarea>
-                </div>
-                <input type="text" name="hp" id="hp" style="display: none">
-                <div class="g-recaptcha" data-sitekey="6LdWf58mAAAAAPSb7iAVH5i7Lpxint-PzbkedSZd"></div>
-                    <input type="hidden" name="condicion" value="1">
-                    <br>
-                    <input class="btnRegistro_2 botonesDP" type="submit" value="Enviar" class="btnRegistro">
-            </form>
-        </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btnCerrar hover" data-bs-dismiss="modal">Cerrar</button>
-        </div>
-    </div>
-    </div>
-</div>
 
 <section id="p5">
     <a href="https://www.youtube.com/channel/UCPSLG3t9l1DO1tEu9NjdK8A" target="_blank"><img src="img/btnYouTube.png" alt="editorial de recursos pedagógicos"></a>
