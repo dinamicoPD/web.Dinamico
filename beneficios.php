@@ -90,7 +90,7 @@ require_once(dirname(__FILE__).'/componentes.php');
                                     <option disabled value="" selected>Asunto</option>
                                     <option value="beneficios">Beneficios</option>
                                     <option value="PQRS">PQRS</option>
-                                    <option value="PQRS">Muestras docentes</option>
+                                    <option value="Muestras docentes">Muestras docentes</option>
                                 </select>
                             </div>
                             <div class="input-group mb-3 iconoBeneficios">
