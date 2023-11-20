@@ -5,7 +5,6 @@ $HEAD =
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta property="og:title" content="Dinámico pedagogía y diseño">
     <meta property="og:description" content="Somos un grupo educativo especializado en crear recursos lúdicos para fortalecer la educación preescolar, básica y media. Además, colaboramos con instituciones educativas a través de actividades transversales en diversas áreas.">
     <meta property="og:image" content="https://dinamicopd.com/img/libroMaterial@3x.png">

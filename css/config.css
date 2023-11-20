@@ -132,6 +132,7 @@ a{
     font-size: 1.5vw;
     color: var(--blanco);
     border: none;
+    cursor: pointer;
 }
 
 .botonesDP:hover{
