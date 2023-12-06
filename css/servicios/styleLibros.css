@@ -1,0 +1,1120 @@
+body *{
+    margin: 0;
+    padding: 0;
+}
+
+br{
+    line-height: 1;
+}
+
+.titulo1::after{
+    content: "Libros";
+}
+
+#libreria{
+    position: relative;
+    border-bottom: 0.5vw solid #D2D8EE;
+}
+
+.libreria{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(12, 5vw);
+    gap: 1.2vw;
+    grid-template-areas:
+        ". . . ingles ingles cuadro2a cuadro2 cuadro2 cuadro2b"
+        ". . . ingles ingles cuadro2a cuadro2 cuadro2 cuadro2b"
+        "cuadro1 cuadro1 cuadro1 ingles ingles matematicas2 matematicas2 matematicas matematicas"
+        "cuadro1 cuadro1 cuadro1 ingles ingles matematicas2 matematicas2 matematicas matematicas"
+        "cuadro1 cuadro1 cuadro1 ingles ingles matematicas2 matematicas2 matematicas matematicas"
+        ". . transicion transicion transicion matematicas2 matematicas2 fotos fotos"
+        ". . transicion transicion transicion matematicas2 matematicas2 fotos fotos"
+        ". . transicion transicion transicion matematicas2 matematicas2 fotos fotos"
+        ". . . news news news . fotos fotos"
+        ". . . news news news . . ."
+        ". . . news news news . . .";
+}
+
+.matera{
+    display: block;
+    width: 12vw;
+    position: absolute;
+    left: 4vw;
+    animation: rotate-animation 3s infinite;
+}
+
+@keyframes rotate-animation {
+    0% {
+      transform: rotate(-3deg);
+      transform-origin: top center;
+    }
+    50% {
+      transform: rotate(0);
+      transform-origin: top center;
+    }
+    100% {
+       transform: rotate(-3deg);
+       transform-origin: top center;
+    }
+  }
+
+.ingles{
+    grid-area:ingles;
+    background-color: #EAF5FA;
+}
+
+.ingles .entrepanoInf{
+    background-image: url(../../img/libros/libros_6.png);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.matematicas{
+    grid-area:matematicas;
+    background-color: #FFE4E3;
+    background-image: url(../../img/libros/libros_3.png);
+    background-size: 100% 73.5%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.matematicas2{
+    grid-area:matematicas2;
+    background-color: #FFE4E3;
+}
+
+.matematicas2 .entrepano{
+    background-image: url(../../img/libros/libros_5.png);
+    background-size: 100% 73.5%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.matematicas2 .entrepanoInf{
+    background-image: url(../../img/libros/libros_4.png);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.transicion {
+    grid-area: transicion;
+    background-image: url(../../img/libros/libros_1.png);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #eef5e6;
+}
+
+.news{
+    grid-area:news;
+    background-image: url(../../img/libros/libros_2.png);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #ECEEF8;
+}
+
+.cuadro1{
+    grid-area:cuadro1;
+    background-image: url(../../img/libros/pintura1@3x.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0.3vw #f4f4f4;
+}
+
+.cuadro2{
+    grid-area:cuadro2;
+    background-image: url(../../img/libros/pintura3.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0.3vw #f4f4f4;
+}
+
+.cuadro2a{
+    grid-area:cuadro2a;
+    background-image: url(../../img/libros/cuadro2a@3x.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0.3vw #f4f4f4;
+}
+
+.cuadro2b{
+    grid-area:cuadro2b;
+    background-image: url(../../img/libros/cuadro2b@3x.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0.3vw #f4f4f4;
+}
+
+.fotos{
+    grid-area:fotos;
+    background-image: url(../../img/libros/pintura2.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0.3vw #f4f4f4;
+}
+
+.bordeCuadro{
+    border: 0.5vw solid var(--marco);
+    position: relative;
+    box-shadow: inset 0 0 0.3vw #CA7D49;
+}
+
+.bordeCuadro2{
+    border-top: 0.7vw outset #CE8E66;
+    border-left: 0.7vw inset #CE8E66;
+    border-right: 0.7vw outset #CE8E66;
+    border-bottom: 0.7vw inset #CE8E66;
+}
+
+.bordeCuadro::after{
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background:
+    linear-gradient(45deg, #EAF5FA 0%, #ffffff 20%, #EAF5FA 30%, #ffffff 40%, #EAF5FA 50%, #ffffff 60%, #EAF5FA 70%, #ffffff 80%, #EAF5FA 90%, #ffffff 100%);
+    background-color: #EAF5FA;
+    opacity: 0.6;
+}
+
+.bordeCuadro::before{
+    content: "";
+    position: absolute;
+    background-color: #603813;
+    border: 0.3vw solid #CA7D49;
+    width: 1.1vw;
+    height: 1.1vw;
+    z-index: 4;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    right: 1vw;
+    top: 50%;
+}
+
+.inferior{
+    width: 100%;
+    height: 4.3vw;
+    background: rgb(203,159,120);
+    background: linear-gradient(0deg, rgba(203,159,120,1) 40%, rgba(154,120,93,1) 40%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.librosx3{
+    width: 100%;
+    height: 13.8vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 0.1vw;
+    grid-template-areas: "l1x3 l2x3 l3x3 l4x3 l5x3 l6x3 l7x3 l8x3";
+}
+
+.cartillaCampo{
+    position: relative;
+}
+
+.l1x3{
+    grid-area: l1x3;
+}
+
+.l2x3{
+    grid-area: l2x3;
+}
+
+.l3x3{
+    grid-area: l3x3;
+}
+
+.l4x3{
+    grid-area: l4x3;
+}
+
+.l5x3{
+    grid-area: l5x3;
+}
+
+.l6x3{
+    grid-area: l6x3;
+}
+
+.l7x3{
+    grid-area: l7x3;
+}
+
+.l8x3{
+    grid-area: l8x3;
+}
+
+.librosx3 img{
+    width: 200%;
+    position: absolute;
+    bottom: 0;
+}
+
+.librosx2 img{
+    width: 200%;
+    position: absolute;
+    bottom: 0;
+}
+
+.librosx2{
+    width: 100%;
+    height: 13.8vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0.1vw;
+    grid-template-areas: "l1x2 l2x2 l3x2 l4x2 l5x2 l6x2";
+}
+
+.l1x2{
+    grid-area: l1x2;
+}
+
+.l2x2{
+    grid-area: l2x2;
+}
+
+.l3x2{
+    grid-area: l3x2;
+}
+
+.l4x2{
+    grid-area: l4x2;
+}
+
+.l5x2{
+    grid-area: l5x2;
+}
+
+.l6x2{
+    grid-area: l6x2;
+}
+
+.cartillaS{
+    height: 8vw;
+}
+
+.cartillaM{
+    height: 10vw;
+}
+
+.cartillaX{
+    height: 12vw;
+}
+
+.cartillaXL{
+    height: 37.3vw;
+}
+
+.cartilla{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    box-shadow: 0px 17px 20px -9px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 17px 20px -9px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 17px 20px -9px rgba(0,0,0,0.3);
+}
+
+.cartillaAzul{
+    background-color: #98D1E2;
+    border-left: 0.3vw solid #BCE2EE;
+    border-right: 0.3vw solid #BCE2EE;
+}
+
+.cartillaAmarilla{
+    background-color: #F7D264;
+    border-left: 0.3vw solid #FCE2A3;
+    border-right: 0.3vw solid #FCE2A3;
+}
+
+.cartillaRoja{
+    background-color: #F4746D;
+    border-left: 0.3vw solid #F6B6AD;
+    border-right: 0.3vw solid #F6B6AD;
+}
+
+.cartillaVerde{
+    background-color: #A6CC78;
+    border-left: 0.3vw solid #EEF5E6;
+    border-right: 0.3vw solid #EEF5E6;
+}
+
+.cartillaMorada{
+    background-color: #9DADD9;
+    border-left: 0.3vw solid #EAF5FA;
+    border-right: 0.3vw solid #EAF5FA;
+}
+
+.bordeCartilla{
+    width: 90%;
+    margin: auto;
+    border-left: 0.15vw solid #FFFFFF;
+    border-right: 0.15vw solid #FFFFFF;
+    position: relative;
+}
+
+.franjaSup{
+    position: absolute;
+    top: 0.15vw;
+    height: 1.5vw;
+    width: 100%;
+}
+
+.franjaInf{
+    position: absolute;
+    bottom: 0.15vw;
+    height: 1.5vw;
+    width: 100%;
+}
+
+.tipo1{
+    border-top: 0.2vw double #fff;
+    border-bottom: 0.2vw double #fff;
+}
+
+.tipo2{
+    border-top: 0.1vw dotted #fff;
+    border-bottom: 0.1vw dotted #fff;
+}
+
+.tipo3{
+    border-top: 0.2vw solid #fff;
+    border-bottom: 0.2vw solid #fff;
+}
+
+.tipo4{
+    background-color: #ffffff;
+    opacity: 0.3;
+    border-top: 0.2vw groove #000;
+    border-bottom: 0.2vw groove #000;
+}
+
+.figuraCartilla{
+    width: 100%;
+    height: 1.5vw;
+}
+
+.figuraCartilla svg{
+    color: #FFFFFF;
+    display: block;
+    margin: auto;
+    font-size: 1.2vw;
+}
+
+.franjaSup svg{
+    padding-top: 0.1vw;
+}
+
+.franjaInf svg{
+    transform: scaleY(-1);
+    padding-bottom: 0.1vw;
+}
+
+.tituloCartilla{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: 'Poppins_Regular', sans-serif;
+    width: 100%;
+    position: relative;
+}
+
+.tituloCartilla p{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    bottom: 0.5vw;
+    left: 20%;
+    transform-origin: top left;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+}
+
+.periodicos{
+    width: 100%;
+    height: 15vw;
+    position: relative;
+}
+
+.periodicos img{
+    height: 13.8vw;
+    display: block;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    left: 10%;
+}
+
+.entrepano{
+    width: 100%;
+    height: 16.45vw;
+    position: relative;
+}
+
+.entrepanoInf{
+    width: 100%;
+    height: 16.3vw;
+    position: absolute;
+    bottom: 0;
+}
+
+.letrero{
+    border: none;
+    display: inline-block;
+    padding: 1vw 2vw;
+    clip-path: polygon(97.4% 0%, 100% 20%, 97.4% 40%, 97.4% 60%, 100% 80%, 97.4% 100%, 2.6% 100%, 0% 80%, 2.6% 60%, 2.6% 40%, 0% 20%, 2.6% 0%);
+    position: absolute;
+    z-index: 4;
+    cursor: pointer;
+}
+
+.letrero:hover {
+    transform: scale(1.2);
+}
+
+.letrero svg{
+    height: 2.5vw;
+}
+
+
+#ingles{
+    top: -2.2vw;
+    left: 37.6vw;
+}
+
+#matematicas{
+    top: 10.3vw;
+    left: 62.5vw;
+}
+
+#transicion{
+    top: 29vw;
+    left: 32.6vw;
+}
+
+#news{
+    bottom: 21vw;
+    left: 40.5vw;
+}
+
+.pisoBiblioteca{
+    background-color:#C9D1EB;
+    background-image: radial-gradient(#DBDFF2 20%, transparent 16%),
+    radial-gradient(#DBDFF2 15%, transparent 16%);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+    border-top: 3vw solid #DBDFF2;
+    padding-top: 15vw;
+}
+
+.dinamiquito{
+    width: 100%;
+    position: relative;
+}
+
+.dinamiquito img{
+    width: 100%;
+    position: absolute;
+    top: -48vw;
+    left: 0;
+}
+
+/* biblioteca grande */
+#biblioteca .cuerpoBiblioteca{
+    width: 80vw;
+    margin: auto;
+    border: 2vw solid #cb9f78;
+}
+
+.select_main ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.inputRadio, .select_content{
+    display: none;
+}
+
+.inputRadio:checked~.select_content{
+    display: block;
+}
+
+.navegacionBilioteca label{
+    cursor: pointer;
+    width: 100%;
+}
+
+.navegacionBilioteca{
+    width: 100%;
+    margin: auto;
+    background-color: #7A543C;
+}
+
+.navegacionBilioteca .col{
+    padding: 0.6vw 0;
+    clip-path: polygon(97.4% 0%, 100% 20%, 97.4% 40%, 97.4% 60%, 100% 80%, 97.4% 100%, 2.6% 100%, 0% 80%, 2.6% 60%, 2.6% 40%, 0% 20%, 2.6% 0%);
+}
+
+.el_letrero{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Mikado_Bold', sans-serif;
+    color: #ffffff;
+    font-size: 2vw;
+}
+
+#biblioteca .BibliotecaUP{
+    width: 100%;
+    height: 37.3vw;
+    position: relative;
+}
+
+.select_matematicas{
+    background-color: #FFE4E3;
+    background-image: url(../../img/libros/libros_3.png);
+    background-size: auto 100%;
+    background-repeat: repeat-x;
+}
+
+.select_ingles{
+    background-color: #EAF5FA;
+    background-image: url(../../img/libros/libros_6.png);
+    background-size: auto 100%;
+    background-repeat: repeat-x;
+}
+
+.select_transicion{
+    background-image: url(../../img/libros/libros_1.png);
+    background-color: #eef5e6;
+    background-size: 100%;
+    background-repeat: no-repeat
+}
+
+.select_news{
+    background-image: url(../../img/libros/libros_2.png);
+    background-color: #ECEEF8;
+    background-size: 100%;
+    background-repeat: no-repeat
+}
+
+#biblioteca .BibliotecaDown{
+    width: 100%;
+    height: 10vh;
+    background-color: #9A785D;
+}
+
+#biblioteca .fondoBiblioteca{
+    background-color: transparent;
+}
+
+.librosXL{
+    width: 100%;
+    height: 37.3vw;
+    position: absolute;
+    top: 5vh;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-areas: "XLx1 XLx2 XLx3 XLx4 XLx5 XLx6 XLx7 XLx8 XLx9";
+}
+
+.XLx1{
+    grid-area: XLx1;
+    position: relative;
+}
+
+.XLx2{
+    grid-area: XLx2;
+    position: relative;
+}
+
+.XLx3{
+    grid-area: XLx3;
+    position: relative;
+}
+
+.XLx4{
+    grid-area: XLx4;
+    position: relative;
+}
+
+.XLx5{
+    grid-area: XLx5;
+    position: relative;
+}
+
+.XLx6{
+    grid-area: XLx6;
+    position: relative;
+}
+
+.XLx7{
+    grid-area: XLx7;
+    position: relative;
+}
+
+.XLx8{
+    grid-area: XLx8;
+    position: relative;
+}
+
+.XLx9{
+    grid-area: XLx9;
+    position: relative;
+}
+
+.imgXL{
+    width: 150%;
+    position: absolute;
+    bottom: 0;
+}
+
+#biblioteca label{
+    cursor: pointer;
+}
+
+#biblioteca label:hover{
+    transform: scale(1.1);
+}
+
+#librito .fondoBiblioteca{
+    background: rgb(233,131,82);
+    background: radial-gradient(circle, rgba(233,131,82,1) 90%, rgba(209,118,74,1) 90%);
+    position: relative;
+}
+
+#librito .portadaLibrito{
+    width: 81.235vw;
+    height: 72vw;
+    margin: auto;
+    background-color: #915043;
+    border-bottom: 1vw solid #703F34;
+    padding-top: 1vw;
+}
+
+#librito .lomo{
+    width: 11vw;
+    height: 2vw;
+    margin: auto;
+    background-color: #703F34;
+    border-radius: 0px 0px 40px 40px;
+}
+
+.libroAll{
+    width: 100%;
+}
+
+.manoDR{
+    position: absolute;
+    right: 0;
+    width: 13.3vw;
+    top: 30vw;
+    pointer-events: none;
+}
+
+.manoDR img{
+    width: 100%;
+}
+
+.manoIZ{
+    position: absolute;
+    left: 0;
+    width: 13.3vw;
+    top: 30vw;
+    pointer-events: none;
+}
+
+.manoIZ img{
+    width: 100%;
+    transform: scaleX(-1);
+}
+
+.libroHojas{
+    width: 79.235vw;
+    height: 68vw;
+    margin: auto;
+    background-color: #915043;
+}
+
+@media only screen and (min-width: 1200px) {
+    .manoDR {
+        right: 0.45vw;
+    }
+
+    .manoIZ{
+        left: -0.6vw;
+    }
+  }
+
+.libroHojas ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.inputRadio2, .select_content{
+    display: none;
+}
+
+.inputRadio2:checked~.select_content{
+    display: block;
+}
+
+/* turn.js */
+
+.flipbook{
+    width: 79.235vw;
+    height:65vw;
+    cursor: pointer;
+}
+
+.portadaPD{
+    background-image: url(../../img/libros/EspaciosDinamicos@3x.png);
+    background-size: 100%;
+}
+
+.portadaBackPD, .pag{
+    background-color: #ffffff;
+    background-image: url(../../img/libros/textura@3x.png);
+    background-repeat: repeat-x;
+    background-size: 16.6%;
+}
+
+.contenidoDE{
+    width: 100%;
+    height: 65vw;
+    -webkit-box-shadow: inset 24px 0px 48px -21px rgba(0,0,0,0.4);
+    -moz-box-shadow: inset 24px 0px 48px -21px rgba(0,0,0,0.4);
+    box-shadow: inset 24px 0px 48px -21px rgba(0,0,0,0.4);
+    padding: 0vw 2.9vw 0.5vw 2.9vw;
+}
+
+.contenidoIZ{
+    width: 100%;
+    height: 65vw;
+    -webkit-box-shadow: inset -24px 0px 48px -21px rgba(0,0,0,0.4);
+    -moz-box-shadow: inset -24px 0px 48px -21px rgba(0,0,0,0.4);
+    box-shadow: inset -24px 0px 48px -21px rgba(0,0,0,0.4);
+    padding: 5vw 2.9vw 0.5vw 2.9vw;
+}
+
+.ultimaHoja{
+    position: relative;
+}
+
+.ultimaHoja svg{
+    position: absolute;
+    width: 40%;
+    bottom: 5vw;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.3;
+}
+
+.separadores{
+    margin: 0;
+    padding: 0;
+    padding-top: 0.5vw;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    font-family: 'Mikado_Bold', sans-serif;
+    color: #ffffff;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 1vw;
+    border-radius: 10px 10px 0 0;
+    line-height: 1;
+}
+
+.separadores:hover{
+    transform: translateY(-0.25vw);
+}
+
+.losSeparadores .col-2{
+    margin-left: 0.1vw;
+    margin-right: 0.1vw;
+    padding: 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.tituloLibrito{
+    font-size: 3.5vw;
+    color: #F8CA48;
+    font-family: 'Mikado_Bold', sans-serif;
+    line-height: 1;
+    margin-bottom: 2.4vw
+}
+
+.pag hr{
+    width: 60%;
+    border: 0.25vw solid #F8CA48;
+    margin: auto;
+}
+
+.video-responsive {
+    position: relative;
+    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-top: 30px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+    margin-top: 0.6vw;
+}
+    
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.parrafoLibrito{
+    width: 100%;
+    color: #000000;
+    font-family: 'Poppins_Regular', sans-serif;
+}
+
+.parrafoLibrito p{
+    text-align: justify;
+    font-size: 1vw;
+}
+
+.latabla{
+    font-family: 'Poppins_Regular', sans-serif;
+    font-size: 0.9vw;
+    padding-bottom: 1vw;
+}
+
+.latabla *{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.latabla caption{
+    color: #F8CA48;
+    font-weight: bold;
+}
+
+.latabla th{
+    color: #981914;
+}
+
+.latabla td{
+    color: #000000;
+}
+
+.latabla svg{
+    height: 1.2vw;
+    width: 1.2vw;
+}
+
+.instruccion{
+    font-size: 0.9vw;
+}
+
+.latabla label{
+    cursor: pointer;
+}
+
+.latabla label:hover{
+    transform: scale(1.1);
+}
+
+.videoMuestra ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.inputRadio3, .select_content{
+    display: none;
+}
+
+.inputRadio3:checked~.select_content{
+    display: block;
+}
+
+.tituloVideo{
+    color: #000000;
+    font-size: 1vw;
+    font-family: 'Poppins_Regular', sans-serif;
+}
+
+.ejemploLibro{
+    width: 100%;
+    height: 55vw;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.muestras{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.inputRadio4, .select_content{
+    display: none;
+}
+
+.inputRadio4:checked~.select_content{
+    display: block;
+}
+
+.Preparacionesconceptuales4{
+    background-image: url(../../img/libros/ejemploMaterial/EJEMPLOS\ MATERIAL\ FÍSICO_page-0001.jpg);
+}
+
+.Talleresderecapitulacion4{
+    background-image: url(../../img/libros/ejemploMaterial/EJEMPLOS\ MATERIAL\ FÍSICO_page-0002.jpg);
+}
+
+.Pruebassaber4{
+    background-image: url(../../img/libros/ejemploMaterial/EJEMPLOS\ MATERIAL\ FÍSICO_page-0003.jpg);
+}
+
+.Laboratoriosmatematicos4{
+    background-image: url(../../img/libros/ejemploMaterial/EJEMPLOS\ MATERIAL\ FÍSICO_page-0004.jpg);
+}
+
+.Troquel4{
+    background-image: url(../../img/libros/ejemploMaterial/EJEMPLOS\ MATERIAL\ FÍSICO_page-0005.jpg);
+}
+
+.Matematicafinanciera4{
+    background-image: url(../../img/libros/ejemploMaterial/EJEMPLOS\ MATERIAL\ FÍSICO_page-0006.jpg);
+}
+
+.Aprovechamiento4{
+    background-image: url(../../img/libros/ejemploMaterial/EJEMPLOS\ MATERIAL\ FÍSICO_page-0007.jpg);
+}
+
+.infoActivar{
+    font-size: 1vw;
+}
+/*--------------*/
+.catalogo{
+    width: 100%;
+    background-color: #F4F4F4;
+    padding: 0.25vw;
+    margin-top: 0.6vw;
+    margin-bottom: 1.2vw;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:    "tituloNivel tituloNivel2 tituloNivel2 tituloNivel2"
+                            "imagenNivel describeNivel describeNivel describeNivel";
+}
+
+.tituloNivel{
+    grid-area: tituloNivel;
+}
+
+.tituloNivel2{
+    grid-area: tituloNivel2;
+}
+
+.imagenNivel{
+    grid-area: imagenNivel;
+    padding: 0.25vw;
+}
+
+.describeNivel{
+    grid-area: describeNivel;
+    padding: 0.25vw 0.5vw 0.25vw 0.25vw;
+}
+
+.Nivel{
+    font-family: 'Mikado_Bold', sans-serif;
+    font-weight: bold;
+    color: #D9D9D9;
+    font-size: 2vw;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.categoriaEducacion{
+    font-family: 'Mikado_Medium', sans-serif;
+    color: #D9D9D9;
+    font-size: 1.4vw;
+    display: block;
+    margin: 0;
+    padding: 0.3vw 0 0 0;
+    width: 100%;
+}
+
+.imagenNivel img{
+    width: 100%;
+    pointer-events: none;
+}
+
+.describeNivel p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins_Regular', sans-serif;
+    font-size: 0.7vw;
+    text-align: justify;
+}
+
+.espacioNiveles{
+    width: 100%;
+    height: 5vw;
+}
+
+.indicadorVersion{
+    width: 100%;
+    height: 5vw;
+    position: relative;
+}
+
+.indicadorVersion svg{
+    position: absolute;
+    height: 5vw;
+    top: 0;
+}
+
+.manoClick{
+    width: 5vw;
+    height: 5vw;
+    float: right;
+}

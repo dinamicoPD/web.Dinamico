@@ -49,6 +49,10 @@
     src: url(../fonts/MikadoBold.otf);
 }
 @font-face {
+    font-family: 'Mikado_Regular';
+    src: url(../fonts/MikadoRegular.otf);
+}
+@font-face {
     font-family: 'Angeline_Vintage';
     src: url(../fonts/Angeline_Vintage.ttf);
 }
@@ -93,6 +97,7 @@ a{
     --morado_4: #D1DCFF;
     --gris: #7C7C7B;
     --azul2: #80D2E5;
+    --marco: #CB9F78;
 }
 
 /* BOTONES */
@@ -174,7 +179,7 @@ a{
 /* Titulos */
 
 .inicio{
-    padding: 6vw;
+    padding: 7vw;
 }
 
 .titulo1{

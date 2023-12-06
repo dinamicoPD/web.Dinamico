@@ -80,11 +80,12 @@ if (isset($_GET['envioMuestra'])) {
                     </div>
                 </div>
             </div>
+
             <div class="carousel-item">
                 <img src="img/fondo_libros@3x.png" class="d-block w-100" alt="Materiales educativos para colegios">
                 <div class="carousel-caption d-md-block cont">
                     <div class="contenedor_libros">
-                        <a href="mantenimiento.php" class="hover">
+                        <a href="libros.php" class="hover">
                         <img src="img/cosito@3x.png" alt="Recursos para educadores"><span>Accede</span> a recursos educativos de calidad<br>para enriquecer tu <span>aprendizaje</span><img style="transform: scaleX(-1);" src="img/cosito@3x.png" alt="Recursos para educadores">
                         </a>
                     </div>
@@ -99,7 +100,7 @@ if (isset($_GET['envioMuestra'])) {
                         <p class="text_juegos_1" id="text_juegos_1b">encuentra con la <img src="img/diversion_juegos@3x.png" alt="Juegos de aprendizaje"></p>
                         <img  class="text_juegos_2" src="img/cinta@3x.png" alt="Juegos interactivos para niños">
                         <p class="text_juegos_3">Explora una variedad de juegos educativos para todas las disciplinas: inglés, español, ciencias naturales y matemáticas. Nuestras estaciones ofrecen desafíos lingüísticos, rompecabezas topológicos, juegos aritméticos y tablero históricos. Pon a prueba tus habilidades cognitivas y diviértete mientras aprendes. ¡Únete a la diversión educativa!</p>
-                        <a  class="text_juegos_4 hover" href="mantenimiento.php"><img src="img/boton_juegos@3x.png" alt="Juegos de lógica y razonamiento"></a>
+                        <a  class="text_juegos_4 hover" href="juegos.php"><img src="img/boton_juegos@3x.png" alt="Juegos de lógica y razonamiento"></a>
                     </div>
                 </div>
             </div>
@@ -112,15 +113,15 @@ if (isset($_GET['envioMuestra'])) {
                             <div class="fes_titulo"><p>Festivales <span>Dinamicos</span></p></div>
                             <div class="fes_subtitulo"><p><span>Aprende</span>&nbsp;&nbsp;&nbsp;y juega con nosotros.</p></div>
                             <div id="fes_matematicas" class="fes_art">
-                                <div class="fes_categoria hover"><a href="mantenimiento.php"><img src="img/fes_mate@3x.png" alt="Matemáticas"></a></div>
+                                <div class="fes_categoria hover"><a href="festivales.php"><img src="img/fes_mate@3x.png" alt="Matemáticas"></a></div>
                             </div>
                             <div id="fes_ingles" class="fes_art">
-                                <div class="fes_categoria hover"><a href="mantenimiento.php"><img src="img/fes_ingles@3x.png" alt="Inglés"></a></div>
+                                <div class="fes_categoria hover"><a href="festivales.php"><img src="img/fes_ingles@3x.png" alt="Inglés"></a></div>
                             </div>
                             <div id="fes_sociales" class="fes_art">
-                                <div class="fes_categoria hover"><a href="mantenimiento.php"><img src="img/fes_sociales@3x.png" alt="Sociales"></a></div>
+                                <div class="fes_categoria hover"><a href="festivales.php"><img src="img/fes_sociales@3x.png" alt="Sociales"></a></div>
                             </div>
-                            <div class="fes_mas hover"><a href="mantenimiento.php">Conoce más información aquí <img src="img/festivales_btn@3x.png" alt="Festivales"></a></div>
+                            <div class="fes_mas hover"><a href="festivales.php">Conoce más información aquí <img src="img/festivales_btn@3x.png" alt="Festivales"></a></div>
                         </div>
                         <div class="fes_img"></div>
                     </div>
@@ -150,9 +151,9 @@ if (isset($_GET['envioMuestra'])) {
         </div>
         <div class="servicios">
             <div class="articulos_3">
-                <article><a href="mantenimiento.php"><img class="voltereta" src="img/dinamico1.svg" alt="Materiales educativos para colegios"><img src="img/ser_festivales@3x.png" alt="Libros didácticos para niños"><p><img class="servicioTexto" src="img/festivales_letras@3x.png" alt="Editorial de recursos pedagógicos"></p></a></article>
-                <article><a href="mantenimiento.php"><img class="voltereta" src="img/dinamico2.svg" alt="Publicaciones educativas en matemáticas e inglés"><img src="img/ser_libros@3x.png" alt="Material curricular para docentes"><p><img class="servicioTexto" src="img/libros_letras@3x.png" alt="Contenido educativo de calidad"></p></a></article>
-                <article><a href="mantenimiento.php"><img class="voltereta" src="img/dinamico3.svg" alt="Recursos para educadores"><img src="img/ser_juegos@3x.png" alt="Libros de texto para estudiantes"><p><img class="servicioTexto" src="img/juegos_letras@3x.png" alt="Libros de inglés para niños con actividades interactivas"></p></a></article>
+                <article><a href="festivales.php"><img class="voltereta" src="img/dinamico1.svg" alt="Materiales educativos para colegios"><img src="img/ser_festivales@3x.png" alt="Libros didácticos para niños"><p><img class="servicioTexto" src="img/festivales_letras@3x.png" alt="Editorial de recursos pedagógicos"></p></a></article>
+                <article><a href="libros.php"><img class="voltereta" src="img/dinamico2.svg" alt="Publicaciones educativas en matemáticas e inglés"><img src="img/ser_libros@3x.png" alt="Material curricular para docentes"><p><img class="servicioTexto" src="img/libros_letras@3x.png" alt="Contenido educativo de calidad"></p></a></article>
+                <article><a href="juegos.php"><img class="voltereta" src="img/dinamico3.svg" alt="Recursos para educadores"><img src="img/ser_juegos@3x.png" alt="Libros de texto para estudiantes"><p><img class="servicioTexto" src="img/juegos_letras@3x.png" alt="Libros de inglés para niños con actividades interactivas"></p></a></article>
             </div>
         </div>
     </div>
@@ -249,7 +250,7 @@ if (isset($_GET['envioMuestra'])) {
             <div class="materialImg"><img style="width: 100%;" src="img/libroMaterial@3x.png" alt="Ideas para proyectos prácticos de matemáticas en la escuela"></div>
             <div class="materialNumero"><img src="img/numero1.png" alt="Técnicas de enseñanza de matemáticas mediante juegos en línea"></div>
             <div class="txtPaso"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.09 131.88"><defs><style>.cartillas-1{fill:#f4746d;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="cartillas-1" d="M16.25,108.2a9.57,9.57,0,0,1,3.87,4.08,14.68,14.68,0,0,1,1.48,7V125H34.75v6.87H.49V119.27a15.16,15.16,0,0,1,1.38-6.77,9.51,9.51,0,0,1,3.77-4.2,10.68,10.68,0,0,1,5.45-1.4A10.66,10.66,0,0,1,16.25,108.2Zm-1.5,7.14A4.83,4.83,0,0,0,11.09,114c-3.34,0-5,1.86-5,5.59V125h10v-5.45A6,6,0,0,0,14.75,115.34Z"/><path class="cartillas-1" d="M28.22,81.5V95.14l6.53,2.26v7.21L.44,92.29v-8L34.75,72v7.27Zm-5.49,1.86-14.34,5,14.34,5Z"/><path class="cartillas-1" d="M33.87,60.51a10.62,10.62,0,0,1-3.54,4.54,9.28,9.28,0,0,1-5.45,1.72V59.41a4.77,4.77,0,0,0,3.34-1.5,5.31,5.31,0,0,0,1.23-3.71,5.71,5.71,0,0,0-1.15-3.78,3.78,3.78,0,0,0-3-1.37,3.51,3.51,0,0,0-2.51.93,6.5,6.5,0,0,0-1.54,2.33A38.71,38.71,0,0,0,20,56.17,42,42,0,0,1,18,61.59a9.47,9.47,0,0,1-2.9,3.58A8.24,8.24,0,0,1,10,66.67a9.32,9.32,0,0,1-5.3-1.52A9.75,9.75,0,0,1,1.2,60.88,15.61,15.61,0,0,1,0,54.59,13.62,13.62,0,0,1,2.58,46a9.53,9.53,0,0,1,7.19-3.66v7.56a4,4,0,0,0-2.92,1.5,5.64,5.64,0,0,0-1.16,3.71,4.79,4.79,0,0,0,1,3.21,3.75,3.75,0,0,0,3,1.2A3.07,3.07,0,0,0,12,58.59a6.66,6.66,0,0,0,1.47-2.25,39.33,39.33,0,0,0,1.3-3.81,40.31,40.31,0,0,1,2-5.45,9.81,9.81,0,0,1,2.94-3.63,8.22,8.22,0,0,1,5.16-1.52,9.76,9.76,0,0,1,5.1,1.42,10.1,10.1,0,0,1,3.76,4.18,14.25,14.25,0,0,1,1.39,6.52A16.28,16.28,0,0,1,33.87,60.51Z"/><path class="cartillas-1" d="M32.84,26.36a16.89,16.89,0,0,1-6.26,6.38,17.53,17.53,0,0,1-9.06,2.35,17.39,17.39,0,0,1-9-2.35,16.82,16.82,0,0,1-6.26-6.38A17.73,17.73,0,0,1,0,17.52,17.67,17.67,0,0,1,2.26,8.66,16.76,16.76,0,0,1,8.52,2.33a17.57,17.57,0,0,1,9-2.33,17.72,17.72,0,0,1,9.06,2.33,16.77,16.77,0,0,1,6.26,6.36,17.79,17.79,0,0,1,2.25,8.83A17.83,17.83,0,0,1,32.84,26.36ZM27.56,12.08a9.6,9.6,0,0,0-4-3.69,13.17,13.17,0,0,0-6-1.32,13,13,0,0,0-6,1.32,9.47,9.47,0,0,0-3.95,3.69,10.55,10.55,0,0,0-1.38,5.44A10.75,10.75,0,0,0,7.56,23a9.43,9.43,0,0,0,4,3.7,13,13,0,0,0,6,1.33,13.17,13.17,0,0,0,6-1.33,9.56,9.56,0,0,0,4-3.7A10.66,10.66,0,0,0,29,17.52,10.47,10.47,0,0,0,27.56,12.08Z"/></g></g></svg></div>
-            <div class="btnMaterial hover"><a href="mantenimiento.php"><img src="img/btnCartillas@3x.png" alt="Aprendizaje a distancia"></a></div>
+            <div class="btnMaterial hover"><a href="libros.php"><img src="img/btnCartillas@3x.png" alt="Aprendizaje a distancia"></a></div>
         </article>
         <article>
             <div class="materialImg"><img style="width: 72%;"  src="img/celular@3x.png" alt="Material interactivo de matemáticas"></div>
