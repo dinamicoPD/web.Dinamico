@@ -7,7 +7,7 @@ if (isset($_GET['envioMuestra'])) {
     if ($variable = 'no'){
         $MENSAJEmsm = '
                     <div id="msmMuestra" class="alert alert-danger alert-dismissible fade show" role="alert">
-                        <p><strong>ERROR!!!</strong> Su correo no fue enviado por falta de validacion reCAPTCHA.</p>
+                        <p><strong>ERROR!!!</strong> Su correo no fue enviado por falta de validación reCAPTCHA.</p>
                         <button class="btnPlataforma" type="button" data-bs-toggle="modal" data-bs-target="#pruebaGratis">VUELVE A ENVIAR TU CORREO</button>
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                     </div>
@@ -110,7 +110,7 @@ if (isset($_GET['envioMuestra'])) {
                 <div class="carousel-caption d-md-block cont">
                     <div class="contenedorCarrusel" id="festivales">
                         <div class="fes_info">
-                            <div class="fes_titulo"><p>Festivales <span>Dinamicos</span></p></div>
+                            <div class="fes_titulo"><p>Festivales <span>Dinámicos</span></p></div>
                             <div class="fes_subtitulo"><p><span>Aprende</span>&nbsp;&nbsp;&nbsp;y juega con nosotros.</p></div>
                             <div id="fes_matematicas" class="fes_art">
                                 <div class="fes_categoria hover"><a href="festivales.php"><img src="img/fes_mate@3x.png" alt="Matemáticas"></a></div>

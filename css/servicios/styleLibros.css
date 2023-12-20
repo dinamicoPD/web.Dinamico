@@ -1040,7 +1040,7 @@ br{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas:    "tituloNivel tituloNivel2 tituloNivel2 tituloNivel2"
-                            "imagenNivel describeNivel describeNivel describeNivel";
+                            "describeNivel describeNivel describeNivel describeNivel";
 }
 
 .tituloNivel{
@@ -1049,11 +1049,6 @@ br{
 
 .tituloNivel2{
     grid-area: tituloNivel2;
-}
-
-.imagenNivel{
-    grid-area: imagenNivel;
-    padding: 0.25vw;
 }
 
 .describeNivel{
@@ -1083,17 +1078,20 @@ br{
     width: 100%;
 }
 
-.imagenNivel img{
-    width: 100%;
+.imagenNivel{
+    width: 34%;
     pointer-events: none;
+    margin-right:0.3vw;
+    float: left;
 }
 
 .describeNivel p{
     margin: 0;
     padding: 0;
     font-family: 'Poppins_Regular', sans-serif;
-    font-size: 0.7vw;
+    font-size: 1vw;
     text-align: justify;
+    line-height: 1.2;
 }
 
 .espacioNiveles{

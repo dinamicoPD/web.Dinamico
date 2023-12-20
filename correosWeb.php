@@ -145,7 +145,7 @@ function funcionPruebaGratis() {
                     <td class="txt" colspan="2">'.$correo.'<hr></td>
                 </tr>
                 <tr>
-                    <td class="txtTitulo" colspan="1">Telefono:</td>
+                    <td class="txtTitulo" colspan="1">Teléfono:</td>
                     <td class="txt" colspan="2">'.$telefono.'<hr></td>
                 </tr>
                 <tr>
@@ -176,7 +176,7 @@ function funcionPruebaGratis() {
         $mail->send();
 
     } catch (Exception $e) {
-        error_log("El mensaje para reestablecer password no ha sido enviado. Error de Mailer:" . $mail->ErrorInfo);
+        error_log("El mensaje para restablecer password no ha sido enviado. Error de Mailer:" . $mail->ErrorInfo);
     }
 }
 

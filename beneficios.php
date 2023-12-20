@@ -35,7 +35,7 @@ require_once(dirname(__FILE__).'/componentes.php');
     <div class="articulosBeneficios">
         <article data-aos="flip-up" data-aos-duration="250" data-aos-easing="ease-in-sine">
             <img src="img/beneficios/1Beneficios@3x.png" alt="Rallys">
-            <div class="articleTitle RallysSer"><p>Rallys</p></div>
+            <div class="articleTitle RallysSer"><p>Rally</p></div>
         </article>
         <article data-aos="flip-up" data-aos-duration="300" data-aos-easing="ease-in-sine">
             <img src="img/beneficios/2Beneficios@3x.png" alt="Cartillas">
@@ -57,7 +57,7 @@ require_once(dirname(__FILE__).'/componentes.php');
                 <div data-aos="flip-up"  data-aos-duration="300" data-aos-easing="ease-in-sine" class="col-md-6">
                     <form id="formularioBeneficios" method="POST" action="submitBeneficio.php">
                         <div class="formTitleJD">
-                            <p><strong>Suscribete aqui:</strong></p>
+                            <p><strong>Suscribirte aquí:</strong></p>
                         </div>
                         <div id="msmErr" class="row ocultar">
                             <div class="col">
@@ -102,10 +102,10 @@ require_once(dirname(__FILE__).'/componentes.php');
                             </div>
                             <br>
                             <div class="row termycond">
-                                <div class="col"><p><input type="checkbox" id="aviso1" require> He leido y acepto los términos y condiciones de uso.</p></div>
+                                <div class="col"><p><input type="checkbox" id="aviso1" require> He leído y acepto los términos y condiciones de uso.</p></div>
                             </div>
                             <div class="row termycond">
-                                <div class="col"><p><input type="checkbox" id="aviso2" require> He leido y acepto las politicas de privacidad.</p></div>
+                                <div class="col"><p><input type="checkbox" id="aviso2" require> He leído y acepto las políticas de privacidad.</p></div>
                             </div>
                             <div class="col-12 text-center">
                                 <input type="text" name="condicion" id="condicion" style="display: none">
