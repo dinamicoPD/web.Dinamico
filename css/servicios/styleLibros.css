@@ -803,6 +803,11 @@ br{
     background-size: 100%;
 }
 
+.portadaDIDeas{
+    background-image: url(../../img/libros/PROPUESTA_D-IDEAS.jpg);
+    background-size:cover;
+}
+
 .portadaBackPD, .pag{
     background-color: #ffffff;
     background-image: url(../../img/libros/textura@3x.png);
@@ -874,7 +879,12 @@ br{
     color: #F8CA48;
     font-family: 'Mikado_Bold', sans-serif;
     line-height: 1;
-    margin-bottom: 2.4vw
+    margin-bottom: 1.6vw
+}
+
+.tituloLibrito p{
+    margin: 0;
+    padding: 0;
 }
 
 .pag hr{
@@ -911,6 +921,8 @@ br{
 .parrafoLibrito p{
     text-align: justify;
     font-size: 1vw;
+    margin: 0;
+    padding: 0;
 }
 
 .latabla{

@@ -442,7 +442,7 @@ require_once(dirname(__FILE__).'/componentes.php');
                                             <div class="col-6">
                                                 <div class="row losSeparadores">
                                                     <div class="col-1"></div>
-                                                    <div class="col-2" style="background-color:#F4746D"><button class="separadores" id="-pag" style="background-color:#F4746D">Versión<br>Phi</button></div>
+                                                    <div class="col-2" style="background-color:#F4746D"><button class="separadores" id="phi-pag" style="background-color:#F4746D">Versión<br>Phi</button></div>
                                                     <div class="col-2" style="background-color:#F7D264"><button class="separadores" id="-pag" style="background-color:#F7D264">Versión<br>Sigma</button></div>
                                                     <div class="col-2" style="background-color:#98D1E2"><button class="separadores" id="-pag" style="background-color:#98D1E2">Versión<br>Pi</button></div>
                                                     <div class="col-2" style="background-color:#A6CC78"><button class="separadores" id="alfa-pag" style="background-color:#A6CC78">Versión<br>Alpha</button></div>
@@ -476,9 +476,1651 @@ require_once(dirname(__FILE__).'/componentes.php');
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- Alpha -->
+<!-------------- PHI --------------><!-------------- PHI --------------><!-------------- PHI -------------->
                                             <div class="pag">
                                                 <div class="contenidoIZ">
+
+                                                    <div class="tituloLibrito">
+                                                        <p style="text-align: center;">Versión phi</p>
+                                                    </div>
+                                                    <br>
+                                                    <div class="parrafoLibrito">
+                                                        <p>Compuesto por 32 páginas, divididas según los <strong>pensamientos numérico – variacional,  métrico – espacial y aleatorio</strong>, de acuerdo a las temáticas propuestas por el <strong>MEN.</strong> Lo cual se evidencia en la <strong>malla curricular</strong> que se presenta en el indice de cada texto</p>
+                                                    </div>
+                                                    <div class="table-responsive latabla">
+                                                        <table class="table caption-top table-hover">
+                                                            <caption>El material físico incluye:</caption>
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>Actividades evaluativas como:</th>
+                                                                    <th class="text-center">Video</th>
+                                                                    <th class="text-center">Ejemplo</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>
+                                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                        Pruebas saber
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        <label for="Pruebassaberphi_Video" onclick="stopVideos()">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.82 24"><defs><style>.tablavideo-1{fill:#e96a00;}.tablavideo-2{fill:#fff;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="tablavideo-1" d="M19.82,14.09A9.91,9.91,0,1,0,9.91,24a9.91,9.91,0,0,0,9.91-9.91"/><path class="tablavideo-2" d="M14.32,13a1.21,1.21,0,0,1,0,2.11l-5.89,3.4a1.21,1.21,0,0,1-1.82-1.05v-6.8A1.22,1.22,0,0,1,8.43,9.63Z"/><polygon class="tablavideo-1" points="6.89 2.69 7.69 0.05 8.9 0.05 7.58 3.76 6.18 3.76 4.87 0.05 6.08 0.05 6.89 2.69"/><path class="tablavideo-1" d="M12.85,2.18H10.28a.81.81,0,0,0,.22.53.68.68,0,0,0,.48.18.59.59,0,0,0,.59-.36h1.21a1.71,1.71,0,0,1-.33.66,1.89,1.89,0,0,1-.61.46,2,2,0,0,1-.82.16,2.07,2.07,0,0,1-1-.23,1.74,1.74,0,0,1-.66-.66,2.08,2.08,0,0,1-.24-1,2,2,0,0,1,.24-1,1.58,1.58,0,0,1,.66-.67A2,2,0,0,1,11,0a2,2,0,0,1,1,.23,1.54,1.54,0,0,1,.65.64,1.92,1.92,0,0,1,.24,1c0,.1,0,.21,0,.33m-1.14-.63a.6.6,0,0,0-.2-.47A.76.76,0,0,0,11,.91a.72.72,0,0,0-.48.17.71.71,0,0,0-.24.47Z"/><path class="tablavideo-1" d="M15.1.19A1.26,1.26,0,0,1,15.76,0V1.22h-.31a1,1,0,0,0-.63.18A.77.77,0,0,0,14.6,2V3.76H13.47V.05H14.6V.67a1.63,1.63,0,0,1,.5-.48"/></g></g></svg>
+                                                                        </label>
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        <label for="Pruebassaberphi_Ejemplo">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.61 24"><defs><style>.tablaABC-1{fill:#e96a00;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="tablaABC-1" d="M19.41,24H.2a.2.2,0,0,1-.2-.2V.2A.2.2,0,0,1,.2,0H19.41a.2.2,0,0,1,.2.2V23.8a.2.2,0,0,1-.2.2m-19-.4h18.8V.41H.41Z"/><path class="tablaABC-1" d="M19.41.4H.2A.19.19,0,0,1,0,.2.2.2,0,0,1,.2,0H19.41a.2.2,0,0,1,.2.2.19.19,0,0,1-.2.2"/><path class="tablaABC-1" d="M19.41,8.27H.2a.2.2,0,0,1-.2-.2.21.21,0,0,1,.2-.21H19.41a.21.21,0,0,1,.2.21.2.2,0,0,1-.2.2"/><path class="tablaABC-1" d="M19.41,16.14H.2a.21.21,0,0,1-.2-.21.2.2,0,0,1,.2-.2H19.41a.2.2,0,0,1,.2.2.21.21,0,0,1-.2.21"/><path class="tablaABC-1" d="M19.41,24H.2a.2.2,0,0,1-.2-.2.21.21,0,0,1,.2-.21H19.41a.21.21,0,0,1,.2.21.2.2,0,0,1-.2.2"/><path class="tablaABC-1" d="M17.15,3H7.38A.4.4,0,0,1,7,2.61a.41.41,0,0,1,.41-.41h9.77a.41.41,0,0,1,.4.41.4.4,0,0,1-.4.4"/><path class="tablaABC-1" d="M17.15,4.36H7.38a.41.41,0,1,1,0-.81h9.77a.41.41,0,0,1,0,.81"/><path class="tablaABC-1" d="M11.37,5.71h-4a.41.41,0,1,1,0-.81h4a.41.41,0,0,1,0,.81"/><path class="tablaABC-1" d="M5,5.63H3.09l-.31.9H1.47L3.33,1.41H4.77L6.62,6.53H5.3Zm-.32-1L4,2.79,3.41,4.66Z"/><path class="tablaABC-1" d="M17.15,10.88H7.38a.41.41,0,1,1,0-.81h9.77a.41.41,0,0,1,0,.81"/><path class="tablaABC-1" d="M17.15,12.23H7.38A.41.41,0,0,1,7,11.82a.4.4,0,0,1,.41-.4h9.77a.4.4,0,0,1,.4.4.41.41,0,0,1-.4.41"/><path class="tablaABC-1" d="M11.37,13.57h-4a.41.41,0,1,1,0-.81h4a.41.41,0,0,1,0,.81"/><path class="tablaABC-1" d="M5.62,12.21a1.26,1.26,0,0,1,.27.79,1.28,1.28,0,0,1-.44,1,1.91,1.91,0,0,1-1.26.37H1.81V9.28h2.3a1.91,1.91,0,0,1,1.23.35,1.19,1.19,0,0,1,.44,1,1.16,1.16,0,0,1-.24.75,1.26,1.26,0,0,1-.63.42,1.16,1.16,0,0,1,.71.44m-2.56-.86h.81a.71.71,0,0,0,.47-.14.49.49,0,0,0,.17-.4.51.51,0,0,0-.17-.4.71.71,0,0,0-.47-.14H3.06Zm1.4,1.9a.54.54,0,0,0,.17-.42.52.52,0,0,0-.18-.42A.74.74,0,0,0,4,12.26h-.9v1.13H4a.74.74,0,0,0,.48-.14"/><path class="tablaABC-1" d="M17.15,18.74H7.38a.4.4,0,0,1-.41-.4.41.41,0,0,1,.41-.41h9.77a.41.41,0,0,1,.4.41.4.4,0,0,1-.4.4"/><path class="tablaABC-1" d="M17.15,20.09H7.38a.41.41,0,1,1,0-.81h9.77a.41.41,0,0,1,0,.81"/><path class="tablaABC-1" d="M11.37,21.44h-4a.41.41,0,1,1,0-.81h4a.41.41,0,0,1,0,.81"/><path class="tablaABC-1" d="M1.93,18.34a2.39,2.39,0,0,1,.91-.93,2.68,2.68,0,0,1,1.33-.33,2.54,2.54,0,0,1,1.56.48,2.25,2.25,0,0,1,.87,1.32H5.23a1.09,1.09,0,0,0-.43-.49,1.25,1.25,0,0,0-.64-.17,1.16,1.16,0,0,0-.93.4,1.56,1.56,0,0,0-.36,1.07,1.52,1.52,0,0,0,.36,1.07,1.16,1.16,0,0,0,.93.41A1.25,1.25,0,0,0,4.8,21a1.15,1.15,0,0,0,.43-.49H6.6a2.26,2.26,0,0,1-.87,1.31,2.54,2.54,0,0,1-1.56.48A2.68,2.68,0,0,1,2.84,22,2.39,2.39,0,0,1,1.93,21a2.7,2.7,0,0,1-.33-1.35,2.75,2.75,0,0,1,.33-1.35"/></g></g></svg>
+                                                                        </label>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                        Jugando con el plano y el espacio
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        <label for="Talleresderecapitulacionphi_Video" onclick="stopVideos()">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.82 24"><defs><style>.tablavideo-1{fill:#e96a00;}.tablavideo-2{fill:#fff;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="tablavideo-1" d="M19.82,14.09A9.91,9.91,0,1,0,9.91,24a9.91,9.91,0,0,0,9.91-9.91"/><path class="tablavideo-2" d="M14.32,13a1.21,1.21,0,0,1,0,2.11l-5.89,3.4a1.21,1.21,0,0,1-1.82-1.05v-6.8A1.22,1.22,0,0,1,8.43,9.63Z"/><polygon class="tablavideo-1" points="6.89 2.69 7.69 0.05 8.9 0.05 7.58 3.76 6.18 3.76 4.87 0.05 6.08 0.05 6.89 2.69"/><path class="tablavideo-1" d="M12.85,2.18H10.28a.81.81,0,0,0,.22.53.68.68,0,0,0,.48.18.59.59,0,0,0,.59-.36h1.21a1.71,1.71,0,0,1-.33.66,1.89,1.89,0,0,1-.61.46,2,2,0,0,1-.82.16,2.07,2.07,0,0,1-1-.23,1.74,1.74,0,0,1-.66-.66,2.08,2.08,0,0,1-.24-1,2,2,0,0,1,.24-1,1.58,1.58,0,0,1,.66-.67A2,2,0,0,1,11,0a2,2,0,0,1,1,.23,1.54,1.54,0,0,1,.65.64,1.92,1.92,0,0,1,.24,1c0,.1,0,.21,0,.33m-1.14-.63a.6.6,0,0,0-.2-.47A.76.76,0,0,0,11,.91a.72.72,0,0,0-.48.17.71.71,0,0,0-.24.47Z"/><path class="tablavideo-1" d="M15.1.19A1.26,1.26,0,0,1,15.76,0V1.22h-.31a1,1,0,0,0-.63.18A.77.77,0,0,0,14.6,2V3.76H13.47V.05H14.6V.67a1.63,1.63,0,0,1,.5-.48"/></g></g></svg>
+                                                                        </label>
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        <label for="Talleresderecapitulacionphi_Ejemplo">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.66 24"><defs><style>.tablanotas-1{fill:#fff;}.tablanotas-2{fill:#e96a00;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="tablanotas-1" d="M15.65.59H6.82v4.8A1.48,1.48,0,0,1,5.34,6.87H.59V22.22a1.19,1.19,0,0,0,1.19,1.19H15.65a1.19,1.19,0,0,0,1.19-1.19V1.78A1.19,1.19,0,0,0,15.65.59"/><path class="tablanotas-2" d="M6.23,5.39V1L1,6.27H5.34a.88.88,0,0,0,.89-.88"/><path class="tablanotas-2" d="M15.65,0H6.53L6.41,0a.31.31,0,0,0-.09.07L.09,6.36h0A.35.35,0,0,0,0,6.46s0,.06,0,.09V22.22A1.78,1.78,0,0,0,1.78,24H15.65a1.78,1.78,0,0,0,1.78-1.78V1.78A1.78,1.78,0,0,0,15.65,0M6.23,1V5.39a.88.88,0,0,1-.89.88H1ZM16.84,22.22a1.19,1.19,0,0,1-1.19,1.19H1.78A1.19,1.19,0,0,1,.59,22.22V6.87H5.34A1.48,1.48,0,0,0,6.82,5.39V.59h8.83a1.19,1.19,0,0,1,1.19,1.19Z"/><path class="tablanotas-2" d="M15.52,4.26H8a.3.3,0,1,0,0,.59h7.5a.3.3,0,1,0,0-.59"/><path class="tablanotas-2" d="M15.52,8H2.87a.3.3,0,1,0,0,.59H15.52a.3.3,0,1,0,0-.59"/><path class="tablanotas-2" d="M15.52,10.19H2.87a.3.3,0,1,0,0,.6H15.52a.3.3,0,0,0,0-.6"/><path class="tablanotas-2" d="M15.52,12.42H2.87a.3.3,0,1,0,0,.59H15.52a.3.3,0,1,0,0-.59"/><path class="tablanotas-2" d="M15.52,14.64H2.87a.3.3,0,1,0,0,.59H15.52a.3.3,0,1,0,0-.59"/><path class="tablanotas-2" d="M9.46,19.29H2.87a.3.3,0,1,0,0,.6H9.46a.3.3,0,0,0,0-.6"/><path class="tablanotas-1" d="M23.15,3.58a2,2,0,0,0-2.75.52l3.33,2.22A2,2,0,0,0,24,4.85a2,2,0,0,0-.85-1.27"/><rect class="tablanotas-1" x="9.87" y="10.77" width="12.86" height="1.95" transform="translate(-2.51 18.81) rotate(-56.35)"/><polygon class="tablanotas-1" points="11.47 21.11 13.34 20.17 11.63 19.03 11.47 21.11"/><polygon class="tablanotas-1" points="11.68 18.32 13.97 19.84 13.98 19.85 14.97 19.34 11.76 17.21 11.68 18.32"/><rect class="tablanotas-1" x="11.79" y="12.01" width="12.86" height="2.03" transform="translate(-2.72 20.98) rotate(-56.36)"/><polygon class="tablanotas-1" points="19.1 5.14 19.14 5.17 23.23 7.89 23.23 7.89 23.27 7.91 23.77 7.16 19.6 4.39 19.1 5.14"/><path class="tablanotas-2" d="M24.21,6.71v0a2.59,2.59,0,0,0,.39-2,2.62,2.62,0,0,0-4.75-.93l0,0-.16-.11a.32.32,0,0,0-.43.09l-.84,1.27a.31.31,0,0,0,.09.43l0,0-7.3,11h0a.44.44,0,0,0-.06.16L11,18.53l-.23,3.08a.32.32,0,0,0,.37.33l.08,0,2.84-1.43,1.62-.82a.47.47,0,0,0,.13-.11h0l7.29-11,0,0a.33.33,0,0,0,.23.05.31.31,0,0,0,.2-.13l.85-1.27a.32.32,0,0,0-.09-.43ZM23.15,3.57A2,2,0,0,1,24,4.85a2,2,0,0,1-.27,1.46L20.4,4.1a2,2,0,0,1,2.75-.53m-4.1,2.29,1.63,1.08L13.56,17.65l-1.63-1.08ZM11.63,19l1.71,1.14-1.87.94Zm2.35.82h0l-2.29-1.52.08-1.11L15,19.34Zm1.52-.91-1.69-1.12L20.94,7.11l1.69,1.12Zm7.77-11,0,0L19.14,5.17l0,0,.5-.75,4.17,2.77Z"/></g></g></svg>
+                                                                        </label>
+                                                                    </td>
+                                                                </tr>
+                                                               
+                                                                <tr>
+                                                                    <td>
+                                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                        Laboratorios matemáticos
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        <label for="Laboratoriosmatematicosphi_Video" onclick="stopVideos()">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.82 24"><defs><style>.tablavideo-1{fill:#e96a00;}.tablavideo-2{fill:#fff;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="tablavideo-1" d="M19.82,14.09A9.91,9.91,0,1,0,9.91,24a9.91,9.91,0,0,0,9.91-9.91"/><path class="tablavideo-2" d="M14.32,13a1.21,1.21,0,0,1,0,2.11l-5.89,3.4a1.21,1.21,0,0,1-1.82-1.05v-6.8A1.22,1.22,0,0,1,8.43,9.63Z"/><polygon class="tablavideo-1" points="6.89 2.69 7.69 0.05 8.9 0.05 7.58 3.76 6.18 3.76 4.87 0.05 6.08 0.05 6.89 2.69"/><path class="tablavideo-1" d="M12.85,2.18H10.28a.81.81,0,0,0,.22.53.68.68,0,0,0,.48.18.59.59,0,0,0,.59-.36h1.21a1.71,1.71,0,0,1-.33.66,1.89,1.89,0,0,1-.61.46,2,2,0,0,1-.82.16,2.07,2.07,0,0,1-1-.23,1.74,1.74,0,0,1-.66-.66,2.08,2.08,0,0,1-.24-1,2,2,0,0,1,.24-1,1.58,1.58,0,0,1,.66-.67A2,2,0,0,1,11,0a2,2,0,0,1,1,.23,1.54,1.54,0,0,1,.65.64,1.92,1.92,0,0,1,.24,1c0,.1,0,.21,0,.33m-1.14-.63a.6.6,0,0,0-.2-.47A.76.76,0,0,0,11,.91a.72.72,0,0,0-.48.17.71.71,0,0,0-.24.47Z"/><path class="tablavideo-1" d="M15.1.19A1.26,1.26,0,0,1,15.76,0V1.22h-.31a1,1,0,0,0-.63.18A.77.77,0,0,0,14.6,2V3.76H13.47V.05H14.6V.67a1.63,1.63,0,0,1,.5-.48"/></g></g></svg>
+                                                                        </label>
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        <label for="Laboratoriosmatematicosphi_Ejemplo">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.38 24"><defs><style>.tablaQuimica-1{fill:#e96a00;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="tablaQuimica-1" d="M13.11.94H4.27a.47.47,0,0,1,0-.94h8.84a.47.47,0,0,1,0,.94"/><path class="tablaQuimica-1" d="M8.67,24h-6A2.66,2.66,0,0,1,.25,20.22L5.49,8.84V.47a.47.47,0,0,1,.94,0V9a.43.43,0,0,1,0,.19L1.1,20.62a1.71,1.71,0,0,0,1.56,2.44h6a.47.47,0,1,1,0,.94"/><path class="tablaQuimica-1" d="M14.71,24h-6a.47.47,0,0,1,0-.94h6a1.72,1.72,0,0,0,1.57-2.44L11,9.14A.45.45,0,0,1,10.94,9V.47a.47.47,0,1,1,.94,0V8.84l5.25,11.38A2.67,2.67,0,0,1,14.71,24"/><path class="tablaQuimica-1" d="M7,10.51,2.11,21.08a.65.65,0,0,0,0,.6.63.63,0,0,0,.53.29H14.73a.63.63,0,0,0,.53-.29.62.62,0,0,0,0-.6L10.43,10.51Z"/></g></g></svg>
+                                                                        </label>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                        Troquel - ando
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        <label for="Troquelphi_Video" onclick="stopVideos()">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.82 24"><defs><style>.tablavideo-1{fill:#e96a00;}.tablavideo-2{fill:#fff;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="tablavideo-1" d="M19.82,14.09A9.91,9.91,0,1,0,9.91,24a9.91,9.91,0,0,0,9.91-9.91"/><path class="tablavideo-2" d="M14.32,13a1.21,1.21,0,0,1,0,2.11l-5.89,3.4a1.21,1.21,0,0,1-1.82-1.05v-6.8A1.22,1.22,0,0,1,8.43,9.63Z"/><polygon class="tablavideo-1" points="6.89 2.69 7.69 0.05 8.9 0.05 7.58 3.76 6.18 3.76 4.87 0.05 6.08 0.05 6.89 2.69"/><path class="tablavideo-1" d="M12.85,2.18H10.28a.81.81,0,0,0,.22.53.68.68,0,0,0,.48.18.59.59,0,0,0,.59-.36h1.21a1.71,1.71,0,0,1-.33.66,1.89,1.89,0,0,1-.61.46,2,2,0,0,1-.82.16,2.07,2.07,0,0,1-1-.23,1.74,1.74,0,0,1-.66-.66,2.08,2.08,0,0,1-.24-1,2,2,0,0,1,.24-1,1.58,1.58,0,0,1,.66-.67A2,2,0,0,1,11,0a2,2,0,0,1,1,.23,1.54,1.54,0,0,1,.65.64,1.92,1.92,0,0,1,.24,1c0,.1,0,.21,0,.33m-1.14-.63a.6.6,0,0,0-.2-.47A.76.76,0,0,0,11,.91a.72.72,0,0,0-.48.17.71.71,0,0,0-.24.47Z"/><path class="tablavideo-1" d="M15.1.19A1.26,1.26,0,0,1,15.76,0V1.22h-.31a1,1,0,0,0-.63.18A.77.77,0,0,0,14.6,2V3.76H13.47V.05H14.6V.67a1.63,1.63,0,0,1,.5-.48"/></g></g></svg>
+                                                                        </label>
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        <label for="Troquelphi_Ejemplo">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.19 24"><defs><style>.tablaGeometria-1{fill:#fff;}.tablaGeometria-2{fill:#e96a00;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaGeometria-1" points="4.96 0.9 13.23 0.9 17.12 5.01 13.18 9.13 4.76 9.13 1.06 5.02 4.96 0.9"/><rect class="tablaGeometria-1" x="5" y="10.03" width="7.92" height="13.08"/><polygon class="tablaGeometria-1" points="0.9 6.18 4.11 9.75 4.11 22.51 0.9 19.47 0.9 6.18"/><polygon class="tablaGeometria-1" points="13.82 22.55 13.82 9.76 17.29 6.13 17.29 19.46 13.82 22.55"/><path class="tablaGeometria-2" d="M18.19,5a.66.66,0,0,0,0-.15.35.35,0,0,0-.05-.08l0-.06L13.74.14A.43.43,0,0,0,13.42,0H4.77a.43.43,0,0,0-.32.14L.12,4.71l0,.07,0,.06A.51.51,0,0,0,0,5H0V19.66A.47.47,0,0,0,.14,20l4.11,3.89.07.05.07,0a.47.47,0,0,0,.17,0h8.82a.45.45,0,0,0,.16,0l.06,0,.07,0L18,20a.45.45,0,0,0,.15-.34V5h0M5,.9h8.26L17.12,5,13.18,9.13H4.76L1.06,5ZM5,10h7.93V23.1H5ZM.9,6.18,4.11,9.75V22.51l-3.21-3ZM13.82,22.55V9.76l3.47-3.63V19.46Z"/></g></g></svg>
+                                                                        </label>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>Actividades transversales como:</th>
+                                                                    <th></th>
+                                                                    <th></th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>
+                                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                        Matemática financiera</td>
+                                                                    <td class="text-center">
+                                                                        <label for="Matematicafinancieraphi_Video" onclick="stopVideos()">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.82 24"><defs><style>.tablavideo-1{fill:#e96a00;}.tablavideo-2{fill:#fff;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="tablavideo-1" d="M19.82,14.09A9.91,9.91,0,1,0,9.91,24a9.91,9.91,0,0,0,9.91-9.91"/><path class="tablavideo-2" d="M14.32,13a1.21,1.21,0,0,1,0,2.11l-5.89,3.4a1.21,1.21,0,0,1-1.82-1.05v-6.8A1.22,1.22,0,0,1,8.43,9.63Z"/><polygon class="tablavideo-1" points="6.89 2.69 7.69 0.05 8.9 0.05 7.58 3.76 6.18 3.76 4.87 0.05 6.08 0.05 6.89 2.69"/><path class="tablavideo-1" d="M12.85,2.18H10.28a.81.81,0,0,0,.22.53.68.68,0,0,0,.48.18.59.59,0,0,0,.59-.36h1.21a1.71,1.71,0,0,1-.33.66,1.89,1.89,0,0,1-.61.46,2,2,0,0,1-.82.16,2.07,2.07,0,0,1-1-.23,1.74,1.74,0,0,1-.66-.66,2.08,2.08,0,0,1-.24-1,2,2,0,0,1,.24-1,1.58,1.58,0,0,1,.66-.67A2,2,0,0,1,11,0a2,2,0,0,1,1,.23,1.54,1.54,0,0,1,.65.64,1.92,1.92,0,0,1,.24,1c0,.1,0,.21,0,.33m-1.14-.63a.6.6,0,0,0-.2-.47A.76.76,0,0,0,11,.91a.72.72,0,0,0-.48.17.71.71,0,0,0-.24.47Z"/><path class="tablavideo-1" d="M15.1.19A1.26,1.26,0,0,1,15.76,0V1.22h-.31a1,1,0,0,0-.63.18A.77.77,0,0,0,14.6,2V3.76H13.47V.05H14.6V.67a1.63,1.63,0,0,1,.5-.48"/></g></g></svg>
+                                                                        </label>
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        <label for="Matematicafinancieraphi_Ejemplo">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.87 28"><defs><style>.tablaBombillo-1{fill:#e96a00;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="tablaBombillo-1" d="M15.69,24.49a.35.35,0,0,1-.36-.35V20.45A4.77,4.77,0,0,1,16.75,17a6.84,6.84,0,0,0,2.13-5A6.95,6.95,0,1,0,5,12a6.81,6.81,0,0,0,2.14,5,4.76,4.76,0,0,1,1.41,3.44v3.69a.36.36,0,0,1-.71,0V20.45a4,4,0,0,0-1.2-2.92A7.54,7.54,0,0,1,4.28,12,7.66,7.66,0,0,1,19.6,12a7.55,7.55,0,0,1-2.36,5.5A4,4,0,0,0,16,20.45v3.69a.35.35,0,0,1-.35.35"/><path class="tablaBombillo-1" d="M16.58,24.49H7.29a.35.35,0,0,1-.35-.35.36.36,0,0,1,.35-.36h9.29a.36.36,0,0,1,.36.36.35.35,0,0,1-.36.35"/><path class="tablaBombillo-1" d="M16.58,22.74H7.29a.36.36,0,0,1,0-.71h9.29a.36.36,0,1,1,0,.71"/><path class="tablaBombillo-1" d="M15.69,21.13H8.19a.36.36,0,1,1,0-.71h7.5a.36.36,0,0,1,0,.71"/><path class="tablaBombillo-1" d="M15.4,25.88H8.47a.36.36,0,1,1,0-.71H15.4a.36.36,0,1,1,0,.71"/><path class="tablaBombillo-1" d="M11.94,28a2.48,2.48,0,0,1-2.48-2.47.36.36,0,0,1,.72,0,1.76,1.76,0,0,0,3.51,0,.36.36,0,0,1,.36-.36.36.36,0,0,1,.36.36A2.48,2.48,0,0,1,11.94,28"/><path class="tablaBombillo-1" d="M3.2,12.28H.36a.36.36,0,1,1,0-.71H3.2a.36.36,0,1,1,0,.71"/><path class="tablaBombillo-1" d="M5.77,6.11A.36.36,0,0,1,5.51,6l-2-2a.35.35,0,0,1,0-.5.36.36,0,0,1,.51,0l2,2A.35.35,0,0,1,6,6a.36.36,0,0,1-.25.11"/><path class="tablaBombillo-1" d="M12,3.56a.36.36,0,0,1-.36-.36V.36a.36.36,0,1,1,.72,0V3.2a.36.36,0,0,1-.36.36"/><path class="tablaBombillo-1" d="M18.12,6.12a.35.35,0,0,1-.25-.1.36.36,0,0,1,0-.51l2-2a.35.35,0,0,1,.5,0,.36.36,0,0,1,0,.51l-2,2a.33.33,0,0,1-.25.1"/><path class="tablaBombillo-1" d="M23.52,12.31H20.67a.36.36,0,0,1,0-.72h2.85a.36.36,0,0,1,0,.72"/><path class="tablaBombillo-1" d="M14.33,14.53a2.17,2.17,0,0,1-.83.75,3.08,3.08,0,0,1-1.3.32v.8h-.63v-.81A3,3,0,0,1,9.88,15a1.94,1.94,0,0,1-.68-1.47H11a.83.83,0,0,0,.57.77V12.69a11,11,0,0,1-1.23-.38,2.23,2.23,0,0,1-.81-.6,1.74,1.74,0,0,1-.34-1.14,1.75,1.75,0,0,1,.67-1.44,2.89,2.89,0,0,1,1.71-.61v-.8h.63v.8a2.72,2.72,0,0,1,1.64.6,2,2,0,0,1,.67,1.45H12.7a.74.74,0,0,0-.5-.69v1.53a12.07,12.07,0,0,1,1.27.41,2,2,0,0,1,.79.58,1.71,1.71,0,0,1,.35,1.12,1.88,1.88,0,0,1-.28,1m-3.2-3.62a1.25,1.25,0,0,0,.44.29V9.83a.79.79,0,0,0-.44.21.64.64,0,0,0-.15.45.6.6,0,0,0,.15.42m1.54,3.14a.65.65,0,0,0,.17-.47.57.57,0,0,0-.16-.42,1.52,1.52,0,0,0-.48-.28v1.4a.78.78,0,0,0,.47-.23"/></g></g></svg>
+                                                                        </label>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                        Aprovechamiento del tiempo libre</td>
+                                                                    <td class="text-center">
+                                                                        <label for="Aprovechamientophi_Video" onclick="stopVideos()">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.82 24"><defs><style>.tablavideo-1{fill:#e96a00;}.tablavideo-2{fill:#fff;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="tablavideo-1" d="M19.82,14.09A9.91,9.91,0,1,0,9.91,24a9.91,9.91,0,0,0,9.91-9.91"/><path class="tablavideo-2" d="M14.32,13a1.21,1.21,0,0,1,0,2.11l-5.89,3.4a1.21,1.21,0,0,1-1.82-1.05v-6.8A1.22,1.22,0,0,1,8.43,9.63Z"/><polygon class="tablavideo-1" points="6.89 2.69 7.69 0.05 8.9 0.05 7.58 3.76 6.18 3.76 4.87 0.05 6.08 0.05 6.89 2.69"/><path class="tablavideo-1" d="M12.85,2.18H10.28a.81.81,0,0,0,.22.53.68.68,0,0,0,.48.18.59.59,0,0,0,.59-.36h1.21a1.71,1.71,0,0,1-.33.66,1.89,1.89,0,0,1-.61.46,2,2,0,0,1-.82.16,2.07,2.07,0,0,1-1-.23,1.74,1.74,0,0,1-.66-.66,2.08,2.08,0,0,1-.24-1,2,2,0,0,1,.24-1,1.58,1.58,0,0,1,.66-.67A2,2,0,0,1,11,0a2,2,0,0,1,1,.23,1.54,1.54,0,0,1,.65.64,1.92,1.92,0,0,1,.24,1c0,.1,0,.21,0,.33m-1.14-.63a.6.6,0,0,0-.2-.47A.76.76,0,0,0,11,.91a.72.72,0,0,0-.48.17.71.71,0,0,0-.24.47Z"/><path class="tablavideo-1" d="M15.1.19A1.26,1.26,0,0,1,15.76,0V1.22h-.31a1,1,0,0,0-.63.18A.77.77,0,0,0,14.6,2V3.76H13.47V.05H14.6V.67a1.63,1.63,0,0,1,.5-.48"/></g></g></svg>
+                                                                        </label>
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        <label for="Aprovechamientophi_Ejemplo">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.tablaReloj-1{fill:#e96a00;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="tablaReloj-1" d="M12,24A12,12,0,1,1,24,12,12,12,0,0,1,12,24M12,1.29A10.71,10.71,0,1,0,22.71,12,10.72,10.72,0,0,0,12,1.29"/><path class="tablaReloj-1" d="M17,15.59a.68.68,0,0,1-.33-.09l-5-2.95a.64.64,0,0,1-.22-.88.66.66,0,0,1,.88-.23l5,3a.64.64,0,0,1,.23.88.61.61,0,0,1-.55.32"/><path class="tablaReloj-1" d="M12,12.64a.63.63,0,0,1-.64-.64V2.66A.64.64,0,0,1,12,2a.64.64,0,0,1,.64.64V12a.64.64,0,0,1-.64.64"/></g></g></svg>
+                                                                        </label>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                    <div class="videoMuestra">
+                                                        <div class="tituloLibrito">
+                                                            <p style="text-align: center;">Video</p>
+                                                        </div>
+                                                        <ul>
+                                                            <li>
+                                                                <input type="radio" name="inputRadiophi_Video" class="inputRadio instruccion" checked>
+                                                                <div class="select_content" style="text-align: center;"><i class="infoActivar">Da clic en cada ícono para conocer a fondo cada actividad</i>
+                                                            </div>
+                                                            </li>
+                                                            <li>
+                                                                <input type="radio" name="inputRadiophi_Video" class="inputRadio" id="Pruebassaberphi_Video">
+                                                                <div class="select_content">
+                                                                    <div class="tituloVideo">
+                                                                        <p style="text-align: center;">Pruebas saber</p>
+                                                                    </div>
+                                                                    <div class="video-responsive">
+                                                                        <iframe class="youtubeVideo" src="https://www.youtube.com/embed/E7AvmxXJnPw?si=e_izSyxuMMKYQlL1" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <input type="radio" name="inputRadiophi_Video" class="inputRadio" id="Talleresderecapitulacionphi_Video">
+                                                                <div class="select_content">
+                                                                    <div class="tituloVideo">
+                                                                        <p style="text-align: center;">Jugando con el plano y el espacio</p>
+                                                                    </div>
+                                                                    <div class="video-responsive">
+                                                                        <iframe class="youtubeVideo" src="https://www.youtube.com/embed/3BEt9QmuMrc?si=tlCfblHLeQFmui53" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            
+                                                            <li>
+                                                                <input type="radio" name="inputRadiophi_Video" class="inputRadio" id="Laboratoriosmatematicosphi_Video">
+                                                                <div class="select_content">
+                                                                    <div class="tituloVideo">
+                                                                        <p style="text-align: center;">Laboratorios matemáticos</p>
+                                                                    </div>
+                                                                    <div class="video-responsive">
+                                                                        <iframe class="youtubeVideo" src="https://www.youtube.com/embed/3jgnREfKGNw?si=aX2KIYP7E8Y-IPxJ" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <input type="radio" name="inputRadiophi_Video" class="inputRadio" id="Troquelphi_Video">
+                                                                <div class="select_content">
+                                                                    <div class="tituloVideo">
+                                                                        <p style="text-align: center;">Troquel - ando</p>
+                                                                    </div>
+                                                                    <div class="video-responsive">
+                                                                        <iframe class="youtubeVideo" src="https://www.youtube.com/embed/WNtITjAgLuE?si=ImXCE7p00HwNasos" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <input type="radio" name="inputRadiophi_Video" class="inputRadio" id="Matematicafinancieraphi_Video">
+                                                                <div class="select_content">
+                                                                    <div class="tituloVideo">
+                                                                        <p style="text-align: center;">Matemática financiera</p>
+                                                                    </div>
+                                                                    <div class="video-responsive">
+                                                                        <iframe class="youtubeVideo" src="https://www.youtube.com/embed/8dCeaLXRzS0?si=Zloc9H8EN4lnWh3W" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <input type="radio" name="inputRadiophi_Video" class="inputRadio" id="Aprovechamientophi_Video">
+                                                                <div class="select_content">
+                                                                    <div class="tituloVideo">
+                                                                        <p style="text-align: center;">Aprovechamiento del tiempo libre</p>
+                                                                    </div>
+                                                                    <div class="video-responsive">
+                                                                        <iframe class="youtubeVideo" src="https://www.youtube.com/embed/CLapLDWZ6uI?si=St038QmEeeHG9SG0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="pag">
+                                                <div class="contenidoDE">
+                                                    <div class="indicadorVersion">
+                                                        <svg style="left:0.6vw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127.96 95.74">
+                                                            <defs>
+                                                                <style>
+                                                                    .cintaPhi{
+                                                                        fill:#F4746D;
+                                                                    }
+                                                                    .cinta-2{
+                                                                        fill:#fff;
+                                                                    }
+                                                                    .cinta-3{
+                                                                        fill:none;
+                                                                        stroke:#fff;
+                                                                        stroke-miterlimit:10;
+                                                                        stroke-width:3px;
+                                                                    }
+                                                                </style>
+                                                            </defs>
+                                                            <g id="Capa_2" data-name="Capa 2">
+                                                                <g id="Capa_1-2" data-name="Capa 1">
+                                                                    <g id="ALLCINTA">
+                                                                        <path id="CINTA" class="cintaPhi" d="M128,95.74,64,71.8,0,95.74V0H14.06S29.07,29,64,27C108.34,24.33,113.9,0,113.9,0H128Z"/>
+                                                                        <g id="BORDECINTA">
+                                                                        <circle id="CIRCULOIZ" class="cinta-2" cx="14.04" cy="3.5" r="3.5"/>
+                                                                        <circle id="CIRCULODE" class="cinta-2" cx="113.91" cy="3.5" r="3.5"/>
+                                                                        <path id="BORDE" class="cinta-3" d="M14,3C31,22.63,49.15,27,64,27c18.46,0,38.75-9.22,49.93-24"/>
+                                                                        </g>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="tituloLibrito">
+                                                        <p style="text-align: center;">Ejemplo</p>
+                                                    </div>
+                                                    <ul class="muestras">
+                                                        <li>
+                                                            <input type="radio" name="inputRadiophi_Ejemplo" class="inputRadio instruccion" checked>
+                                                            <div class="select_content" style="text-align: center;"><i class="infoActivar">Da clic en cada ícono para conocer a fondo cada actividad</i></div>
+                                                        </li>
+                                                        <li>
+                                                            <input type="radio" name="inputRadiophi_Ejemplo" class="inputRadio" id="Pruebassaberphi_Ejemplo">
+                                                            <div class="select_content ejemploLibro Pruebassaber4"></div>
+                                                        </li>
+                                                        <li>
+                                                            <input type="radio" name="inputRadiophi_Ejemplo" class="inputRadio" id="Talleresderecapitulacionphi_Ejemplo">
+                                                            <div class="select_content ejemploLibro Talleresderecapitulacion4"></div>
+                                                        </li>
+                                                        <li>
+                                                            <input type="radio" name="inputRadiophi_Ejemplo" class="inputRadio" id="Laboratoriosmatematicosphi_Ejemplo">
+                                                            <div class="select_content ejemploLibro Laboratoriosmatematicos4"></div>
+                                                        </li>
+                                                        <li>
+                                                            <input type="radio" name="inputRadiophi_Ejemplo" class="inputRadio" id="Troquelphi_Ejemplo">
+                                                            <div class="select_content ejemploLibro Troquel4"></div>
+                                                        </li>
+                                                        <li>
+                                                            <input type="radio" name="inputRadiophi_Ejemplo" class="inputRadio" id="Matematicafinancieraphi_Ejemplo">
+                                                            <div class="select_content ejemploLibro Matematicafinanciera4"></div>
+                                                        </li>
+                                                        <li>
+                                                            <input type="radio" name="inputRadiophi_Ejemplo" class="inputRadio" id="Aprovechamientophi_Ejemplo">
+                                                            <div class="select_content ejemploLibro Aprovechamiento4"></div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                
+                                            <div class="pag">
+                                                <div class="contenidoIZ">
+
+                                                    <div class="catalogo rounded">
+                                                        <div class="tituloNivel">
+                                                            <p class="Nivel">Segundo</p>
+                                                        </div>
+                                                        <div class="tituloNivel2">
+                                                            <p class="categoriaEducacion">| Educación básica primaria</p>
+                                                        </div>
+                                                        <div class="describeNivel">
+                                                            <img class="img-thumbnail imagenNivel" src="img/libros/Phi/segundo.png" alt="">
+                                                            <p><strong>¿Qué hace que nuestro libro sea tan especial?</strong> ¡Todo! Desde divertidas pruebas saber que harán brillar tus conocimientos hasta emocionantes juegos que te llevarán a descubrir los secretos más fascinantes de las <strong>matemáticas</strong>; pero eso no es todo, porque también encontrarás desafíos que te ayudarán a construir objetos 3D con troqueles, actividades lúdicas para disfrutar mientras aprendes, y hasta laboratorios matemáticos para explorar en solitario o con tus nuevos amigos.<br><strong>¿Qué aprenderás con nosotros?</strong> Desde <strong>unidades, decenas y centenas</strong> hasta <strong>adición, sustracción, multiplicación y división</strong>. Contempla números hasta el mil, descubre igualdades y desigualdades, y sumérgete en el fascinante mundo de las <strong>formas bidimensionales y tridimensionales</strong>, es la herramienta perfecta para que explores las <strong>matemáticas</strong> de manera divertida.</p>
+                                                            <div class="table-responsive latabla">
+                                                                <table class="table caption-top table-hover">
+                                                                    <caption>Pensamientos:</caption>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Numérico y sistemas numéricos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Unidades, decenas y centenas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Adición, sustracción, multiplicación y división
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Números hasta el mil
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Igualdades y desigualdades
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Espacial y sistemas geométricos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Formas bidimensionales y tridimensionales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Orientaciones y relaciones espaciales (horizontal, vertical)
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Métrico y sistemas de medidas</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Unidades de medida
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Lectura de la hora
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Aleatorio y sistemas de datos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Recolección e interpretación de datos
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Pictogramas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Gráficos de barras, gráficos de puntos y Tablas
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <p style="text-align: center"><strong>¡Sumérgete en el fascinante mundo de los números y formas, y haz que aprender sea una experiencia inolvidable!</strong></p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="pag">
+                                                <div class="contenidoDE">
+
+                                                    <div class="indicadorVersion">
+                                                        <svg style="left:0.6vw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127.96 95.74">
+                                                            <defs>
+                                                                <style>
+                                                                    .cintaPhi{
+                                                                        fill:#F4746D;
+                                                                    }
+                                                                    .cinta-2{
+                                                                        fill:#fff;
+                                                                    }
+                                                                    .cinta-3{
+                                                                        fill:none;
+                                                                        stroke:#fff;
+                                                                        stroke-miterlimit:10;
+                                                                        stroke-width:3px;
+                                                                    }
+                                                                </style>
+                                                            </defs>
+                                                            <g id="Capa_2" data-name="Capa 2">
+                                                                <g id="Capa_1-2" data-name="Capa 1">
+                                                                    <g id="ALLCINTA">
+                                                                        <path id="CINTA" class="cintaPhi" d="M128,95.74,64,71.8,0,95.74V0H14.06S29.07,29,64,27C108.34,24.33,113.9,0,113.9,0H128Z"/>
+                                                                        <g id="BORDECINTA">
+                                                                        <circle id="CIRCULOIZ" class="cinta-2" cx="14.04" cy="3.5" r="3.5"/>
+                                                                        <circle id="CIRCULODE" class="cinta-2" cx="113.91" cy="3.5" r="3.5"/>
+                                                                        <path id="BORDE" class="cinta-3" d="M14,3C31,22.63,49.15,27,64,27c18.46,0,38.75-9.22,49.93-24"/>
+                                                                        </g>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </svg>
+                                                    </div>
+
+                                                    <div class="catalogo rounded">
+                                                        <div class="tituloNivel">
+                                                            <p class="Nivel">Tercero</p>
+                                                        </div>
+                                                        <div class="tituloNivel2">
+                                                            <p class="categoriaEducacion">| Educación básica primaria</p>
+                                                        </div>
+                                                        <div class="describeNivel">
+                                                            <img class="img-thumbnail imagenNivel" src="img/libros/Phi/tercero.png" alt="">
+                                                            <p><strong>Descubre el fascinante mundo de las matemáticas,</strong> ¡Imagina pruebas saber convertidas en desafíos emocionantes, juegos matemáticos que son pura diversión y pasatiempos; ¿Te gustan los <strong>rompecabezas</strong>? Este libro te lleva a un viaje lleno de actividades con figuras <strong>tridimensionales</strong>, laboratorios matemáticos y <strong>matemática financiera</strong> que harán que aprender sea tan emocionante. Explora temas fascinantes como <strong>conjuntos</strong>, sistema <strong>decimal</strong>, operaciones (¡<strong>suma</strong>, <strong>resta</strong>, <strong>multiplicación</strong> y <strong>división</strong>!), <strong>fracciones</strong>, unidades de medida y geometría (¡<strong>ángulos</strong>, <strong>polígonos</strong>, <strong>perímetro</strong>, <strong>área</strong> y <strong>volumen</strong>!).<br>Pero eso no es todo. Nuestra misión es ir más allá de las lecciones convencionales. Este libro se centra en el desarrollo de habilidades clave como la <strong>concentración</strong>, <strong>percepción visual</strong>, <strong>creatividad</strong>, <strong>cálculo mental</strong>, <strong>lenguaje matemático</strong>, <strong>pensamiento financiero</strong> y <strong>espacial</strong>.</p>
+                                                            <div class="table-responsive latabla">
+                                                                <table class="table caption-top table-hover">
+                                                                    <caption>Pensamientos:</caption>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Numérico y sistemas numéricos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Sistema decimal
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Adición, sustracción, multiplicación y división de números naturales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Fracciones: representación, operaciones
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Espacial y sistemas geométricos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Figuras geométricas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Transformaciones geométricas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Sólidos geométricos
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Métrico y sistemas de medidas</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Unidades de tiempo, longitud, capacidad y masa
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Cálculo de magnitudes
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Aleatorio y sistemas de datos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Caracterización de variables
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Representaciones gráficas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Técnicas de conteo: principio de multiplicación
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <p style="text-align: center"><strong>¡Explora las maravillas de conjuntos, operaciones, geometría y más mientras cultivas tu mente de manera divertida y emocionante!</strong></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="pag">
+                                                <div class="contenidoIZ">
+                                                    <div class="catalogo rounded">
+                                                        <div class="tituloNivel">
+                                                            <p class="Nivel">Cuarto</p>
+                                                        </div>
+                                                        <div class="tituloNivel2">
+                                                            <p class="categoriaEducacion">| Educación básica primaria</p>
+                                                        </div>
+                                                        <div class="describeNivel">
+                                                            <img class="img-thumbnail imagenNivel" src="img/libros/Phi/cuarto.png" alt="">
+                                                                <p><strong>¡Embárcate en una emocionante aventura matemática!</strong> Descubre un mundo lleno de <strong>aprendizaje</strong> y <strong>diversión</strong>. ¿Qué hace que nuestro libro sea tan <strong>increíble</strong>? ¡Todo! Desde <strong>guías conceptuales</strong> que te guiarán en tu viaje hasta <strong>laboratorios matemáticos</strong> y <strong>juegos divertidos</strong> que harán que las matemáticas sean tus nuevas amigas, también encontrarás <strong>pruebas saber</strong> para medir tus habilidades, <strong>actividades para recortar y armar</strong>, y hasta secciones de <strong>matemática financiera</strong> que te ayudarán a tomar decisiones como un verdadero experto financiero. <br> ¿Qué aprenderás con nosotros? Desde <strong>conjuntos y operaciones con números naturales</strong> hasta <strong>fracciones, decimales y relaciones entre rectas y ángulos</strong>. Sumérgete en el fascinante mundo de los <strong>polígonos y cuerpos geométricos</strong>, explora la <strong>estadística básica</strong> con frecuencia, moda, tablas y gráficos, y aventurarte en el intrigante territorio de la <strong>probabilidad</strong>.</p>
+                                                                <div class="table-responsive latabla">
+                                                                <table class="table caption-top table-hover">
+                                                                    <caption>Pensamientos:</caption>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Numérico y sistemas numéricos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Conjuntos
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Operaciones con números naturales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Fracciones y decimales
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Espacial y sistemas geométricos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Relación entre rectas y ángulos
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Polígonos
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Cuerpos geométricos
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Aleatorio</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Frecuencia y moda
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Tablas de frecuencia
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Gráficos estadísticos (pictogramas, circulares, de barras, de líneas)
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Probabilidad
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <p style="text-align: center"><strong>¡Conviértete en un verdadero experto financiero y despierta tu amor por las matemáticas mientras exploras cada página de esta aventura educativa única!</strong></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="pag">
+                                                <div class="contenidoDE">
+                                                    <div class="indicadorVersion">
+                                                        <svg style="left:0.6vw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127.96 95.74">
+                                                            <defs>
+                                                                <style>
+                                                                    .cintaPhi{
+                                                                        fill:#F4746D;
+                                                                    }
+                                                                    .cinta-2{
+                                                                        fill:#fff;
+                                                                    }
+                                                                    .cinta-3{
+                                                                        fill:none;
+                                                                        stroke:#fff;
+                                                                        stroke-miterlimit:10;
+                                                                        stroke-width:3px;
+                                                                    }
+                                                                </style>
+                                                            </defs>
+                                                            <g id="Capa_2" data-name="Capa 2">
+                                                                <g id="Capa_1-2" data-name="Capa 1">
+                                                                    <g id="ALLCINTA">
+                                                                        <path id="CINTA" class="cintaPhi" d="M128,95.74,64,71.8,0,95.74V0H14.06S29.07,29,64,27C108.34,24.33,113.9,0,113.9,0H128Z"/>
+                                                                        <g id="BORDECINTA">
+                                                                        <circle id="CIRCULOIZ" class="cinta-2" cx="14.04" cy="3.5" r="3.5"/>
+                                                                        <circle id="CIRCULODE" class="cinta-2" cx="113.91" cy="3.5" r="3.5"/>
+                                                                        <path id="BORDE" class="cinta-3" d="M14,3C31,22.63,49.15,27,64,27c18.46,0,38.75-9.22,49.93-24"/>
+                                                                        </g>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="catalogo rounded">
+                                                        <div class="tituloNivel">
+                                                            <p class="Nivel">Quinto</p>
+                                                        </div>
+                                                        <div class="tituloNivel2">
+                                                            <p class="categoriaEducacion">| Educación básica primaria</p>
+                                                        </div>
+                                                        <div class="describeNivel">
+                                                            <img class="img-thumbnail imagenNivel" src="img/libros/Phi/quinto.png" alt="">
+                                                            <p><strong>¡Bienvenidos</strong> a la <strong>increíble aventura matemática</strong> con nuestro libro ¿<strong>Qué hace</strong> que nuestro libro sea tan <strong>emocionante</strong>? ¡<strong>Todo</strong>! Desde <strong>guías conceptuales</strong> que te guiarán en el <strong>fascinante mundo de los números</strong> hasta <strong>laboratorios y juegos matemáticos</strong> que harán que descubras el <strong>poder de la matemática</strong> de manera <strong>práctica y divertida</strong>. ¡Incluso podrás sumergirte en <strong>manualidades creativas</strong> relacionadas con <strong>figuras geométricas</strong> y la <strong>magia de la matemática financiera</strong>!<br>¡Imagina explorar <strong>números naturales</strong> y sus <strong>operaciones</strong>, descubrir la <strong>magia de la divisibilidad</strong>, sumergirte en el <strong>mundo de las fracciones y decimales</strong>, explorar el <strong>sistema métrico</strong>, desafiar a la <strong>geometría</strong>, jugar con la <strong>estadística básica</strong> y explorar la <strong>probabilidad</strong>! Este libro no solo fortalecerá tu <strong>pensamiento lógico-matemático</strong>, sino que también te preparará para <strong>pruebas estandarizadas</strong> a nivel nacional.</p>
+                                                            <div class="table-responsive latabla">
+                                                                <table class="table caption-top table-hover">
+                                                                    <caption>Pensamientos:</caption>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Numérico y sistemas numéricos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Números naturales y operaciones
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Divisibilidad y números primos
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Fracciones y operaciones
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Decimales y operaciones
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Espacial y sistemas geométricos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Longitud, perímetro y área
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Sólidos, volumen y capacidad
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Orientación espacial
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Transformaciones geométricas
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Métrico y sistemas de medidas</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Sistema Internacional de Unidades
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Aleatorio y sistemas de datos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Estadística descriptiva
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Probabilidad
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <p style="text-align: center"><strong>¡Prepárate para un viaje que no solo transformará tu comprensión de las matemáticas, sino que también abrirá las puertas a nuevas y emocionantes posibilidades!</strong></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="pag">
+                                                <div class="contenidoIZ">
+                                                    
+                                                    <div class="catalogo rounded">
+                                                        <div class="tituloNivel">
+                                                            <p class="Nivel">Sexto</p>
+                                                        </div>
+                                                        <div class="tituloNivel2">
+                                                            <p class="categoriaEducacion">| Educación básica secundaria</p>
+                                                        </div>
+                                                        <div class="describeNivel">
+                                                            <img class="img-thumbnail imagenNivel" src="img/libros/Phi/sexto.png" alt="">
+                                                            <p><strong>¡Descubre un nuevo mundo lleno de aventuras matemáticas!</strong> Nuestra misión es <strong>desarrollar tus capacidades</strong>, dentro de sus guías conceptuales que iluminarán tus pensamientos hasta <strong>laboratorios matemáticos</strong> que te invitarán a resolver problemas de manera creativa. Además, podrás sumergirte en el fascinante universo de las <strong>figuras geométricas</strong> con manualidades divertidas y con la <strong>matemática financiera</strong>; interactúa con <strong>figuras 3D</strong> troquelando, diviértete con <strong>crucigramas</strong> y retos espaciales en tu tiempo libre, y desarrolla tu capacidad resolutiva en los <strong>laboratorios matemáticos</strong> que fomentan el trabajo en equipo y la autonomía. <br> ¿Qué aprenderás con nosotros? Desde operaciones con <strong>fracciones</strong> y <strong>decimales</strong> hasta explorar <strong>números enteros</strong>, <strong>polinomios</strong>, <strong>ecuaciones</strong>, <strong>geometría</strong>, <strong>estadística básica</strong> y <strong>probabilidad</strong>.</p>
+                                                            <div class="table-responsive latabla">
+                                                                <table class="table caption-top table-hover">
+                                                                    <caption>Pensamientos:</caption>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Numérico y sistemas numéricos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Operaciones con fracciones y decimales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Números enteros: valor absoluto, relación de orden
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Operaciones con números enteros
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Variacional y sistemas algebraicos y analíticos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Polinomios y ecuaciones
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Espacial y sistemas geométricos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Figuras geométricas: perímetro y área
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Cuerpos geométricos y volumen
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Aleatorio y sistemas de datos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Población, muestra y variables estadísticas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Medidas de tendencia central
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Gráficos estadísticos
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Aleatorio y sistemas de datos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Actividad sobre probabilidad
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Otros</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Pruebas saber y laboratorios matemáticos
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <p style="text-align: center"><strong>¡Únete a nosotros y transforma cada desafío en una oportunidad para crecer y brillar en el fascinante universo de las matemáticas!</strong></p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="pag">
+                                                <div class="contenidoDE">
+                                                    <div class="indicadorVersion">
+                                                        <svg style="left:0.6vw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127.96 95.74">
+                                                            <defs>
+                                                                <style>
+                                                                    .cintaPhi{
+                                                                        fill:#F4746D;
+                                                                    }
+                                                                    .cinta-2{
+                                                                        fill:#fff;
+                                                                    }
+                                                                    .cinta-3{
+                                                                        fill:none;
+                                                                        stroke:#fff;
+                                                                        stroke-miterlimit:10;
+                                                                        stroke-width:3px;
+                                                                    }
+                                                                </style>
+                                                            </defs>
+                                                            <g id="Capa_2" data-name="Capa 2">
+                                                                <g id="Capa_1-2" data-name="Capa 1">
+                                                                    <g id="ALLCINTA">
+                                                                        <path id="CINTA" class="cintaPhi" d="M128,95.74,64,71.8,0,95.74V0H14.06S29.07,29,64,27C108.34,24.33,113.9,0,113.9,0H128Z"/>
+                                                                        <g id="BORDECINTA">
+                                                                        <circle id="CIRCULOIZ" class="cinta-2" cx="14.04" cy="3.5" r="3.5"/>
+                                                                        <circle id="CIRCULODE" class="cinta-2" cx="113.91" cy="3.5" r="3.5"/>
+                                                                        <path id="BORDE" class="cinta-3" d="M14,3C31,22.63,49.15,27,64,27c18.46,0,38.75-9.22,49.93-24"/>
+                                                                        </g>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="catalogo rounded">
+                                                        <div class="tituloNivel">
+                                                            <p class="Nivel">Séptimo</p>
+                                                        </div>
+                                                        <div class="tituloNivel2">
+                                                            <p class="categoriaEducacion">| Educación básica secundaria</p>
+                                                        </div>
+                                                        <div class="describeNivel">
+                                                            <img class="img-thumbnail imagenNivel" src="img/libros/Phi/septimo.png" alt="">
+                                                            <p><strong>¿Qué hace a nuestro libro tan especial?</strong> ¡Todo lo que puedas imaginar y más! Desde guías conceptuales que te guiarán en tu viaje matemático hasta laboratorios llenos de experimentos fascinantes. Aborda temas como <strong>operaciones con números enteros, racionales y decimales; potenciación y radicación; razones y proporciones; unidades de medida; perímetros, áreas y volúmenes; geometría plana y espacial; estadística descriptiva;</strong> y la creación de increíbles <strong>diagramas y gráficas.</strong> <br> Este libro no solo te prepara para las <strong>pruebas saber,</strong> sino que también fortalece tu <strong>pensamiento matemático,</strong> preparándote para enfrentar cualquier desafío con <strong>confianza y creatividad.</strong> ¡<strong>El aprendizaje nunca ha sido tan emocionante!</strong> ¡<strong>Descubre, aprende y diviértete</strong>!, no te pierdas la oportunidad de explorar las matemáticas de una manera <strong>única y emocionante.</strong></p>
+                                                            <div class="table-responsive latabla">
+                                                                <table class="table caption-top table-hover">
+                                                                    <caption>Pensamientos:</caption>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Numérico y sistemas numéricos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Operaciones con números enteros, racionales y decimales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Potenciación y radicación
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Operaciones, Potenciación, radicación, logaritmación.
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>espacial y sistemas geométricos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Perímetros, áreas y volúmenes
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Geometría plana y espacial
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Transformaciones en el plano
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Métrico y sistemas de medidas</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Unidades de medida
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Magnitudes directa e inversamente proporcionales
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Aleatorio y sistemas de datos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Estadística descriptiva: diagramas, tablas, gráficas
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Variacional y sistemas algebraicos y analíticos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Ecuaciones lineales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Razones y proporciones
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <p style="text-align: center"><strong>¡El aprendizaje nunca ha sido tan emocionante! No te pierdas la oportunidad de explorar las matemáticas de una manera única y emocionante. ¡Descubre, aprende y diviértete con nosotros!</strong></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="pag">
+                                                <div class="contenidoIZ">
+                                                    <div class="catalogo rounded">
+                                                        <div class="tituloNivel">
+                                                            <p class="Nivel">Octavo</p>
+                                                        </div>
+                                                        <div class="tituloNivel2">
+                                                            <p class="categoriaEducacion">| Educación básica secundaria</p>
+                                                        </div>
+                                                        <div class="describeNivel">
+                                                            <img class="img-thumbnail imagenNivel" src="img/libros/Phi/octavo.png" alt="">
+                                                            <p>¡Bienvenidos a una <strong>colección increíble</strong> de <strong>actividades matemáticas</strong> que te harán <strong>volar la imaginación</strong>! Desde <strong>guías conceptuales</strong> que te guiarán paso a paso, hasta <strong>laboratorios</strong> y <strong>juegos espaciales</strong> que te llevarán a descubrir el asombroso mundo de las <strong>formas y los números</strong>, también encontrarás <strong>pruebas saber</strong> para desafiar tus conocimientos, <strong>actividades de modelado</strong> con troqueles que te permitirán construir tus propias creaciones, ¡y hasta <strong>matemática financiera</strong> para que empieces a tomar decisiones inteligentes desde pequeño!. <br> Explorarás el fascinante mundo de la <strong>geometría</strong>, descubrirás <strong>números reales</strong>, <strong>expresiones algebraicas</strong>, <strong>productos y cocientes notables</strong>, <strong>trinomios</strong>, <strong>fracciones algebraicas</strong> y <strong>ecuaciones lineales</strong>. ¡Incluso te aventurarás en el emocionante <strong>teorema de Pitágoras</strong> y aprenderás a calcular <strong>áreas y volúmenes</strong> como un verdadero <strong>explorador matemático</strong>!</p>
+                                                            <div class="table-responsive latabla">
+                                                                <table class="table caption-top table-hover">
+                                                                    <caption>Pensamientos:</caption>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Numérico y sistemas numéricos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Números reales
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Geométrico y sistemas geométricos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Ángulos y teorema de Pitágoras
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Métrico y sistemas de medidas</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Áreas y perímetros
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Volúmenes
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Aleatorio y sistemas de datos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Pensamiento aleatorio y sistemas de datos
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Variacional y sistemas algebraicos y analíticos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Expresiones algebraicas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Productos y cocientes notables
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Trinomios
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Fracciones algebraicas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Ecuaciones lineales
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <p style="text-align: center"><strong>¡Conviértete en un verdadero explorador matemático y deja que tu imaginación vuele alto!</strong></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="pag">
+                                                <div class="contenidoDE">
+                                                    <div class="indicadorVersion">
+                                                        <svg style="left:0.6vw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127.96 95.74">
+                                                            <defs>
+                                                                <style>
+                                                                    .cintaAPhi{
+                                                                        fill:#F4746D;
+                                                                    }
+                                                                    .cinta-2{
+                                                                        fill:#fff;
+                                                                    }
+                                                                    .cinta-3{
+                                                                        fill:none;
+                                                                        stroke:#fff;
+                                                                        stroke-miterlimit:10;
+                                                                        stroke-width:3px;
+                                                                    }
+                                                                </style>
+                                                            </defs>
+                                                            <g id="Capa_2" data-name="Capa 2">
+                                                                <g id="Capa_1-2" data-name="Capa 1">
+                                                                    <g id="ALLCINTA">
+                                                                        <path id="CINTA" class="cintaPhi" d="M128,95.74,64,71.8,0,95.74V0H14.06S29.07,29,64,27C108.34,24.33,113.9,0,113.9,0H128Z"/>
+                                                                        <g id="BORDECINTA">
+                                                                        <circle id="CIRCULOIZ" class="cinta-2" cx="14.04" cy="3.5" r="3.5"/>
+                                                                        <circle id="CIRCULODE" class="cinta-2" cx="113.91" cy="3.5" r="3.5"/>
+                                                                        <path id="BORDE" class="cinta-3" d="M14,3C31,22.63,49.15,27,64,27c18.46,0,38.75-9.22,49.93-24"/>
+                                                                        </g>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="catalogo rounded">
+
+                                                        <div class="tituloNivel">
+                                                            <p class="Nivel">Noveno</p>
+                                                        </div>
+                                                        <div class="tituloNivel2">
+                                                            <p class="categoriaEducacion">| Educación básica secundaria</p>
+                                                        </div>
+                                                        <div class="describeNivel">
+                                                            <img class="img-thumbnail imagenNivel" src="img/libros/Phi/noveno.png" alt="">
+                                                            <p><strong>Sumérgete</strong> en un viaje educativo <strong>único</strong>. Este libro está diseñado para desarrollar las habilidades y conocimientos fundamentales desde la <strong>educación básica</strong> hasta la <strong>media</strong>, explora un universo de actividades como guías, juegos geométricos, pruebas saber, manualidades matemáticas, <strong>finanzas</strong> y aprovechamiento del <strong>tiempo libre</strong>. Promovemos la apropiación de conceptos para la toma de decisiones financieras. Explora el mundo tridimensional y repasa temas a través de creativas manualidades. Fomenta la curiosidad numérica y desarrolla habilidades del pensamiento matemático mientras disfrutas del tiempo libre. Experimenta con el trabajo individual, colectivo y en equipo, abarcando competencias y derechos básicos de aprendizaje en matemáticas. Explora temas fascinantes: Desde <strong>potenciación</strong> hasta <strong>geometría</strong>, nuestro libro cubre temas emocionantes como <strong>razones</strong>, <strong>proporciones</strong>, <strong>trigonometría</strong> y mucho más.</p>
+                                                            <div class="table-responsive latabla">
+                                                                <table class="table caption-top table-hover">
+                                                                    <caption>Pensamientos:</caption>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Numérico y sistemas numéricos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Potenciación y radicación
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Números complejos
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Espacial y sistemas geométricos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Cuerpos geométricos
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Circunferencia y círculo
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Métrico y sistemas de medidas</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Razones y proporciones
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Aleatorio y sistemas de datos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Sucesiones y progresiones
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Variacional y sistemas algebraicos y analíticos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Funciones lineal y cuadrática
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Ecuaciones lineales y cuadráticas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Ecuaciones exponenciales y logarítmicas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Semejanza de triángulos
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <p style="text-align: center"><strong>¡Convierte cada momento de tu tiempo libre en una oportunidad para crecer y explorar el fascinante mundo de las matemáticas con nosotros!</strong></p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="pag">
+                                                <div class="contenidoIZ">
+                                                    <div class="catalogo rounded">
+
+                                                        <div class="tituloNivel">
+                                                            <p class="Nivel">Décimo</p>
+                                                        </div>
+                                                        <div class="tituloNivel2">
+                                                            <p class="categoriaEducacion">| Educación básica secundaria</p>
+                                                        </div>
+                                                        <div class="describeNivel">
+                                                            <img class="img-thumbnail imagenNivel" src="img/libros/Phi/decimo.png" alt="">
+                                                            <p>En esta emocionante <strong>aventura educativa</strong>, aprenderás <strong>matemáticas</strong> de una manera divertida y creativa. Con actividades como juegos <strong>geométricos</strong>, pruebas <strong>saber</strong>, <strong>manualidades matemáticas</strong> y más; a través de secciones como "Jugando con el plano y el espacio" y "Aprovechamiento del tiempo libre", los niños aprenderán mientras se divierten. ¡La <strong>matemática</strong> se convierte en un juego emocionante! Con secciones como "Matemática financiera", enseñamos a los pequeños conceptos <strong>financieros</strong> de manera accesible y divertida. Nuestras secciones de <strong>manualidades</strong> ofrecen interacción con objetos 3D y una recapitulación visual de los temas aprendidos. ¡<strong>Troquelar</strong> y crear será tan divertido como aprender <strong>números reales</strong>, <strong>funciones</strong>, <strong>geometría</strong> y más! Fomentamos el trabajo individual y colectivo a través de actividades que desarrollan habilidades <strong>cognitivas</strong>, <strong>metacognitivas</strong> e <strong>interpersonales</strong>.</p>
+                                                            <div class="table-responsive latabla">
+                                                                <table class="table caption-top table-hover">
+                                                                    <caption>Pensamientos:</caption>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Numérico y sistemas numéricos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Números reales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Cálculo mental
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Espacial y sistemas geométricos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Plano y figuras geométricas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Teorema de Pitágoras
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Métrico</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Medidas y conversiones
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Aleatorio</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Pruebas saber
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Variacional</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Funciones
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Trigonometría
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Gráficas y análisis
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Otros</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Matemática financiera
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Actividades lúdicas y laboratorios
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <p style="text-align: center"><strong>¡Únete a nosotros y haz que cada descubrimiento sea una victoria!</strong></p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="pag">
+                                                <div class="contenidoDE">
+                                                    <div class="indicadorVersion">
+                                                        <svg style="left:0.6vw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127.96 95.74">
+                                                            <defs>
+                                                                <style>
+                                                                    .cintaPhi{
+                                                                        fill:#F4746D;
+                                                                    }
+                                                                    .cinta-2{
+                                                                        fill:#fff;
+                                                                    }
+                                                                    .cinta-3{
+                                                                        fill:none;
+                                                                        stroke:#fff;
+                                                                        stroke-miterlimit:10;
+                                                                        stroke-width:3px;
+                                                                    }
+                                                                </style>
+                                                            </defs>
+                                                            <g id="Capa_2" data-name="Capa 2">
+                                                                <g id="Capa_1-2" data-name="Capa 1">
+                                                                    <g id="ALLCINTA">
+                                                                        <path id="CINTA" class="cintaPhi" d="M128,95.74,64,71.8,0,95.74V0H14.06S29.07,29,64,27C108.34,24.33,113.9,0,113.9,0H128Z"/>
+                                                                        <g id="BORDECINTA">
+                                                                        <circle id="CIRCULOIZ" class="cinta-2" cx="14.04" cy="3.5" r="3.5"/>
+                                                                        <circle id="CIRCULODE" class="cinta-2" cx="113.91" cy="3.5" r="3.5"/>
+                                                                        <path id="BORDE" class="cinta-3" d="M14,3C31,22.63,49.15,27,64,27c18.46,0,38.75-9.22,49.93-24"/>
+                                                                        </g>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="catalogo rounded">
+                                                        
+                                                        <div class="tituloNivel">
+                                                            <p class="Nivel">Once</p>
+                                                        </div>
+                                                        <div class="tituloNivel2">
+                                                            <p class="categoriaEducacion">| Educación básica secundaria</p>
+                                                        </div>
+                                                        <div class="describeNivel">
+                                                            <img class="img-thumbnail imagenNivel" src="img/libros/Phi/once.png" alt="">
+                                                            <p>En este <strong>mágico</strong> libro, encontrarás actividades que van desde guías <strong>conceptuales</strong> hasta emocionantes juegos que explorarán el mundo de los <strong>números</strong> y las <strong>formas</strong> de una manera única. También ayuda a evaluar tus habilidades a través de pruebas <strong>saber</strong>. La sección de matemática <strong>financiera</strong> te enseñará a tomar decisiones <strong>inteligentes</strong>, mientras que las <strong>manualidades</strong> con troqueles harán que construir sólidos matemáticos sea tan fácil como jugar con bloques. <br> ¿Qué hay de las actividades para el <strong>tiempo libre</strong>? ¡Prepárate para explorar el pensamiento matemático mientras te diviertes!, los <strong>laboratorios</strong> te llevarán a descubrir el fascinante mundo de las matemáticas de manera <strong>individual</strong>, <strong>colectiva</strong> y en <strong>equipo</strong>. ¡No te pierdas la oportunidad de explorar <strong>números reales</strong> y sus operaciones, <strong>desigualdades</strong>, <strong>trigonometría</strong>, <strong>funciones</strong>, <strong>límites</strong>, <strong>derivadas</strong> y <strong>continuidad</strong>!</p>
+                                                            <div class="table-responsive latabla">
+                                                                <table class="table caption-top table-hover">
+                                                                    <caption>Pensamientos:</caption>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Numérico y sistemas numéricos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Números reales y sus operaciones
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Operaciones con números reales
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Espacial y sistemas geométricos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Teorema de Pitágoras
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Trigonometría
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Variacional y sistemas algebraicos y analíticos</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Ecuaciones e inecuaciones
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>                          
+                                                                                Funciones
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>                          
+                                                                                Límites y continuidad
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>                          
+                                                                                Derivadas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>                          
+                                                                                Pruebas Saber
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>                          
+                                                                                Actividades lúdicas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>                          
+                                                                                Laboratorios matemáticos
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <p style="text-align: center"><strong>¡Descubre el placer de aprender matemáticas mientras te diviertes y creces intelectualmente!</strong></p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- fin Phi-->
+
+<!-------------- ALPHA --------------><!-------------- ALPHA --------------><!-------------- ALPHA -------------->
+                                            <div class="pag">
+                                                <div class="contenidoIZ">
+
                                                     <div class="tituloLibrito">
                                                         <p style="text-align: center;">Versión alpha</p>
                                                     </div>
@@ -708,6 +2350,7 @@ require_once(dirname(__FILE__).'/componentes.php');
                                                             </li>
                                                         </ul>
                                                     </div>
+
                                                 </div>
                                             </div>
                                             <div class="pag">
@@ -783,7 +2426,7 @@ require_once(dirname(__FILE__).'/componentes.php');
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <!---->
+                                
                                             <div class="pag">
                                                 <div class="contenidoIZ">
 
@@ -1023,7 +2666,7 @@ require_once(dirname(__FILE__).'/componentes.php');
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!---->
+                                            
                                             <div class="pag">
                                                 <div class="contenidoIZ">
                                                     <div class="catalogo rounded">
@@ -1114,6 +2757,7 @@ require_once(dirname(__FILE__).'/componentes.php');
                                                     </div>
                                                 </div>
                                             </div>
+
                                             <div class="pag">
                                                 <div class="contenidoDE">
                                                     <div class="indicadorVersion">
@@ -1534,6 +3178,7 @@ require_once(dirname(__FILE__).'/componentes.php');
                                                     </div>
                                                 </div>
                                             </div>
+
                                             <div class="pag">
                                                 <div class="contenidoIZ">
                                                     <div class="catalogo rounded">
@@ -1644,6 +3289,7 @@ require_once(dirname(__FILE__).'/componentes.php');
                                                     </div>
                                                 </div>
                                             </div>
+
                                             <div class="pag">
                                                 <div class="contenidoDE">
                                                     <div class="indicadorVersion">
@@ -1781,6 +3427,7 @@ require_once(dirname(__FILE__).'/componentes.php');
                                                     </div>
                                                 </div>
                                             </div>
+
                                             <div class="pag">
                                                 <div class="contenidoIZ">
                                                     <div class="catalogo rounded">
@@ -1899,6 +3546,7 @@ require_once(dirname(__FILE__).'/componentes.php');
                                                     </div>
                                                 </div>
                                             </div>
+
                                             <div class="pag">
                                                 <div class="contenidoDE">
                                                     <div class="indicadorVersion">
@@ -2048,6 +3696,7 @@ require_once(dirname(__FILE__).'/componentes.php');
                                                     </div>
                                                 </div>
                                             </div>
+
                                             <div class="pag">
                                                 <div class="contenidoIZ">
                                                     <div class="catalogo rounded">
@@ -2166,6 +3815,7 @@ require_once(dirname(__FILE__).'/componentes.php');
                                                     </div>
                                                 </div>
                                             </div>
+
                                             <div class="pag">
                                                 <div class="contenidoDE">
                                                     <div class="indicadorVersion">
@@ -2298,6 +3948,7 @@ require_once(dirname(__FILE__).'/componentes.php');
                                                     </div>
                                                 </div>
                                             </div>
+                                            <!-- fin Alpha -->
                                             <div class="pag">
                                                 <div class="contenidoIZ">
 
@@ -2310,6 +3961,7 @@ require_once(dirname(__FILE__).'/componentes.php');
                                             </div>
                                         </div>
                                     </div>
+
                                 </li>
                                 <li>
                                     <input type="radio" name="inputRadio2" class="inputRadio2" id="libritoDimensiones">
@@ -2360,12 +4012,18 @@ require_once(dirname(__FILE__).'/componentes.php');
                                             </div>
                                         </div>
                                     </div>
+
                                 </li>
                                 <li>
+<!-------------- D-IDEAS --------------><!-------------- D-IDEAS --------------><!-------------- D-IDEAS -------------->
                                     <input type="radio" name="inputRadio2" class="inputRadio2" id="libritoDIdeas">
                                     <div class="select_content">
                                     <div class="flipbook" id="flipbook_3">
-                                            <div class="hard">D-Ideas</div>
+                                            
+                                            <div class="hard portadaDIDeas">
+                                                <img class="manoClick" src="img/libros/manoClick-01.png" alt="">
+                                            </div>
+                                            
                                             <!---->
                                             <div class="hard" style="background-color: #ffffff">
                                                 <div class="contenidoIZ"></div>
@@ -2373,33 +4031,2080 @@ require_once(dirname(__FILE__).'/componentes.php');
                                             <div class="pag">
                                                 <div class="contenidoDE">
 
+                                                    <div class="espacioNiveles"></div>
+                                                    <div class="tituloLibrito">
+                                                        <p style="text-align: center;">Material educativo interactivo</p>
+                                                    </div>
+                                                    <div class="video-responsive">
+                                                        <iframe class="youtubeVideo" src="https://www.youtube.com/embed/VAA38mFZud4?si=ImU-WySFMDdnN322" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                                                    </div>
+                                                    <div class="espacioNiveles"></div>
+                                                    <div class="video-responsive">
+                                                        <iframe class="youtubeVideo" src="https://www.youtube.com/embed/7fZjLUcADeg?si=Haqa76p-LddXf1n1" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                                                    </div>
+
                                                 </div>
                                             </div>
                                             <!---->
                                             <div class="pag">
                                                 <div class="contenidoIZ">
+
+                                                    <div class="tituloLibrito">
+                                                        <p style="text-align: center;">D-IDEAS</p>
+                                                    </div>
+                                                    <br>
+                                                    <div class="parrafoLibrito">
+                                                        <p><strong>Carpeta cuyo contenido son</strong> 16 páginas, que incluyen preparaciones conceptuales y actividades evaluativas; El contenido de cada carpeta está dividido según los <strong>pensamientos numérico – variacional, métrico – espacial y aleatorio</strong>, de acuerdo a las temáticas propuestas por el <strong>MEN</strong>. De este modo, para cada nivel se presenta una carpeta por bloque de pensamientos <strong>(Geometría – Estadística - Númerico − Variacional)</strong></p>
+                                                    </div>
+                                                    <div class="table-responsive latabla">
+                                                        <table class="table caption-top table-hover">
+                                                            <caption>El material físico incluye:</caption>
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>Actividades evaluativas como:</th>
+                                                                    <th class="text-center">Video</th>
+                                                                    <th class="text-center">Ejemplo</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>
+                                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                        Preparaciones conceptuales
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        <label for="PreparacionesconceptualesDideas_Video" onclick="stopVideos()">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.82 24"><defs><style>.tablavideo-1{fill:#e96a00;}.tablavideo-2{fill:#fff;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="tablavideo-1" d="M19.82,14.09A9.91,9.91,0,1,0,9.91,24a9.91,9.91,0,0,0,9.91-9.91"/><path class="tablavideo-2" d="M14.32,13a1.21,1.21,0,0,1,0,2.11l-5.89,3.4a1.21,1.21,0,0,1-1.82-1.05v-6.8A1.22,1.22,0,0,1,8.43,9.63Z"/><polygon class="tablavideo-1" points="6.89 2.69 7.69 0.05 8.9 0.05 7.58 3.76 6.18 3.76 4.87 0.05 6.08 0.05 6.89 2.69"/><path class="tablavideo-1" d="M12.85,2.18H10.28a.81.81,0,0,0,.22.53.68.68,0,0,0,.48.18.59.59,0,0,0,.59-.36h1.21a1.71,1.71,0,0,1-.33.66,1.89,1.89,0,0,1-.61.46,2,2,0,0,1-.82.16,2.07,2.07,0,0,1-1-.23,1.74,1.74,0,0,1-.66-.66,2.08,2.08,0,0,1-.24-1,2,2,0,0,1,.24-1,1.58,1.58,0,0,1,.66-.67A2,2,0,0,1,11,0a2,2,0,0,1,1,.23,1.54,1.54,0,0,1,.65.64,1.92,1.92,0,0,1,.24,1c0,.1,0,.21,0,.33m-1.14-.63a.6.6,0,0,0-.2-.47A.76.76,0,0,0,11,.91a.72.72,0,0,0-.48.17.71.71,0,0,0-.24.47Z"/><path class="tablavideo-1" d="M15.1.19A1.26,1.26,0,0,1,15.76,0V1.22h-.31a1,1,0,0,0-.63.18A.77.77,0,0,0,14.6,2V3.76H13.47V.05H14.6V.67a1.63,1.63,0,0,1,.5-.48"/></g></g></svg>
+                                                                        </label>
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        <label for="PreparacionesconceptualesDideas_Ejemplo">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.24 24"><defs><style>.tablacerebro-1{fill:#e96a00;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="tablacerebro-1" d="M3.39,14.88a4,4,0,0,1-1.55-.32A3,3,0,0,1,0,11.76a3.64,3.64,0,0,1,.85-2.6A3.36,3.36,0,0,1,1,6.81a3.1,3.1,0,0,1,2.05-1.5,3,3,0,0,1,2.67.31,4.28,4.28,0,0,1,1.47,3,.33.33,0,0,1-.29.34.32.32,0,0,1-.33-.3A3.78,3.78,0,0,0,5.38,6.14a2.42,2.42,0,0,0-2.13-.23A2.52,2.52,0,0,0,1.59,7.09a2.86,2.86,0,0,0-.09,2,.31.31,0,0,1-.06.32,3.13,3.13,0,0,0-.81,2.28,2.61,2.61,0,0,0,2.83,2.53.32.32,0,0,1,.33.3.31.31,0,0,1-.29.33H3.39"/><path class="tablacerebro-1" d="M3.82,5.8a.31.31,0,0,1-.27-.17,2.53,2.53,0,0,1,.76-3.48,2.4,2.4,0,0,1,2.08-.31A2.86,2.86,0,0,1,8,3.49a.32.32,0,0,1-.19.41.31.31,0,0,1-.4-.2A2.24,2.24,0,0,0,6.18,2.43a1.73,1.73,0,0,0-1.54.26c-1.46.89-.58,2.57-.54,2.64A.32.32,0,0,1,4,5.76a.33.33,0,0,1-.15,0"/><path class="tablacerebro-1" d="M7.26,23.88A3.45,3.45,0,0,1,4.09,22a2.91,2.91,0,0,1-1.68-.92,4.15,4.15,0,0,1-.9-3A2.7,2.7,0,0,1,0,15.78a3.1,3.1,0,0,1,.63-2.49.31.31,0,0,1,.44,0,.31.31,0,0,1,0,.44,2.48,2.48,0,0,0-.45,2,2,2,0,0,0,1.28,1.86.35.35,0,0,1,.22.32,3.69,3.69,0,0,0,.72,2.78,2.26,2.26,0,0,0,1.44.73.35.35,0,0,1,.28.2,2.81,2.81,0,0,0,2.67,1.63,3.52,3.52,0,0,0,3-1.73v-20c0-.13-.32-.85-1.82-.85a2.8,2.8,0,0,0-2.6,1.53.31.31,0,0,1-.41.17.32.32,0,0,1-.17-.41A3.4,3.4,0,0,1,8.39,0c2.17,0,2.44,1.33,2.45,1.38V21.6a.32.32,0,0,1,0,.14,4.18,4.18,0,0,1-3.55,2.14"/><path class="tablacerebro-1" d="M10.53,9.34a.32.32,0,0,1-.32-.28A2.17,2.17,0,0,0,8.16,7.2a.32.32,0,0,1-.27-.35.31.31,0,0,1,.35-.28A2.85,2.85,0,0,1,10.84,9a.32.32,0,0,1-.29.34h0"/><path class="tablacerebro-1" d="M6.72,11.6a3.25,3.25,0,0,1-.85-.11c-2.45-.64-2.45-3.62-2.45-3.65a.32.32,0,0,1,.32-.31.31.31,0,0,1,.31.32c0,.1,0,2.52,2,3A2.77,2.77,0,0,0,9.09,9.5a.32.32,0,1,1,.55.31A3.63,3.63,0,0,1,6.72,11.6"/><path class="tablacerebro-1" d="M4.18,13.72H4.12a.31.31,0,0,1-.31-.32.31.31,0,0,1,.32-.31h0A2.55,2.55,0,0,0,6.72,11.2.31.31,0,0,1,7.09,11a.31.31,0,0,1,.24.37,3.21,3.21,0,0,1-3.15,2.38"/><path class="tablacerebro-1" d="M6.91,21.88a.33.33,0,0,1-.32-.31,3.1,3.1,0,0,0-3.24-3.11A.32.32,0,0,1,3,18.15a.33.33,0,0,1,.31-.32s3.76,0,3.88,3.72a.31.31,0,0,1-.3.33h0"/><path class="tablacerebro-1" d="M4.51,18.64a.31.31,0,0,1-.31-.31s0-3.81,3.8-3.95A.32.32,0,0,1,8,15a3.22,3.22,0,0,0-3.21,3.32.31.31,0,0,1-.31.31Z"/><path class="tablacerebro-1" d="M10.53,20.09a.32.32,0,0,1-.31-.26,3.4,3.4,0,0,0-2.84-2.61.31.31,0,0,1-.26-.36.3.3,0,0,1,.35-.26,4.09,4.09,0,0,1,3.37,3.12.32.32,0,0,1-.26.36h-.05"/><path class="tablacerebro-1" d="M12.76,21a.31.31,0,0,1-.31-.29,3.65,3.65,0,0,1,.81-2.51,4.15,4.15,0,0,1,3-1.35.31.31,0,1,1,.05.62,3.56,3.56,0,0,0-2.54,1.12,3.12,3.12,0,0,0-.68,2.07.31.31,0,0,1-.28.34h0"/><path class="tablacerebro-1" d="M15,17.73h0a.32.32,0,0,1-.26-.36,3,3,0,0,0-.55-2,3.4,3.4,0,0,0-2.48-1.12.31.31,0,0,1-.29-.34.31.31,0,0,1,.34-.28A4,4,0,0,1,14.59,15a3.55,3.55,0,0,1,.67,2.52.32.32,0,0,1-.31.26"/><path class="tablacerebro-1" d="M10.53,7.2h-.07a.3.3,0,0,1-.24-.37A2.32,2.32,0,0,1,12.58,5a.32.32,0,0,1,0,.63A1.72,1.72,0,0,0,10.83,7a.31.31,0,0,1-.3.25"/><path class="tablacerebro-1" d="M13.73,24a4.08,4.08,0,0,1-3.49-2.27.31.31,0,0,1,.15-.41.31.31,0,0,1,.42.14,3.47,3.47,0,0,0,3,1.91,3.11,3.11,0,0,0,2.78-1.78.32.32,0,0,1,.23-.19c.1,0,2.34-.47,2.11-3.49a.3.3,0,0,1,.19-.31c.08,0,2.1-1,.92-3.94a.33.33,0,0,1,.18-.41.31.31,0,0,1,.4.18c1.17,2.95-.46,4.27-1.05,4.64A3.55,3.55,0,0,1,17.08,22a3.74,3.74,0,0,1-3.28,2h-.07"/><path class="tablacerebro-1" d="M15.69,2.28a.31.31,0,0,1-.2-.07A4.71,4.71,0,0,0,12.13.78a2.23,2.23,0,0,0-1.41.7.31.31,0,1,1-.49-.38A2.74,2.74,0,0,1,12.07.16,5.25,5.25,0,0,1,15.9,1.73a.31.31,0,0,1,0,.44.32.32,0,0,1-.24.11"/><path class="tablacerebro-1" d="M17.56,15a.32.32,0,0,1-.31-.3.31.31,0,0,1,.29-.33c.13,0,3.21-.24,3.07-2.77a3.38,3.38,0,0,0-1-2.11.33.33,0,0,1-.08-.3c0-.1.61-2.34-1.26-3.11a2.8,2.8,0,0,0-2.51,0,3.5,3.5,0,0,0-1.43,2.7.31.31,0,1,1-.62-.08,4,4,0,0,1,1.73-3.16,3.37,3.37,0,0,1,3.07,0,3.12,3.12,0,0,1,1.67,3.68,3.79,3.79,0,0,1,1.07,2.38c.15,2.53-2.32,3.35-3.65,3.44h0"/><path class="tablacerebro-1" d="M17.1,5.78a.33.33,0,0,1-.19-.06.32.32,0,0,1-.06-.44,1.82,1.82,0,0,0-.14-2.37,1.61,1.61,0,0,0-1.57-.57,2.09,2.09,0,0,0-1.5,1.36.32.32,0,0,1-.4.19.31.31,0,0,1-.19-.41,2.75,2.75,0,0,1,2-1.76,2.23,2.23,0,0,1,2.15.76,2.43,2.43,0,0,1,.18,3.18.3.3,0,0,1-.25.12"/><path class="tablacerebro-1" d="M15.11,11.36A3.13,3.13,0,0,1,12.48,9.9.32.32,0,1,1,13,9.59a2.46,2.46,0,0,0,2.54,1.11c2-.32,2.17-3.14,2.18-3.17a.31.31,0,0,1,.32-.3.31.31,0,0,1,.3.33c0,.14-.19,3.36-2.71,3.76a3.48,3.48,0,0,1-.55,0"/><path class="tablacerebro-1" d="M17.22,13.32a2.51,2.51,0,0,1-1.5-.45,2.87,2.87,0,0,1-1.06-1.78.32.32,0,0,1,.26-.36.33.33,0,0,1,.36.27,2.26,2.26,0,0,0,.81,1.36,2.2,2.2,0,0,0,1.72.28.31.31,0,1,1,.11.61,3.46,3.46,0,0,1-.7.07"/></g></g></svg>
+                                                                        </label>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                        Pruebas saber
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        <label for="PruebassaberDideas_Video" onclick="stopVideos()">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.82 24"><defs><style>.tablavideo-1{fill:#e96a00;}.tablavideo-2{fill:#fff;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="tablavideo-1" d="M19.82,14.09A9.91,9.91,0,1,0,9.91,24a9.91,9.91,0,0,0,9.91-9.91"/><path class="tablavideo-2" d="M14.32,13a1.21,1.21,0,0,1,0,2.11l-5.89,3.4a1.21,1.21,0,0,1-1.82-1.05v-6.8A1.22,1.22,0,0,1,8.43,9.63Z"/><polygon class="tablavideo-1" points="6.89 2.69 7.69 0.05 8.9 0.05 7.58 3.76 6.18 3.76 4.87 0.05 6.08 0.05 6.89 2.69"/><path class="tablavideo-1" d="M12.85,2.18H10.28a.81.81,0,0,0,.22.53.68.68,0,0,0,.48.18.59.59,0,0,0,.59-.36h1.21a1.71,1.71,0,0,1-.33.66,1.89,1.89,0,0,1-.61.46,2,2,0,0,1-.82.16,2.07,2.07,0,0,1-1-.23,1.74,1.74,0,0,1-.66-.66,2.08,2.08,0,0,1-.24-1,2,2,0,0,1,.24-1,1.58,1.58,0,0,1,.66-.67A2,2,0,0,1,11,0a2,2,0,0,1,1,.23,1.54,1.54,0,0,1,.65.64,1.92,1.92,0,0,1,.24,1c0,.1,0,.21,0,.33m-1.14-.63a.6.6,0,0,0-.2-.47A.76.76,0,0,0,11,.91a.72.72,0,0,0-.48.17.71.71,0,0,0-.24.47Z"/><path class="tablavideo-1" d="M15.1.19A1.26,1.26,0,0,1,15.76,0V1.22h-.31a1,1,0,0,0-.63.18A.77.77,0,0,0,14.6,2V3.76H13.47V.05H14.6V.67a1.63,1.63,0,0,1,.5-.48"/></g></g></svg>
+                                                                        </label>
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        <label for="PruebassaberDideas_Ejemplo">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.61 24"><defs><style>.tablaABC-1{fill:#e96a00;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="tablaABC-1" d="M19.41,24H.2a.2.2,0,0,1-.2-.2V.2A.2.2,0,0,1,.2,0H19.41a.2.2,0,0,1,.2.2V23.8a.2.2,0,0,1-.2.2m-19-.4h18.8V.41H.41Z"/><path class="tablaABC-1" d="M19.41.4H.2A.19.19,0,0,1,0,.2.2.2,0,0,1,.2,0H19.41a.2.2,0,0,1,.2.2.19.19,0,0,1-.2.2"/><path class="tablaABC-1" d="M19.41,8.27H.2a.2.2,0,0,1-.2-.2.21.21,0,0,1,.2-.21H19.41a.21.21,0,0,1,.2.21.2.2,0,0,1-.2.2"/><path class="tablaABC-1" d="M19.41,16.14H.2a.21.21,0,0,1-.2-.21.2.2,0,0,1,.2-.2H19.41a.2.2,0,0,1,.2.2.21.21,0,0,1-.2.21"/><path class="tablaABC-1" d="M19.41,24H.2a.2.2,0,0,1-.2-.2.21.21,0,0,1,.2-.21H19.41a.21.21,0,0,1,.2.21.2.2,0,0,1-.2.2"/><path class="tablaABC-1" d="M17.15,3H7.38A.4.4,0,0,1,7,2.61a.41.41,0,0,1,.41-.41h9.77a.41.41,0,0,1,.4.41.4.4,0,0,1-.4.4"/><path class="tablaABC-1" d="M17.15,4.36H7.38a.41.41,0,1,1,0-.81h9.77a.41.41,0,0,1,0,.81"/><path class="tablaABC-1" d="M11.37,5.71h-4a.41.41,0,1,1,0-.81h4a.41.41,0,0,1,0,.81"/><path class="tablaABC-1" d="M5,5.63H3.09l-.31.9H1.47L3.33,1.41H4.77L6.62,6.53H5.3Zm-.32-1L4,2.79,3.41,4.66Z"/><path class="tablaABC-1" d="M17.15,10.88H7.38a.41.41,0,1,1,0-.81h9.77a.41.41,0,0,1,0,.81"/><path class="tablaABC-1" d="M17.15,12.23H7.38A.41.41,0,0,1,7,11.82a.4.4,0,0,1,.41-.4h9.77a.4.4,0,0,1,.4.4.41.41,0,0,1-.4.41"/><path class="tablaABC-1" d="M11.37,13.57h-4a.41.41,0,1,1,0-.81h4a.41.41,0,0,1,0,.81"/><path class="tablaABC-1" d="M5.62,12.21a1.26,1.26,0,0,1,.27.79,1.28,1.28,0,0,1-.44,1,1.91,1.91,0,0,1-1.26.37H1.81V9.28h2.3a1.91,1.91,0,0,1,1.23.35,1.19,1.19,0,0,1,.44,1,1.16,1.16,0,0,1-.24.75,1.26,1.26,0,0,1-.63.42,1.16,1.16,0,0,1,.71.44m-2.56-.86h.81a.71.71,0,0,0,.47-.14.49.49,0,0,0,.17-.4.51.51,0,0,0-.17-.4.71.71,0,0,0-.47-.14H3.06Zm1.4,1.9a.54.54,0,0,0,.17-.42.52.52,0,0,0-.18-.42A.74.74,0,0,0,4,12.26h-.9v1.13H4a.74.74,0,0,0,.48-.14"/><path class="tablaABC-1" d="M17.15,18.74H7.38a.4.4,0,0,1-.41-.4.41.41,0,0,1,.41-.41h9.77a.41.41,0,0,1,.4.41.4.4,0,0,1-.4.4"/><path class="tablaABC-1" d="M17.15,20.09H7.38a.41.41,0,1,1,0-.81h9.77a.41.41,0,0,1,0,.81"/><path class="tablaABC-1" d="M11.37,21.44h-4a.41.41,0,1,1,0-.81h4a.41.41,0,0,1,0,.81"/><path class="tablaABC-1" d="M1.93,18.34a2.39,2.39,0,0,1,.91-.93,2.68,2.68,0,0,1,1.33-.33,2.54,2.54,0,0,1,1.56.48,2.25,2.25,0,0,1,.87,1.32H5.23a1.09,1.09,0,0,0-.43-.49,1.25,1.25,0,0,0-.64-.17,1.16,1.16,0,0,0-.93.4,1.56,1.56,0,0,0-.36,1.07,1.52,1.52,0,0,0,.36,1.07,1.16,1.16,0,0,0,.93.41A1.25,1.25,0,0,0,4.8,21a1.15,1.15,0,0,0,.43-.49H6.6a2.26,2.26,0,0,1-.87,1.31,2.54,2.54,0,0,1-1.56.48A2.68,2.68,0,0,1,2.84,22,2.39,2.39,0,0,1,1.93,21a2.7,2.7,0,0,1-.33-1.35,2.75,2.75,0,0,1,.33-1.35"/></g></g></svg>
+                                                                        </label>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                        Jugando con el plano y el espacio
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        <label for="TalleresderecapitulacionDideas_Video" onclick="stopVideos()">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.82 24"><defs><style>.tablavideo-1{fill:#e96a00;}.tablavideo-2{fill:#fff;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="tablavideo-1" d="M19.82,14.09A9.91,9.91,0,1,0,9.91,24a9.91,9.91,0,0,0,9.91-9.91"/><path class="tablavideo-2" d="M14.32,13a1.21,1.21,0,0,1,0,2.11l-5.89,3.4a1.21,1.21,0,0,1-1.82-1.05v-6.8A1.22,1.22,0,0,1,8.43,9.63Z"/><polygon class="tablavideo-1" points="6.89 2.69 7.69 0.05 8.9 0.05 7.58 3.76 6.18 3.76 4.87 0.05 6.08 0.05 6.89 2.69"/><path class="tablavideo-1" d="M12.85,2.18H10.28a.81.81,0,0,0,.22.53.68.68,0,0,0,.48.18.59.59,0,0,0,.59-.36h1.21a1.71,1.71,0,0,1-.33.66,1.89,1.89,0,0,1-.61.46,2,2,0,0,1-.82.16,2.07,2.07,0,0,1-1-.23,1.74,1.74,0,0,1-.66-.66,2.08,2.08,0,0,1-.24-1,2,2,0,0,1,.24-1,1.58,1.58,0,0,1,.66-.67A2,2,0,0,1,11,0a2,2,0,0,1,1,.23,1.54,1.54,0,0,1,.65.64,1.92,1.92,0,0,1,.24,1c0,.1,0,.21,0,.33m-1.14-.63a.6.6,0,0,0-.2-.47A.76.76,0,0,0,11,.91a.72.72,0,0,0-.48.17.71.71,0,0,0-.24.47Z"/><path class="tablavideo-1" d="M15.1.19A1.26,1.26,0,0,1,15.76,0V1.22h-.31a1,1,0,0,0-.63.18A.77.77,0,0,0,14.6,2V3.76H13.47V.05H14.6V.67a1.63,1.63,0,0,1,.5-.48"/></g></g></svg>
+                                                                        </label>
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        <label for="TalleresderecapitulacionDideas_Ejemplo">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.66 24"><defs><style>.tablanotas-1{fill:#fff;}.tablanotas-2{fill:#e96a00;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="tablanotas-1" d="M15.65.59H6.82v4.8A1.48,1.48,0,0,1,5.34,6.87H.59V22.22a1.19,1.19,0,0,0,1.19,1.19H15.65a1.19,1.19,0,0,0,1.19-1.19V1.78A1.19,1.19,0,0,0,15.65.59"/><path class="tablanotas-2" d="M6.23,5.39V1L1,6.27H5.34a.88.88,0,0,0,.89-.88"/><path class="tablanotas-2" d="M15.65,0H6.53L6.41,0a.31.31,0,0,0-.09.07L.09,6.36h0A.35.35,0,0,0,0,6.46s0,.06,0,.09V22.22A1.78,1.78,0,0,0,1.78,24H15.65a1.78,1.78,0,0,0,1.78-1.78V1.78A1.78,1.78,0,0,0,15.65,0M6.23,1V5.39a.88.88,0,0,1-.89.88H1ZM16.84,22.22a1.19,1.19,0,0,1-1.19,1.19H1.78A1.19,1.19,0,0,1,.59,22.22V6.87H5.34A1.48,1.48,0,0,0,6.82,5.39V.59h8.83a1.19,1.19,0,0,1,1.19,1.19Z"/><path class="tablanotas-2" d="M15.52,4.26H8a.3.3,0,1,0,0,.59h7.5a.3.3,0,1,0,0-.59"/><path class="tablanotas-2" d="M15.52,8H2.87a.3.3,0,1,0,0,.59H15.52a.3.3,0,1,0,0-.59"/><path class="tablanotas-2" d="M15.52,10.19H2.87a.3.3,0,1,0,0,.6H15.52a.3.3,0,0,0,0-.6"/><path class="tablanotas-2" d="M15.52,12.42H2.87a.3.3,0,1,0,0,.59H15.52a.3.3,0,1,0,0-.59"/><path class="tablanotas-2" d="M15.52,14.64H2.87a.3.3,0,1,0,0,.59H15.52a.3.3,0,1,0,0-.59"/><path class="tablanotas-2" d="M9.46,19.29H2.87a.3.3,0,1,0,0,.6H9.46a.3.3,0,0,0,0-.6"/><path class="tablanotas-1" d="M23.15,3.58a2,2,0,0,0-2.75.52l3.33,2.22A2,2,0,0,0,24,4.85a2,2,0,0,0-.85-1.27"/><rect class="tablanotas-1" x="9.87" y="10.77" width="12.86" height="1.95" transform="translate(-2.51 18.81) rotate(-56.35)"/><polygon class="tablanotas-1" points="11.47 21.11 13.34 20.17 11.63 19.03 11.47 21.11"/><polygon class="tablanotas-1" points="11.68 18.32 13.97 19.84 13.98 19.85 14.97 19.34 11.76 17.21 11.68 18.32"/><rect class="tablanotas-1" x="11.79" y="12.01" width="12.86" height="2.03" transform="translate(-2.72 20.98) rotate(-56.36)"/><polygon class="tablanotas-1" points="19.1 5.14 19.14 5.17 23.23 7.89 23.23 7.89 23.27 7.91 23.77 7.16 19.6 4.39 19.1 5.14"/><path class="tablanotas-2" d="M24.21,6.71v0a2.59,2.59,0,0,0,.39-2,2.62,2.62,0,0,0-4.75-.93l0,0-.16-.11a.32.32,0,0,0-.43.09l-.84,1.27a.31.31,0,0,0,.09.43l0,0-7.3,11h0a.44.44,0,0,0-.06.16L11,18.53l-.23,3.08a.32.32,0,0,0,.37.33l.08,0,2.84-1.43,1.62-.82a.47.47,0,0,0,.13-.11h0l7.29-11,0,0a.33.33,0,0,0,.23.05.31.31,0,0,0,.2-.13l.85-1.27a.32.32,0,0,0-.09-.43ZM23.15,3.57A2,2,0,0,1,24,4.85a2,2,0,0,1-.27,1.46L20.4,4.1a2,2,0,0,1,2.75-.53m-4.1,2.29,1.63,1.08L13.56,17.65l-1.63-1.08ZM11.63,19l1.71,1.14-1.87.94Zm2.35.82h0l-2.29-1.52.08-1.11L15,19.34Zm1.52-.91-1.69-1.12L20.94,7.11l1.69,1.12Zm7.77-11,0,0L19.14,5.17l0,0,.5-.75,4.17,2.77Z"/></g></g></svg>
+                                                                        </label>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                        Laboratorios matemáticos
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        <label for="LaboratoriosmatematicosDideas_Video" onclick="stopVideos()">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.82 24"><defs><style>.tablavideo-1{fill:#e96a00;}.tablavideo-2{fill:#fff;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="tablavideo-1" d="M19.82,14.09A9.91,9.91,0,1,0,9.91,24a9.91,9.91,0,0,0,9.91-9.91"/><path class="tablavideo-2" d="M14.32,13a1.21,1.21,0,0,1,0,2.11l-5.89,3.4a1.21,1.21,0,0,1-1.82-1.05v-6.8A1.22,1.22,0,0,1,8.43,9.63Z"/><polygon class="tablavideo-1" points="6.89 2.69 7.69 0.05 8.9 0.05 7.58 3.76 6.18 3.76 4.87 0.05 6.08 0.05 6.89 2.69"/><path class="tablavideo-1" d="M12.85,2.18H10.28a.81.81,0,0,0,.22.53.68.68,0,0,0,.48.18.59.59,0,0,0,.59-.36h1.21a1.71,1.71,0,0,1-.33.66,1.89,1.89,0,0,1-.61.46,2,2,0,0,1-.82.16,2.07,2.07,0,0,1-1-.23,1.74,1.74,0,0,1-.66-.66,2.08,2.08,0,0,1-.24-1,2,2,0,0,1,.24-1,1.58,1.58,0,0,1,.66-.67A2,2,0,0,1,11,0a2,2,0,0,1,1,.23,1.54,1.54,0,0,1,.65.64,1.92,1.92,0,0,1,.24,1c0,.1,0,.21,0,.33m-1.14-.63a.6.6,0,0,0-.2-.47A.76.76,0,0,0,11,.91a.72.72,0,0,0-.48.17.71.71,0,0,0-.24.47Z"/><path class="tablavideo-1" d="M15.1.19A1.26,1.26,0,0,1,15.76,0V1.22h-.31a1,1,0,0,0-.63.18A.77.77,0,0,0,14.6,2V3.76H13.47V.05H14.6V.67a1.63,1.63,0,0,1,.5-.48"/></g></g></svg>
+                                                                        </label>
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        <label for="LaboratoriosmatematicosDideas_Ejemplo">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.38 24"><defs><style>.tablaQuimica-1{fill:#e96a00;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="tablaQuimica-1" d="M13.11.94H4.27a.47.47,0,0,1,0-.94h8.84a.47.47,0,0,1,0,.94"/><path class="tablaQuimica-1" d="M8.67,24h-6A2.66,2.66,0,0,1,.25,20.22L5.49,8.84V.47a.47.47,0,0,1,.94,0V9a.43.43,0,0,1,0,.19L1.1,20.62a1.71,1.71,0,0,0,1.56,2.44h6a.47.47,0,1,1,0,.94"/><path class="tablaQuimica-1" d="M14.71,24h-6a.47.47,0,0,1,0-.94h6a1.72,1.72,0,0,0,1.57-2.44L11,9.14A.45.45,0,0,1,10.94,9V.47a.47.47,0,1,1,.94,0V8.84l5.25,11.38A2.67,2.67,0,0,1,14.71,24"/><path class="tablaQuimica-1" d="M7,10.51,2.11,21.08a.65.65,0,0,0,0,.6.63.63,0,0,0,.53.29H14.73a.63.63,0,0,0,.53-.29.62.62,0,0,0,0-.6L10.43,10.51Z"/></g></g></svg>
+                                                                        </label>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                        Troquel - ando
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        <label for="TroquelDideas_Video" onclick="stopVideos()">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.82 24"><defs><style>.tablavideo-1{fill:#e96a00;}.tablavideo-2{fill:#fff;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="tablavideo-1" d="M19.82,14.09A9.91,9.91,0,1,0,9.91,24a9.91,9.91,0,0,0,9.91-9.91"/><path class="tablavideo-2" d="M14.32,13a1.21,1.21,0,0,1,0,2.11l-5.89,3.4a1.21,1.21,0,0,1-1.82-1.05v-6.8A1.22,1.22,0,0,1,8.43,9.63Z"/><polygon class="tablavideo-1" points="6.89 2.69 7.69 0.05 8.9 0.05 7.58 3.76 6.18 3.76 4.87 0.05 6.08 0.05 6.89 2.69"/><path class="tablavideo-1" d="M12.85,2.18H10.28a.81.81,0,0,0,.22.53.68.68,0,0,0,.48.18.59.59,0,0,0,.59-.36h1.21a1.71,1.71,0,0,1-.33.66,1.89,1.89,0,0,1-.61.46,2,2,0,0,1-.82.16,2.07,2.07,0,0,1-1-.23,1.74,1.74,0,0,1-.66-.66,2.08,2.08,0,0,1-.24-1,2,2,0,0,1,.24-1,1.58,1.58,0,0,1,.66-.67A2,2,0,0,1,11,0a2,2,0,0,1,1,.23,1.54,1.54,0,0,1,.65.64,1.92,1.92,0,0,1,.24,1c0,.1,0,.21,0,.33m-1.14-.63a.6.6,0,0,0-.2-.47A.76.76,0,0,0,11,.91a.72.72,0,0,0-.48.17.71.71,0,0,0-.24.47Z"/><path class="tablavideo-1" d="M15.1.19A1.26,1.26,0,0,1,15.76,0V1.22h-.31a1,1,0,0,0-.63.18A.77.77,0,0,0,14.6,2V3.76H13.47V.05H14.6V.67a1.63,1.63,0,0,1,.5-.48"/></g></g></svg>
+                                                                        </label>
+                                                                    </td>
+                                                                    <td class="text-center">
+                                                                        <label for="TroquelDideas_Ejemplo">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.19 24"><defs><style>.tablaGeometria-1{fill:#fff;}.tablaGeometria-2{fill:#e96a00;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaGeometria-1" points="4.96 0.9 13.23 0.9 17.12 5.01 13.18 9.13 4.76 9.13 1.06 5.02 4.96 0.9"/><rect class="tablaGeometria-1" x="5" y="10.03" width="7.92" height="13.08"/><polygon class="tablaGeometria-1" points="0.9 6.18 4.11 9.75 4.11 22.51 0.9 19.47 0.9 6.18"/><polygon class="tablaGeometria-1" points="13.82 22.55 13.82 9.76 17.29 6.13 17.29 19.46 13.82 22.55"/><path class="tablaGeometria-2" d="M18.19,5a.66.66,0,0,0,0-.15.35.35,0,0,0-.05-.08l0-.06L13.74.14A.43.43,0,0,0,13.42,0H4.77a.43.43,0,0,0-.32.14L.12,4.71l0,.07,0,.06A.51.51,0,0,0,0,5H0V19.66A.47.47,0,0,0,.14,20l4.11,3.89.07.05.07,0a.47.47,0,0,0,.17,0h8.82a.45.45,0,0,0,.16,0l.06,0,.07,0L18,20a.45.45,0,0,0,.15-.34V5h0M5,.9h8.26L17.12,5,13.18,9.13H4.76L1.06,5ZM5,10h7.93V23.1H5ZM.9,6.18,4.11,9.75V22.51l-3.21-3ZM13.82,22.55V9.76l3.47-3.63V19.46Z"/></g></g></svg>
+                                                                        </label>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="text-center" colspan="3">
+                                                                        Las carpetas están distribuidas desde el <strong>Nivel A hasta el Nivel F</strong>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                    <div class="videoMuestra">
+                                                        <div class="tituloLibrito">
+                                                            <p style="text-align: center;">Video</p>
+                                                        </div>
+                                                        <ul>
+                                                            <li>
+                                                                <input type="radio" name="inputRadioDideas_Video" class="inputRadio instruccion" checked>
+                                                                <div class="select_content" style="text-align: center;"><i class="infoActivar">Da clic en cada ícono para conocer a fondo cada actividad</i>
+                                                            </div>
+                                                            </li>
+                                                            <li>
+                                                                <input type="radio" name="inputRadioDideas_Video" class="inputRadio" id="PreparacionesconceptualesDideas_Video">
+                                                                <div class="select_content">
+                                                                    <div class="tituloVideo">
+                                                                        <p style="text-align: center;">Preparaciones conceptuales</p>
+                                                                    </div>
+                                                                    <div class="video-responsive">
+                                                                        <iframe class="youtubeVideo" src="https://www.youtube.com/embed/ghVfAjeecZ4?si=WcZOEPx33tzRnsKJ" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <input type="radio" name="inputRadioDideas_Video" class="inputRadio" id="PruebassaberDideas_Video">
+                                                                <div class="select_content">
+                                                                    <div class="tituloVideo">
+                                                                        <p style="text-align: center;">Pruebas saber</p>
+                                                                    </div>
+                                                                    <div class="video-responsive">
+                                                                        <iframe class="youtubeVideo" src="https://www.youtube.com/embed/E7AvmxXJnPw?si=e_izSyxuMMKYQlL1" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <input type="radio" name="inputRadioDideas_Video" class="inputRadio" id="TalleresderecapitulacionDideas_Video">
+                                                                <div class="select_content">
+                                                                    <div class="tituloVideo">
+                                                                        <p style="text-align: center;">Jugando con el plano y el espacio</p>
+                                                                    </div>
+                                                                    <div class="video-responsive">
+                                                                        <iframe class="youtubeVideo" src="https://www.youtube.com/embed/3BEt9QmuMrc?si=tlCfblHLeQFmui53" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            
+                                                            <li>
+                                                                <input type="radio" name="inputRadioDideas_Video" class="inputRadio" id="LaboratoriosmatematicosDideas_Video">
+                                                                <div class="select_content">
+                                                                    <div class="tituloVideo">
+                                                                        <p style="text-align: center;">Laboratorios matemáticos</p>
+                                                                    </div>
+                                                                    <div class="video-responsive">
+                                                                        <iframe class="youtubeVideo" src="https://www.youtube.com/embed/3jgnREfKGNw?si=aX2KIYP7E8Y-IPxJ" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <input type="radio" name="inputRadioDideas_Video" class="inputRadio" id="TroquelDideas_Video">
+                                                                <div class="select_content">
+                                                                    <div class="tituloVideo">
+                                                                        <p style="text-align: center;">Troquel - ando</p>
+                                                                    </div>
+                                                                    <div class="video-responsive">
+                                                                        <iframe class="youtubeVideo" src="https://www.youtube.com/embed/WNtITjAgLuE?si=ImXCE7p00HwNasos" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
 
                                                 </div>
                                             </div>
                                             <div class="pag">
                                                 <div class="contenidoDE">
-
+                                                    <div class="espacioNiveles"></div>
+                                                    <div class="tituloLibrito">
+                                                        <p style="text-align: center;">Ejemplo</p>
+                                                    </div>
+                                                    <ul class="muestras">
+                                                        <li>
+                                                            <input type="radio" name="inputRadioDideas_Ejemplo" class="inputRadio instruccion" checked>
+                                                            <div class="select_content" style="text-align: center;"><i class="infoActivar">Da clic en cada ícono para conocer a fondo cada actividad</i></div>
+                                                        </li>
+                                                        <li>
+                                                            <input type="radio" name="inputRadioDideas_Ejemplo" class="inputRadio" id="PreparacionesconceptualesDideas_Ejemplo">
+                                                            <div class="select_content ejemploLibro Preparacionesconceptuales4"></div>
+                                                        </li>
+                                                        <li>
+                                                            <input type="radio" name="inputRadioDideas_Ejemplo" class="inputRadio" id="PruebassaberDideas_Ejemplo">
+                                                            <div class="select_content ejemploLibro Pruebassaber4"></div>
+                                                        </li>
+                                                        <li>
+                                                            <input type="radio" name="inputRadioDideas_Ejemplo" class="inputRadio" id="TalleresderecapitulacionDideas_Ejemplo">
+                                                            <div class="select_content ejemploLibro Talleresderecapitulacion4"></div>
+                                                        </li>
+                                                        <li>
+                                                            <input type="radio" name="inputRadioDideas_Ejemplo" class="inputRadio" id="LaboratoriosmatematicosDideas_Ejemplo">
+                                                            <div class="select_content ejemploLibro Laboratoriosmatematicos4"></div>
+                                                        </li>
+                                                        <li>
+                                                            <input type="radio" name="inputRadioDideas_Ejemplo" class="inputRadio" id="TroquelDideas_Ejemplo">
+                                                            <div class="select_content ejemploLibro Troquel4"></div>
+                                                        </li>
+                                                    </ul>
                                                 </div>
                                             </div>
                                             <!---->
                                             <div class="pag">
                                                 <div class="contenidoIZ">
+
+                                                    <div class="catalogo rounded">
+                                                        <div class="tituloNivel">
+                                                            <p class="Nivel">Nivel B</p>
+                                                        </div>
+                                                        <div class="tituloNivel2">
+                                                            <p class="categoriaEducacion">| Números naturales y fracciones</p>
+                                                        </div>
+                                                        <div class="describeNivel">
+                                                            <img class="img-thumbnail imagenNivel" src="img/libros/Dideas/numerosNaturalesYFracciones_B.jpg" alt="">
+                                                            <p>¡Sumérgete en el fascinante mundo de los <strong>números</strong> con nuestro libro <strong>Números Naturales</strong> y <strong>Fracciones</strong>! Este recurso interactivo es como tener un amigo que te explica de manera detallada y súper divertida los secretos de los <strong>números naturales</strong> y las <strong>fracciones</strong>. Primero, te llevamos de la mano para descubrir los trucos de la adición, sustracción, multiplicación y división de <strong>números naturales</strong>. ¡Son como las coreografías <strong>matemáticas</strong> que todos deberíamos conocer! También desentrañamos sus propiedades para que te conviertas en un verdadero maestro. Después, nos aventuramos en el mundo de las <strong>fracciones</strong>. ¿Cómo representarlas? ¿Qué son las <strong>fracciones equivalentes</strong>? ¡Te lo contamos todo! Además, aprendemos a sumar, restar y multiplicar con estas pequeñas joyas <strong>matemáticas</strong>. ¿Te preguntas cómo lo hacemos?, ¡tenemos talleres y ejercicios interactivos que te desafiarán y divertirán!</p>
+                                                            <div class="table-responsive latabla">
+                                                                <table class="table caption-top table-hover">
+                                                                    <caption>TABLA DE CONTENIDO:</caption>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Adición de números naturales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Propiedades de la adición de naturales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Sustracción de números naturales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Multiplicación de números naturales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Propiedades de la multiplicación de naturales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Múltiplo de un número
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Taller de recapitulación I
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                División de números naturales
+                                                                            </td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                División exacta e inexacta
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Criterios de divisibilidad y números primos
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Fracciones: representación parte-todo de un conjunto
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Términos de la fracción
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Fracciones equivalentes
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Adición y sustracción entre fracciones
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Multiplicación entre fracciones
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Taller de recapitulación II
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <p style="text-align: center"><strong>¡Descubre el mágico universo de los <strong>números</strong> y <strong>fracciones</strong> mientras te diviertes, porque en este libro hasta las mates se ponen sus mejores galas de fiesta! 🎉📚</strong></p>
+                                                        </div>
+                                                    </div>
 
                                                 </div>
                                             </div>
                                             <div class="pag">
                                                 <div class="contenidoDE">
+                                                    <div class="espacioNiveles"></div>
+                                                    
+                                                    <div class="catalogo rounded">
+                                                        <div class="tituloNivel">
+                                                            <p class="Nivel">Nivel C</p>
+                                                        </div>
+                                                        <div class="tituloNivel2">
+                                                            <p class="categoriaEducacion">| Números naturales</p>
+                                                        </div>
+                                                        <div class="describeNivel">
+                                                            <img class="img-thumbnail imagenNivel" src="img/libros/Dideas/numerosNaturales_C.jpg" alt="">
+                                                            <p>¡Hey chicos! Si estás buscando un compañero ideal para conquistar el mundo de los <strong>números naturales</strong>, ¡has llegado al lugar correcto!, guiándote a través de temas emocionantes como conjuntos, operaciones (¡sumar, restar, multiplicar y dividir es pan comido!), y hasta te contarán todos los secretos sobre <strong>números primos</strong> y compuestos. Pero eso no es todo, ¡también te ayudará a entender conceptos como <strong>potenciación</strong>, <strong>radicación</strong> y la jerarquía de operaciones!, el libro está lleno de actividades divertidas para resolver problemas, comunicarte mejor y no te preocupes, al final de cada capítulo, hay talleres de recapitulación para que practiques lo aprendido y te conviertas en el héroe de las <strong>matemáticas</strong>.</p>
+                                                            <div class="table-responsive latabla">
+                                                                <table class="table caption-top table-hover">
+                                                                    <caption>TABLA DE CONTENIDO:</caption>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Conjuntos
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Relación de orden de números naturales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Adición y sustracción de números naturales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Propiedades de la adición de naturales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Multiplicación de números naturales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                División de números naturales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Propiedades de la multiplicación de naturales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Taller de recapitulación I
+                                                                            </td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Criterios de divisibilidad
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Números primos y compuestos
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Máximo común divisor y mínimo común múltiplo I
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Máximo común divisor y mínimo común múltiplo II
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Taller de recapitulación II
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Potenciación de números naturales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Radicación de números naturales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Jerarquía de las operaciones
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <p style="text-align: center"><strong>¡Sumérgete en el mundo mágico de los números naturales, donde cada página es un hechizo matemático que te convertirá en un auténtico mago de las cifras! 🎩✨ ¡Aprender nunca fue tan divertido y encantador! 🚀📚</strong></p>
+                                                        </div>
+                                                    </div>
 
                                                 </div>
                                             </div>
                                             <!---->
                                             <div class="pag">
                                                 <div class="contenidoIZ">
+
+                                                    <div class="catalogo rounded">
+                                                        <div class="tituloNivel">
+                                                            <p class="Nivel">Nivel C</p>
+                                                        </div>
+                                                        <div class="tituloNivel2">
+                                                            <p class="categoriaEducacion">| Geometría</p>
+                                                        </div>
+                                                        <div class="describeNivel">
+                                                            <img class="img-thumbnail imagenNivel" src="img/libros/Dideas/geometria_C.png" alt="">
+                                                            <p><strong>¡Este libro es la guía perfecta para descubrir el fascinante mundo de la geometría!</strong>, nos sumergimos en el universo de medidas con el <strong>sistema métrico decimal</strong> y exploramos las relaciones entre las rectas, descubriendo los <strong>ángulos</strong> y <strong>polígonos básicos</strong>. Pero espera, ¡hay más! Nos adentramos en el fascinante mundo de <strong>triángulos</strong> y <strong>cuadriláteros</strong>, desentrañando sus secretos, <strong>clasificaciones</strong>, <strong>congruencias</strong> y <strong>semejanzas</strong>. Te llevaremos de la mano mientras exploramos <strong>traslaciones</strong>, <strong>rotaciones</strong>, <strong>reflexiones</strong> y <strong>dilataciones</strong>. ¡Y eso no es todo! También nos aventuramos en el espacio tridimensional. ¿Te gustan los <strong>sólidos geométricos</strong>? Descubre sus elementos y propiedades, y aprende a calcular <strong>volúmenes</strong> y <strong>capacidades</strong> como un verdadero experto. Este incluye talleres de recapitulación, actividades prácticas con troqueles y ejercicios para que te conviertas en un auténtico maestro de la geometría.</p>
+                                                            <div class="table-responsive latabla">
+                                                                <table class="table caption-top table-hover">
+                                                                    <caption>TABLA DE CONTENIDO:</caption>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Sistema internacional y conversión de unidades
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Relación entre rectas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Ángulos
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Polígonos
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Triángulos
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Cuadriláteros
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Contorno
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Superficie
+                                                                            </td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Longitud, perímetro y área de polígonos
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Transformaciónes en el plano
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Taller de Recapitulación
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Sólidos geométricos
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Sólidos, volumen y capacidad
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Transformaciones en el espacio
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Taller de recapitulación
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Troquel - Ando
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <p style="text-align: center"><strong>¡Descubre el secreto geométrico para convertirte en el héroe de las matemáticas y conquistar cualquier figura, desde triángulos traviesos hasta sólidos misteriosos! 🚀✨</strong></p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="pag">
+                                                <div class="contenidoDE">
+                                                    <div class="espacioNiveles"></div>
+
+                                                    <div class="catalogo rounded">
+                                                        <div class="tituloNivel">
+                                                            <p class="Nivel">Nivel C</p>
+                                                        </div>
+                                                        <div class="tituloNivel2">
+                                                            <p class="categoriaEducacion">| Estadística</p>
+                                                        </div>
+                                                        <div class="describeNivel">
+                                                            <img class="img-thumbnail imagenNivel" src="img/libros/Dideas/estadistica_C.jpg" alt="">
+                                                            <p>Nos sumergimos en el fascinante universo de la <strong>estadística</strong>. ¿Qué vas a encontrar en sus páginas? ¡Un montón de conceptos emocionantes! Desde la <strong>clasificación de variables</strong> hasta las medidas de <strong>tendencia central</strong> (¡sí, la <strong>media</strong>, <strong>mediana</strong> y <strong>moda</strong> son las estrellas del espectáculo!), pasando por la <strong>representación gráfica de datos</strong> con los famosos <strong>diagramas de barras</strong>, <strong>líneas</strong> y <strong>circulares</strong>. ¿<strong>Probabilidad</strong>? ¡También la tenemos cubierta. Porque sabemos que la práctica hace al maestro. Por eso, hemos incluido <strong>ejercicios prácticos</strong>, talleres de recapitulación y simulacros de <strong>pruebas saber</strong>. Además, te ofrecemos acceso a <strong>recursos virtuales</strong>. ¿Queremos que te conviertas en un verdadero <strong>as de las matemáticas</strong>? ¡Sí! Por eso, nuestro enfoque no es solo enseñar <strong>estadística</strong>, sino también desarrollar tus habilidades de <strong>pensamiento matemático</strong> y <strong>razonamiento lógico</strong>.</p>
+                                                            <div class="table-responsive latabla">
+                                                                <table class="table caption-top table-hover">
+                                                                    <caption>TABLA DE CONTENIDO:</caption>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Clasificación de variables estadísticas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Frecuencia y moda
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Tabla de frecuencia
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Medidas de tendencia central
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Gráfico de barras y pictogramas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Gráfico de líneas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Gráfico de líneas y diagrama circular
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Taller de recapitulación I
+                                                                            </td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Prueba saber
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Técnicas de conteo
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Espacio muestral y probabilidad
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Probabilidad
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Taller de recapitulación II
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Prueba saber
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Laboratorio
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <p style="text-align: center"><strong>¡Sumérgete en el emocionante mundo de los números y descubre que la estadística puede ser tan divertida como resolver un acertijo matemático! 🔮📚 </strong></p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="pag">
+                                                <div class="contenidoIZ">
+
+                                                    <div class="catalogo rounded">
+                                                        <div class="tituloNivel">
+                                                            <p class="Nivel">Nivel C</p>
+                                                        </div>
+                                                        <div class="tituloNivel2">
+                                                            <p class="categoriaEducacion">| Fracciones</p>
+                                                        </div>
+                                                        <div class="describeNivel">
+                                                            <img class="img-thumbnail imagenNivel" src="img/libros/Dideas/fracciones_C.jpg" alt="">
+                                                            <p>¡Bienvenidos al mundo increíble de las <strong>matemáticas</strong>! Imaginen este libro como su aliado número uno ¡el pensamiento numérico-variacional!, vamos desde lo más básico hasta las operaciones más asombrosas con <strong>fracciones</strong> y decimales. Cada tema es una nueva aventura con material audiovisual interactivo que hace que las <strong>fracciones</strong> cobren vida. Además, ¡hay más! Nos sumergimos en el mundo cotidiano para aprender, utilizando situaciones reales que hacen que las <strong>fracciones</strong> sean parte de nuestra vida diaria. Al final, ¡ustedes serán maestros en <strong>fracciones equivalentes</strong>, simplificación, números mixtos y mucho más!, ¿Alguna vez se preguntaron cómo usar <strong>fracciones</strong> en situaciones reales? Bueno, este libro lo tiene todo: desde sumar y restar hasta multiplicar y dividir, tanto <strong>fracciones</strong> como decimales. Y, por si fuera poco, aprenderán a convertir entre diferentes formas de representación.</p>
+                                                            <div class="table-responsive latabla">
+                                                                <table class="table caption-top table-hover">
+                                                                    <caption>TABLA DE CONTENIDO:</caption>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Representación de fracciones
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Fracciones equivalentes
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Simplificación y complificación
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Fracción propia e impropia y números mixtos
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Taller de recapitulación
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Conversión de números mixtos a fracción
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Relación de orden entre fracciones
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Adición y sustracción de fracciones
+                                                                            </td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Multiplicación de fracciones
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                División de fracciones
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Adición y sustracción de decimales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Multiplicación de decimales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                División de decimales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Relación de orden entre decimales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Conversión de fracciones a decimales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Taller de recapitulación
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <p style="text-align: center"><strong>¡Sumérgete en "Fracciones de D-Ideas" y descubre un mundo matemático donde las fracciones se vuelven tan emocionantes como una montaña rusa de números divertidos! 🎢📘 ¡Prepárate para la aventura de tu vida matemática! 🚀✨</strong></p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="pag">
+                                                <div class="contenidoDE">
+                                                    <div class="espacioNiveles"></div>
+
+                                                    <div class="catalogo rounded">
+                                                        <div class="tituloNivel">
+                                                            <p class="Nivel">Nivel D</p>
+                                                        </div>
+                                                        <div class="tituloNivel2">
+                                                            <p class="categoriaEducacion">| Geometría</p>
+                                                        </div>
+                                                        <div class="describeNivel">
+                                                            <img class="img-thumbnail imagenNivel" src="img/libros/Dideas/geometria_D.jpg" alt="">
+                                                            <p>Si estás buscando un compañero de <strong>matemáticas</strong> que haga que aprender sea genial y fácil, Este increíble libro ¿Qué tiene de especial? Bueno, le da una vuelta divertida al mundo de las <strong>medidas</strong> y la <strong>geometría</strong>, ¡así que prepárense para un viaje emocionante!. Primero, nos sumergimos en las <strong>unidades de medición</strong>, explorando <strong>longitudes</strong>, <strong>áreas</strong> y <strong>volúmenes</strong> con ejemplos prácticos. ¿La mejor parte? Aprenderán a <strong>convertir entre diferentes unidades</strong>. Luego, nos lanzamos al emocionante mundo de la <strong>geometría</strong>. <strong>Puntos</strong>, <strong>rectas</strong>, <strong>planos</strong>, <strong>ángulos</strong> y <strong>polígonos</strong> son nuestros amigos aquí. Y no te preocupes, ¿<strong>Perímetro</strong> y <strong>área</strong>? ¡Sí, también los conquistamos! ¡Hacemos <strong>piruetas matemáticas</strong> con <strong>transformaciones en el plano</strong>! <strong>Traslaciones</strong>, <strong>rotaciones</strong> y <strong>reflexiones</strong>. Y, ¡atención! También exploramos <strong>poliedros</strong> y <strong>cuerpos geométricos</strong>, nos enfocamos en calcular <strong>volúmenes</strong> ¡descomponiendo y componiendo figuras y sólidos!</p>
+                                                            <div class="table-responsive latabla">
+                                                                <table class="table caption-top table-hover">
+                                                                    <caption>TABLA DE CONTENIDO:</caption>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Unidades métricas de longitud
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Unidades métricas de área
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Unidades métricas de volumen
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Prueba Saber
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Elementos básicos de geometría y ángulos
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Polígonos
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Construcción de polígonos regulares
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Perímetro y área de polígonos regulares
+                                                                            </td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Périmetro
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Área
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Taller de Recapitulación
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Transformaciones en el plano
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Poliedros
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Volumen de cuerpos geométricos
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Troquel - Ando
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <p style="text-align: center"><strong>¡Descubre el libro que convierte las matemáticas en una emocionante aventura de números y formas! 🚀🔢 ¡Prepárate para divertirte mientras conquistas el mundo mágico de la geometría en la básica! 📚✨</strong></p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="pag">
+                                                <div class="contenidoIZ">
+
+                                                    <div class="catalogo rounded">
+                                                        <div class="tituloNivel">
+                                                            <p class="Nivel">Nivel D</p>
+                                                        </div>
+                                                        <div class="tituloNivel2">
+                                                            <p class="categoriaEducacion">| Estadística</p>
+                                                        </div>
+                                                        <div class="describeNivel">
+                                                            <img class="img-thumbnail imagenNivel" src="img/libros/Dideas/estadistica_D.jpg" alt="">
+                                                            <p>Imagínate, cada sección es como un episodio emocionante. Desde <strong>población</strong>, <strong>muestra</strong> y <strong>variables</strong>, hasta medidas de <strong>tendencia central</strong> como <strong>media</strong>, <strong>mediana</strong> y <strong>moda</strong>. ¡Y eso no es todo! También nos aventuramos con representaciones gráficas como <strong>barras</strong>, <strong>círculos</strong> e <strong>histogramas</strong>, ¡puro estilo visual, y para que no te pierdas ni un detalle, al final de cada sección te lanzamos <strong>talleres de recapitulación</strong>. ¡Así es, repasamos todo juntos para que te vuelvas un crack de la estadística!; ¿Te suenan las <strong>Pruebas Saber</strong>? Pues, agárrate, porque también incluimos <strong>ejercicios modelo</strong>. Así que, en resumen, D-IDEAS Estadística es como ese amigo que siempre está ahí cuando lo necesitas. Te pone a practicar con ejercicios al estilo de las <strong>Pruebas Saber</strong>, y lo mejor, está disponible en físico y digital. ¡A romperla con la estadística y triunfar con estilo!</p>
+                                                            <div class="table-responsive latabla">
+                                                                <table class="table caption-top table-hover">
+                                                                    <caption>TABLA DE CONTENIDO:</caption>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Población, muestra y variables estadísticas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Tablas de frecuencia con datos sin agrupar
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Tablas de frecuencia con datos agrupados
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Media aritmética
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Mediana
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Moda
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Taller de recapitulación I
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Gráfico de barras
+                                                                            </td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Gráfico circular
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Probabilidad
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Experimentos aleatorios
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Taller de recapitulación II
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Prueba saber
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Diagrama de tallo y hojas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Histograma y polígono de frecuencia
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Taller de recapitulación III
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <p style="text-align: center"><strong>¡Sumérgete en el fascinante mundo de la estadística y conviértete en el mago de los números! 🎩📊 ¡Prepárate para descubrir el poder detrás de los datos y conquistar el reino de la matemágica! 🔮📚 </strong></p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="pag">
+                                                <div class="contenidoDE">
+                                                    <div class="espacioNiveles"></div>
+
+                                                    <div class="catalogo rounded">
+                                                        <div class="tituloNivel">
+                                                            <p class="Nivel">Nivel D</p>
+                                                        </div>
+                                                        <div class="tituloNivel2">
+                                                            <p class="categoriaEducacion">| Números racionales</p>
+                                                        </div>
+                                                        <div class="describeNivel">
+                                                            <img class="img-thumbnail imagenNivel" src="img/libros/Dideas/numerosRacionales_D.jpg" alt="">
+                                                            <p>¡Descubre el fascinante mundo de los <strong>números racionales</strong> con nuestro increíble libro de <strong>matemáticas</strong> diseñado especialmente para ti! ¿Te has preguntado alguna vez cómo realizar operaciones con <strong>fracciones</strong>? Bueno, te llevamos paso a paso desde las operaciones básicas como suma, resta, multiplicación y división, ¡hasta convertirte en un experto en <strong>fracciones equivalentes</strong>, propias e impropias!, también exploramos el misterioso universo de las representaciones decimales de los <strong>números racionales</strong>, aprendiendo a realizar operaciones entre ellos y convirtiéndote en un maestro de las conversiones entre <strong>fracciones</strong> y decimales, tenemos un taller de recapitulación, ¡Es como un juego para repasar y consolidar lo aprendido! Abordamos temas como potenciación y radicación de <strong>racionales</strong>, operaciones combinadas entre <strong>números racionales</strong>, razón, proporción, reglas de tres simples y compuesta.</p>
+                                                            <div class="table-responsive latabla">
+                                                                <table class="table caption-top table-hover">
+                                                                    <caption>TABLA DE CONTENIDO:</caption>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Adición y sustracción de fracciones
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Multiplicación y división de fracciones
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Fracciones equivalentes, propias e impropias
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Representación como decimal
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Conversión, adición y sustracción de decimales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Multiplicación y división de decimales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Adición y sustracción de números racionales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Multiplicación y división de números racionales
+                                                                            </td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Taller de recapitulación
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Potenciación de números racionales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Radicación de números racionales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Operaciones con números racionales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Razón y proporción
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Regla de tres simple directa e inversa
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Regla de tres compuesta
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Repartos proporcionales
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <p style="text-align: center"><strong>¡Sumérgete en el universo de los números racionales con nuestro libro de matemáticas y descubre que las fracciones pueden ser tan divertidas como un juego de mesa! 🎲✨</strong></p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="pag">
+                                                <div class="contenidoIZ">
+
+                                                    <div class="catalogo rounded">
+                                                        <div class="tituloNivel">
+                                                            <p class="Nivel">Nivel D</p>
+                                                        </div>
+                                                        <div class="tituloNivel2">
+                                                            <p class="categoriaEducacion">| Números enteros</p>
+                                                        </div>
+                                                        <div class="describeNivel">
+                                                            <img class="img-thumbnail imagenNivel" src="img/libros/Dideas/numerosEnteros_D.jpg" alt="">
+                                                            <p>¡Este libro es tu compañero ideal para sumergirte en el fascinante mundo de los <strong>números enteros</strong>! explorando qué son los <strong>números enteros</strong> y cómo se representan en la recta numérica. Después, nos sumergiremos en conceptos chéveres como los <strong>números opuestos</strong> y el <strong>valor absoluto</strong>. ¿Te preguntaste alguna vez por qué estos números son tan importantes? ¡Aquí encontrarás las respuestas! Además, descubriremos las relaciones de orden entre los <strong>números enteros</strong>, como si estuviéramos resolviendo un misterio <strong>matemático</strong>. Prepárate para la acción, porque también exploraremos las operaciones con <strong>números enteros</strong>. Sumar, restar, multiplicar, dividir, elevar a la potencia y hasta sacar raíces cuadradas. También tendrás la oportunidad de poner a prueba tus habilidades con talleres que consolidan lo aprendido y pruebas Saber que te harán sentir como un auténtico héroe del pensamiento numérico.</p>
+                                                            <div class="table-responsive latabla">
+                                                                <table class="table caption-top table-hover">
+                                                                    <caption>TABLA DE CONTENIDO:</caption>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Números enteros y recta numérica
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Opuestos y valor absoluto de números enteros
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Relación de orden entre números enteros
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Taller de recapitulación I
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Adición de números enteros
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Sustracción de números enteros
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Multiplicación de números enteros
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                División de números enteros
+                                                                            </td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Potenciación de números enteros
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Radicación de números enteros
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Taller de recapitulación II
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Prueba Saber
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Polinomios aritméticos con números enteros
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Ecuaciones con números enteros I
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Ecuaciones con números enteros II
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Taller de recapitulación III
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <p style="text-align: center"><strong>¡Embárcate en este libro de números enteros y descubre que las matemáticas pueden ser tan emocionantes como un juego de acertijos! 🚀🔢 ¡Desafía tu mente y diviértete resolviendo problemas matemágicos! ✨🧠</strong></p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="pag">
+                                                <div class="contenidoDE">
+                                                    <div class="espacioNiveles"></div>
+
+                                                    <div class="catalogo rounded">
+                                                        <div class="tituloNivel">
+                                                            <p class="Nivel">Nivel E</p>
+                                                        </div>
+                                                        <div class="tituloNivel2">
+                                                            <p class="categoriaEducacion">| Expresiones algebraicas y factorización</p>
+                                                        </div>
+                                                        <div class="describeNivel">
+                                                            <img class="img-thumbnail imagenNivel" src="img/libros/Dideas/expresionesAlgebraicasYFactorizacion_E.jpg" alt="">
+                                                            <p>¡Descubre con nuestro increíble libro!, Comenzamos explicándote qué son las <strong>expresiones algebraicas</strong> y cómo calcular su valor numérico, nos sumergimos en las operaciones <strong>algebraicas</strong> como la adición, sustracción, multiplicación y división. ¿<strong>Factorización</strong>? ¡Claro que sí! Te llevamos de la mano a través de métodos increíbles como el factor común, la diferencia de cuadrados, la suma o diferencia de cubos, y mucho más. Te contamos los secretos de los productos notables y los cocientes notables, ¡como si fueran chismes <strong>matemáticos</strong>!. ¿Te suenan complicados los trinomios? ¡Nada de eso! Desentrañamos los misterios de trinomios cuadrados perfectos, trinomios por adición y sustracción, y hasta trinomios de la forma <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi></math> y <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo> <mi>b</mi><mi>x</mi><mo>+</mo> <mi>c</mi></math>. ¡Todo eso de manera fácil y divertida!. Con un final épico, te mostramos cómo <strong>factorizar</strong> cubos perfectos de binomios. ¿Emocionante, verdad?</p>
+                                                            <div class="table-responsive latabla">
+                                                                <table class="table caption-top table-hover">
+                                                                    <caption>TABLA DE CONTENIDO:</caption>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Números enteros y recta numérica
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Opuestos y valor absoluto de números enteros
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Relación de orden entre números enteros
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Taller de recapitulación I
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Adición de números enteros
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Sustracción de números enteros
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Multiplicación de números enteros
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                División de números enteros
+                                                                            </td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Potenciación de números enteros
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Radicación de números enteros
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Taller de recapitulación II
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Prueba Saber
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Polinomios aritméticos con números enteros
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Ecuaciones con números enteros I
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Ecuaciones con números enteros II
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Taller de recapitulación III
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <p style="text-align: center"><strong>¡Sumérgete en un mundo de intriga y misterio matemático! Descubre el libro que convierte la resolución de ecuaciones en un emocionante enigma a resolver. ¡Desafía tu mente y conquista el arte de la incógnita con nosotros! 🕵️‍♂️🔍✨</strong></p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="pag">
+                                                <div class="contenidoIZ">
+
+                                                    <div class="catalogo rounded">
+                                                        <div class="tituloNivel">
+                                                            <p class="Nivel">Nivel E</p>
+                                                        </div>
+                                                        <div class="tituloNivel2">
+                                                            <p class="categoriaEducacion">| Funciones y ecuaciones</p>
+                                                        </div>
+                                                        <div class="describeNivel">
+                                                            <img class="img-thumbnail imagenNivel" src="img/libros/Dideas/funcionesYEcuaciones_E.jpg" alt="">
+                                                            <p>¿Te has preguntado alguna vez cómo es que las <strong>funciones lineales</strong> se entrelazan con las representaciones gráficas en el universo <strong>matemático</strong>? ¡Pues aquí te lo contamos todo! Exploramos las maravillas de las <strong>funciones lineales</strong>, desentrañando sus misteriosos comportamientos de cambio y analizando sus gráficos, también nos aventuramos en el emocionante mundo de las <strong>ecuaciones lineales</strong>. ¿Cómo construir <strong>expresiones algebraicas equivalentes</strong>? Nos sumergimos en la ecuación general y explícita de la recta, y exploramos cómo dos rectas pueden bailar en el plano y para los valientes, nos adentramos en los sistemas de ecuaciones. Descubrirás el misterioso mundo de la <strong>función cuadrática</strong> y la <strong>ecuación cuadrática</strong>. También nos sumergimos en las <strong>funciones exponencial</strong> y <strong>logarítmica</strong>. Incluso nos aventuramos con ecuaciones <strong>exponenciales</strong> y <strong>logarítmicas</strong>.</p>
+                                                            <div class="table-responsive latabla">
+                                                                <table class="table caption-top table-hover">
+                                                                    <caption>TABLA DE CONTENIDO:</caption>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Números enteros y recta numérica
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Opuestos y valor absoluto de números enteros
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Relación de orden entre números enteros
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Taller de recapitulación I
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Adición de números enteros
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Sustracción de números enteros
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Multiplicación de números enteros
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                División de números enteros
+                                                                            </td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Potenciación de números enteros
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Radicación de números enteros
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Taller de recapitulación II
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Prueba Saber
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Polinomios aritméticos con números enteros
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Ecuaciones con números enteros I
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Ecuaciones con números enteros II
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Taller de recapitulación III
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <p style="text-align: center"><strong>¡Sumérgete en nuestro libro y descubre cómo las matemáticasdejan de ser un enigma para convertirse en la mejor fiesta de funciones y ecuaciones! 🎉 ¡Prepárate para un viaje matemágico lleno de diversión y descubrimientos! 🚀✨</strong></p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="pag">
+                                                <div class="contenidoDE">
+                                                    <div class="espacioNiveles"></div>
+
+                                                    <div class="catalogo rounded">
+                                                        <div class="tituloNivel">
+                                                            <p class="Nivel">Nivel E</p>
+                                                        </div>
+                                                        <div class="tituloNivel2">
+                                                            <p class="categoriaEducacion">| Geometría</p>
+                                                        </div>
+                                                        <div class="describeNivel">
+                                                            <img class="img-thumbnail imagenNivel" src="img/libros/Dideas/geometria_E.jpg" alt="">
+                                                            <p>¡<strong>Descubre</strong> el fascinante mundo de la geometría! Comenzamos desde cero, como entender los <strong>ángulos</strong> y <strong>triángulos</strong>. Después, nos metemos de lleno en teoremas que te harán sentir como un verdadero genio matemático, como el de <strong>Pitágoras</strong> y <strong>Tales</strong>. Nos aventuramos en terrenos más avanzados: <strong>semejanza de triángulos</strong>, <strong>razones trigonométricas</strong>, y hasta nos encontramos con la misteriosa <strong>circunferencia</strong> y el siempre redondo <strong>círculo</strong>. Nos sumergimos en el mundo de las <strong>figuras planas</strong>, ¡calculando <strong>áreas</strong> y <strong>perímetros</strong> como unos verdaderos matemáticos! También exploramos <strong>volúmenes</strong> y <strong>áreas de sólidos</strong>, como <strong>prismas</strong>, <strong>pirámides</strong> y cuerpos redondos. Al final de cada aventura matemática, hay talleres de recapitulación que te ayudarán a reforzar tus conocimientos. Su enfoque promueve el trabajo autónomo y contextualizado con recursos físicos y virtuales.</p>
+                                                            <div class="table-responsive latabla">
+                                                                <table class="table caption-top table-hover">
+                                                                    <caption>TABLA DE CONTENIDO:</caption>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Clasificación de Ángulos
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Triángulos: clasificación y elementos
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Teorema de Pitágoras
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Teoirema de Tales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Semejanza de Triángulos
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Razones trigonométricas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Laboratorio II
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Circunferencia y Círculo
+                                                                            </td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Área y Perímetro de formas planas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Taller de Recapitulación
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Área y volumen de prismas y pirámides
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Cuerpos Geométricos
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Poliedros
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Área y volumen de sólidos de revolución
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Taller de Recapitulación
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Troquel - Ando
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <p style="text-align: center"><strong>¡Prepárate para sumergirte en el emocionante mundo de la geometría, donde los ángulos y triángulos son como superhéroes matemáticos listos para deslumbrarte! 🚀📐 ¡Te garantizamos que esta aventura será más divertida que un círculo de chistes matemáticos! 🤓✨</strong></p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="pag">
+                                                <div class="contenidoIZ">
+
+                                                    <div class="catalogo rounded">
+                                                        <div class="tituloNivel">
+                                                            <p class="Nivel">Nivel E</p>
+                                                        </div>
+                                                        <div class="tituloNivel2">
+                                                            <p class="categoriaEducacion">| Estadística</p>
+                                                        </div>
+                                                        <div class="describeNivel">
+                                                            <img class="img-thumbnail imagenNivel" src="img/libros/Dideas/estadistica_E.jpg" alt="">
+                                                            <p>Imagínate, cada sección es como un episodio emocionante. Desde <strong>población</strong>, <strong>muestra</strong> y <strong>variables</strong>, hasta medidas de <strong>tendencia central</strong> como <strong>media</strong>, <strong>mediana</strong> y <strong>moda</strong>. ¡Y eso no es todo! También nos aventuramos con representaciones gráficas como <strong>barras</strong>, <strong>círculos</strong> e <strong>histogramas</strong>, ¡puro estilo visual, y para que no te pierdas ni un detalle, al final de cada sección te lanzamos <strong>talleres de recapitulación</strong>. ¡Así es, repasamos todo juntos para que te vuelvas un crack de la estadística!; ¿Te suenan las <strong>Pruebas Saber</strong>? Pues, agárrate, porque también incluimos <strong>ejercicios modelo</strong>. Así que, en resumen, D-IDEAS Estadística es como ese amigo que siempre está ahí cuando lo necesitas. Te pone a practicar con ejercicios al estilo de las <strong>Pruebas Saber</strong>, y lo mejor, está disponible en físico y digital. ¡A romperla con la estadística y triunfar con estilo!</p>
+                                                            <div class="table-responsive latabla">
+                                                                <table class="table caption-top table-hover">
+                                                                    <caption>TABLA DE CONTENIDO:</caption>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Caracterización de variables estadísticas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Medidas de tendencia central I
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Medidas de tendencia central II
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Análisis de gráficos estadísticos
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Análisis de variables cuantitativas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Razones trigonométricas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Principio de suma y multiplicación
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Factorial y permutaciones
+                                                                            </td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Variación y combinación
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Técnicas de conteo I
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Técnicas de conteo II
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Espacio muestral y eventos
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Probabilidad I
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Probabilidad II
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Probabilidad condicional I
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Probabilidad condicional II
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Prueba Saber
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <p style="text-align: center"><strong>¡Atrévete a sumergirte en el fascinante mundo de los números con D-IDEAS Estadística, donde las matemáticas se convierten en la mejor aventura para conquistar! 🚀📊</strong></p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="pag">
+                                                <div class="contenidoDE">
+                                                    <div class="espacioNiveles"></div>
+
+                                                    <div class="catalogo rounded">
+                                                        <div class="tituloNivel">
+                                                            <p class="Nivel">Nivel F</p>
+                                                        </div>
+                                                        <div class="tituloNivel2">
+                                                            <p class="categoriaEducacion">| Trigonometría</p>
+                                                        </div>
+                                                        <div class="describeNivel">
+                                                            <img class="img-thumbnail imagenNivel" src="img/libros/Dideas/trigonometria_F.jpg" alt="">
+                                                            <p>Este libro increíble que nos sumerge en el fascinante mundo de la <strong>trigonometría</strong>. Empezamos con ángulos, radianes y cómo convertir esas medidas. Después, Aparece el Teorema de Pitágoras y las razones <strong>trigonométricas</strong>. Luego, nos adentramos en ángulos importantes, triángulos rectángulos y hasta la circunferencia unitaria. Pero eso no es todo, también exploramos las <strong>funciones trigonométricas</strong> para ángulos en posición normal, sus gráficos y un análisis <strong>matemático</strong>. Así como funciones trigonométricas inversas, identidades <strong>matemáticas</strong> que son como trucos mágicos, ¡y hasta ecuaciones <strong>trigonométricas</strong>! Concluimos con la ley del seno, la ley del coseno y un taller que es como el cierre perfecto de este viaje <strong>matemático</strong>. También trabajamos el pensamiento numérico, variacional, métrico y espacial, conectando las <strong>funciones trigonométricas</strong> con cosas que suceden en el mundo real.</p>
+                                                            <div class="table-responsive latabla">
+                                                                <table class="table caption-top table-hover">
+                                                                    <caption>TABLA DE CONTENIDO:</caption>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Ángulos
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Radianes
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Conversión de medidas de ángulos
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Teorema de pitágoras
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Razones trigonométricas I
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Razones trigonométricas II
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Ángulos notables y solución de triángulos rectángulos
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Circunferencia unitaria
+                                                                            </td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Funciones trigonométricas para ángulos en posición normal
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Gráfica y análisis de funciones trigonométricas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Funciones trigonométricas inversas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Identidades trigonométricas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Ecuaciones trigonométricas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Ley de seno
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Ley de coseno
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Taller de recapitulación
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <p style="text-align: center"><strong>¡Prepárense para un viaje matemágico🚀🌈 lleno de giros, piruetas trigonométricas y revelaciones numéricas! Este libro es como el pase VIP al mundo secreto de la trigonometría, ¡donde los ángulos son las estrellas y los triángulos son los héroes! 🚀📐✨</strong></p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="pag">
+                                                <div class="contenidoIZ">
+
+                                                    <div class="catalogo rounded">
+                                                        <div class="tituloNivel">
+                                                            <p class="Nivel">Nivel F</p>
+                                                        </div>
+                                                        <div class="tituloNivel2">
+                                                            <p class="categoriaEducacion">| Funciones y límites</p>
+                                                        </div>
+                                                        <div class="describeNivel">
+                                                            <img class="img-thumbnail imagenNivel" src="img/libros/Dideas/numerosNaturales_C.jpg" alt="">
+                                                            <p>Si estás buscando la llave mágica para entender <strong>funciones</strong> y <strong>límites</strong>, ¡tenemos algo increíble para ti! Echa un vistazo al libro "Funciones y Límites" de D-IDEAS. Este libro es como el GPS de las <strong>matemáticas</strong>, te guiará a través de conceptos clave de manera súper fácil de entender. ¿Relaciones, <strong>funciones</strong>, <strong>funciones cuadráticas</strong>, radicales? No te preocupes, este libro te lo explica todo sin perder la sonrisa. Pero eso no es todo, también se sumerge en el mundo de los <strong>límites</strong>. ¡Imagina <strong>límites</strong> como superpoderes <strong>matemáticos</strong> que te llevarán más allá de lo que puedas imaginar! Desde <strong>límites</strong> laterales hasta trucos geniales como <strong>factorización</strong> y racionalización, este libro lo tiene cubierto. Y para empezar desde los cimientos, se calienta con temas básicos como intervalos y ecuaciones. ¡Sí, esos fundamenos que te harán sentirte como un verdadero mago de las <strong>matemáticas</strong>!</p>
+                                                            <div class="table-responsive latabla">
+                                                                <table class="table caption-top table-hover">
+                                                                    <caption>TABLA DE CONTENIDO:</caption>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Intervalos
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Ecuaciones e inecuaciones lineales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Inecuaciones polinómicas y racionales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Relaciones y funciones
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Propiedades de las funciones
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Funciones cuadráticas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Funciones racionales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Funciones con radicales
+                                                                            </td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Funciones exponenciales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Composición de funciones
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Funciones inversas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Funciones logarítmicas
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Límites laterales
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Propiedades de los límites
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Límites por factorización y por racionalización
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.58 18.71"><defs><style>.tablaflecha-1{fill:#ec3737;}.tablaflecha-2{fill:#d72b2b;}</style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><polygon class="tablaflecha-1" points="0 0 11.58 9.9 0 18.71 2.81 9.83 0 0"/><polygon class="tablaflecha-2" points="2.81 9.83 11.58 9.9 0 0 2.81 9.83"/></g></g></svg>
+                                                                                Límites trigonométricos y límites infinitos
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <p style="text-align: center"><strong>¡Sumérgete en "Funciones y Límites" y descubre el emocionante mundo matemático donde los límites son solo el comienzo de tu aventura hacia el dominio total de las mates! 🌟🚀 ¡Prepárate para desatar tu genio matemático con una sonrisa! 😎📚</strong></p>
+                                                        </div>
+                                                    </div>
 
                                                 </div>
                                             </div>
@@ -2410,6 +6115,7 @@ require_once(dirname(__FILE__).'/componentes.php');
                                             </div>
                                         </div>
                                     </div>
+                                    
                                 </li>
                                 <li>
                                     <input type="radio" name="inputRadio2" class="inputRadio2" id="libritoSpaces">
@@ -2617,7 +6323,7 @@ require_once(dirname(__FILE__).'/componentes.php');
                                             </div>
                                             <div class="XLx2"></div>
                                             <div class="XLx3">
-                                                <label class="cartilla cartillaXL cartillaVerde" data-bs-toggle="modal" data-bs-target="#librito" for="libritoDimensiones">
+                                                <label class="cartilla cartillaXL cartillaVerde" data-bs-toggle="modal" data-bs-target="#librito_no" for="libritoDimensiones">
                                                     <div class="bordeCartilla cartillaXL">
                                                         <div class="franjaSup tipo4">
                                                         </div>
@@ -2670,7 +6376,7 @@ require_once(dirname(__FILE__).'/componentes.php');
                                             <div class="XLx2"></div>
                                             <div class="XLx3"></div>
                                             <div class="XLx4">
-                                                <label class="cartilla cartillaXL cartillaRoja" data-bs-toggle="modal" data-bs-target="#librito" for="libritoSpaces">
+                                                <label class="cartilla cartillaXL cartillaRoja" data-bs-toggle="modal" data-bs-target="#librito_no" for="libritoSpaces">
                                                     <div class="bordeCartilla cartillaXL">
                                                         <div class="franjaSup tipo3">
                                                             <i class="figuraCartilla">
@@ -2704,7 +6410,7 @@ require_once(dirname(__FILE__).'/componentes.php');
                                         <div class="librosXL">
                                             <div class="XLx1"></div>
                                             <div class="XLx2">
-                                                <label class="cartilla cartillaXL cartillaAzul" data-bs-toggle="modal" data-bs-target="#librito" for="libritoIntegrado">
+                                                <label class="cartilla cartillaXL cartillaAzul" data-bs-toggle="modal" data-bs-target="#librito_no" for="libritoIntegrado">
                                                     <div class="bordeCartilla cartillaXL">
                                                         <div class="franjaSup tipo1">
                                                             <i class="figuraCartilla">
@@ -2727,7 +6433,7 @@ require_once(dirname(__FILE__).'/componentes.php');
                                                 </label>
                                             </div>
                                             <div class="XLx3">
-                                                <label class="cartilla cartillaXL cartillaAmarilla" data-bs-toggle="modal" data-bs-target="#librito" for="libritoTrabajo">
+                                                <label class="cartilla cartillaXL cartillaAmarilla" data-bs-toggle="modal" data-bs-target="#librito_no" for="libritoTrabajo">
                                                     <div class="bordeCartilla cartillaXL">
                                                         <div class="franjaSup tipo2">
                                                             <i class="figuraCartilla">
@@ -2835,6 +6541,10 @@ $(document).ready(function(){
 	$("#flipbook_6").turn();
 
     $('#alfa-pag')[0].addEventListener('click', function() {
+        $("#flipbook_1").turn('page', 16);
+    });
+
+    $('#phi-pag')[0].addEventListener('click', function() {
         $("#flipbook_1").turn('page', 4);
     });
 
