@@ -394,7 +394,7 @@ if (isset($_GET['envioMuestra'])) {
 <script src="js/juegos/tangram.js"></script>
 <script>
 $(document).ready(function() {
-    var nombresString = "Albert Einstein, Isabella Rueda, Alejandro Suarez, Karen Ospina, Javier Zuñiga, Mariana Sosa, Viviana Caballero, Alejandra Parra, Mabel Rincon, Steven Niño, Juan Rodriguez, Isaac Newton, Galileo Galilei, Marie Curie, Charles Darwin, Nikola Tesla, Aristóteles, Leonardo da Vinci, Carl Sagan, Stephen Hawking, Pitágoras, Arquímedes, René Descartes, Niels Bohr, Sigmund Freud, Max Planck, Werner Heisenberg, Marie Curie, Blaise Pascal, James Clerk Maxwell, Antoine Lavoisier, Galeno, Dmitri Mendeléyev, Carl Friedrich Gauss, Erwin Schrödinger, Max Born, Tomás de Aquino, Pierre-Simon Laplace, André-Marie Ampère, Niels Bohr";
+    var nombresString = "Isabella Rueda, Alejandro Suarez, Karen Ospina, Javier Zuñiga, Mariana Sosa, Viviana Caballero, Alejandra Parra, Mabel Rincon, Steven Niño, Juan Rodriguez";
     var nombresArray = nombresString.split(", ");
     var indiceAleatorio = Math.floor(Math.random() * nombresArray.length);
     var nombreAleatorio = nombresArray[indiceAleatorio];

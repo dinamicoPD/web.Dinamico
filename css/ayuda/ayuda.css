@@ -1,0 +1,40 @@
+ #periodico h2 button{
+    font-size: 1.6vw;
+    font-family: 'Futura_Light_BT', sans-serif;
+ }
+
+ .accordion-body{
+    font-family: 'Poppins_Medium', sans-serif;
+    background: fixed;
+    background-image: url(../../img/fondo@3x.png);
+    background-size: 100vw;
+    background-position: center;
+    font-size: 1.3vw;
+ }
+
+ .img-thumbnail{
+   width: 50%;
+ }
+
+ .accordion-body p{
+   text-align: center;
+ }
+
+ .accordion-body a{
+   color: #82D5E8;
+ }
+
+ .accordion-body h3{
+  font-size: 1.9vw;
+ }
+
+ .elContacto{
+  color: black;
+  font-family: 'Poppins_Medium', sans-serif;
+ }
+
+ .elContacto svg{
+  width: 2vw;
+  height: 2vw;
+  color: #A7DB77;
+ }
