@@ -328,9 +328,9 @@ if (isset($_GET['envioMuestra'])) {
     <br>
     <i>Así que, ¿Por qué esperar? Explora nuestra tienda virtual<br>y descubre un mundo de posibilidades educativas. <br><strong>¡El aprendizaje nunca ha sido tan divertido!</strong></i></div>
     <div class="tiendaImagen">
-        <div class="imglibro hover"><a href="mantenimiento.php"><img src="img/tiendaLibros@3x.png" alt="Publicaciones educativas en matemáticas e inglés"></a></div>
-        <div class="imgjuegos hover"><a href="mantenimiento.php"><img src="img/tiendaJuegos@3x.png" alt="Juegos interactivos de matemáticas para estimular el cerebro"></a></div>
-        <div class="imgofertas hover"><a href="mantenimiento.php"><img src="img/tiendaOfertas@3x.png" alt="Desafíos de lógica y rompecabezas"></a></div>
+        <div class="imglibro hover"><a href="index.php#tienda"><img src="img/tiendaLibros@3x.png" alt="Publicaciones educativas en matemáticas e inglés"></a></div>
+        <div class="imgjuegos hover"><a href="index.php#tienda"><img src="img/tiendaJuegos@3x.png" alt="Juegos interactivos de matemáticas para estimular el cerebro"></a></div>
+        <div class="imgofertas hover"><a href="index.php#tienda"><img src="img/tiendaOfertas@3x.png" alt="Desafíos de lógica y rompecabezas"></a></div>
     </div>
     <div id="proximamente" data-aos="zoom-out-right">
         <img src="img/tiendaProximamente@3x.png" alt="Rompecabezas numéricos para fomentar habilidades matemáticas">

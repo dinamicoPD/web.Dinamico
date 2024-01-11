@@ -53,7 +53,7 @@ $MENU =
                     <a class="nav-link menuFont" aria-current="page" href="nosotros.php">Nosotros</a>
                 </li>
                 <li class="nav-item" id="m3">
-                    <a class="nav-link tienda" aria-current="page" href="mantenimiento.php">Tienda</a>
+                    <a class="nav-link tienda" aria-current="page" href="index.php#tienda">Tienda</a>
                 </li>
                 <li class="nav-item" id="m4">
                     <a class="nav-link menuFont" aria-current="page" href="beneficios.php">Beneficios</a>

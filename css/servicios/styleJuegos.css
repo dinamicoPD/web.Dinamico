@@ -1,0 +1,20 @@
+body *{
+    margin: 0;
+    padding: 0;
+}
+
+br{
+    line-height: 1;
+}
+
+.titulo1::after{
+    content: "Juegos";
+}
+
+.juegosGaleria{
+    width: 100%;
+}
+
+.juegosGaleria img{
+    width: 100%;
+}
