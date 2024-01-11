@@ -1,0 +1,124 @@
+body *{
+    margin: 0;
+    padding: 0;
+}
+
+br{
+    line-height: 1;
+}
+
+.titulo1::after{
+    content: "Festivales";
+}
+
+#español:hover, #cienciasNaturales:hover, #ingles:hover, #sociales:hover, #matematicas:hover{
+    transform: scale(1.005);
+    cursor: pointer;
+}
+
+#B1, #B11, #B21, #B31, #B41, #B51, #B61, #B71, #B81, #B91, #B101, #B111{
+    animation: color-animation1 1s infinite;
+}
+
+#B2, #B12, #B22, #B32, #B42, #B52, #B62, #B72, #B82, #B92, #B102, #B112{
+    animation: color-animation1 1.1s infinite;
+}
+
+#B3, #B13, #B23, #B33, #B43, #B53, #B63, #B73, #B83, #B93, #B103{
+    animation: color-animation1 1.2s infinite;
+}
+
+#B4, #B14, #B24, #B34, #B44, #B54, #B64, #B74, #B84, #B94, #B104{
+    animation: color-animation1 1.3s infinite;
+}
+
+#B5, #B15, #B25, #B35, #B45, #B55, #B65, #B75, #B85, #B95, #B105{
+    animation: color-animation1 1.4s infinite;
+}
+
+#B6, #B16, #B26, #B36, #B46, #B56, #B66, #B76, #B86, #B96, #B106{
+    animation: color-animation1 1.5s infinite;
+}
+
+#B7, #B17, #B27, #B37, #B47, #B57, #B67, #B77, #B87, #B97, #B107{
+    animation: color-animation1 1.6s infinite;
+}
+
+#B8, #B18, #B28, #B38, #B48, #B58, #B68, #B78, #B88, #B98, #B108{
+    animation: color-animation1 1.7s infinite;
+}
+
+#B9, #B19, #B29, #B39, #B49, #B59, #B69, #B79, #B89, #B99, #B109{
+    animation: color-animation1 1.8s infinite;
+}
+
+#B10, #B20, #B30, #B40, #B50, #B60, #B70, #B80, #B90, #B100{
+    animation: color-animation1 1.9s infinite;
+}
+
+@keyframes color-animation1 {
+    0% {
+        filter: contrast(100%);
+    }
+    25% {
+        filter: contrast(50%);
+    }
+    50% {
+        filter: contrast(300%);
+    }
+    100% {
+        filter: contrast(100%);
+    }
+}
+
+#contenedor svg{
+    position: relative;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.estaciones{
+    pointer-events: auto;
+}
+
+#contenedor{
+    position: relative;
+}
+
+#youtubeVideo{
+    position: absolute;
+    width: 69vw;
+    height: 38.4vw;
+    top: 125.5vw;
+    left: 15.5vw;
+}
+
+#M1, #M4, #M7, #M10, #M13{
+    animation: musica-animation 1.3s infinite;
+}
+
+#M2, #M5, #M8, #M11, #M14{
+    animation: musica-animation 1.6s infinite;
+}
+
+#M3, #M6, #M9, #M12, #M15{
+    animation: musica-animation 1.9s infinite;
+}
+
+@keyframes musica-animation {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.002);
+    }
+    50% {
+        transform: scale(1.005);
+    }
+    75% {
+        transform: scale(1.002);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
