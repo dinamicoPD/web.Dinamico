@@ -8687,7 +8687,7 @@ require_once(dirname(__FILE__).'/componentes.php');
       <div class="modal-body">
 
           <div class="row">
-            <div class="col-12 p-1"><a href="festivalesPropuestas/FESTIVAL_INGLÉS/index.html" class="btnPlataforma btnRegistro_1">ENGLISH FESTIVAL</a></div>
+            <div class="col-12 p-1"><a href="festivalesPropuestas/ENGLISH_FESTIVAL/index.html" class="btnPlataforma btnRegistro_1">ENGLISH FESTIVAL</a></div>
             <div class="col-12 p-1"><a href="festivalesPropuestas/FESTIVAL_INGLÉS/index.html" class="btnPlataforma btnRegistro_2">FESTIVAL DE INGLÉS</a></div>
           </div>
 
