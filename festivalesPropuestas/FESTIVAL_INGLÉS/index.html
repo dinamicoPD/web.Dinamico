@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	<meta name="msapplication-tap-highlight" content="no"/>
+	<title>FESTIVAL INGLÉS</title>
+	<link rel="stylesheet" href="data/css/viewer.css"/>
+	<script src="data/js/browsersupport.js"></script>
+	<script src="data/js/viewer.js"></script>
+
+	<link rel="stylesheet" href="../prote/proteccion.css">
+	
+	
+	<script>
+		var book = "eNqFVNtuo0gQ/ZUW0mhfHJSrsf3WQNtmgsECnKy1GqEGd2wmhEbdTbJsiDSv8yP7I/sn+yVbXOLsjBLNC5e6nLqcqnrWVKZyps20OQkj5wa7yPEW7j/fQ22klXTPwuwvJrXZH8+ahC/4GF8YujG9Gg3vLyNN0GLfas5G55dfXkAgaa4AcWySc4uY5mRuGJfT+amJzwxjbE5s07Ite0ogwoFKl6c0v2FCZrzQZkpUrBOvqZRPXOy02R3NJciyswnonzVixzi8jtc4DG/9wI5tB7v+InY8yN2x3+QuNokLWUQHhsoBDLFCMcF26IlKlBUpF4KlSkfrnFHJkBI1onuaFTqk9kGcV1jSIr0BK454yQqkDplECef3s48h1i62yNJ3bRIA0LHQzt7CntXhW7RIWd4LXR+DbfcCco4puJzusmL/77e/ezP/GoTwGGlrM8aWRcLQMR3XibaxFRAcgcmtEy1bcMGoatuQqQPKwlIADGKPNK+oAhrQ40DHe0ibICBeBEUtCCA5hWRCQdkMFdVDAi3hd91fWkFvC4XaGXoPZ+FHfuyR3yMAWfC2fx0G+/MXLuuA3PzgUgr2mPFK/t/NtmPT969XOLiOlwT3jca7tlvIBHIeqLiX79hGfT63B2Cy5tVvgiHoVOs2QoqWXbxXf5RUSkGvII3u9+ei9QF/4R8Jo3veC18DhnGETVD8lJONt+HRaUfrQbz0N8Gb/DAEWDneJiJv8od+fFuN70XLXh6C4jMt9GbOEr1ZUaE3uBTtV918rgoGj7xucLXXm5CVSm98WIvG4496Y7N0wPP82N9EruO1xHvQfZrkrOU75bAMhRrSHGyG0qwfdO3UHDNdQ5fQp07kbVYmCT71RgGxYMLcbcsNscHwayUVKvhTr954+AY7AOKS2MSeB5sx8LblFUopjG/GnrollIgXed2POUW3LEEwrTDc+sdITuSSgRFUVkmeycOwKLxSUOxdnhUwdDmtE5reI1mVJReqx9vCCSUBsHcssWYSzgRQqL3AORVcwbmZC/5g8bKGqToetzv4YaLdw/ZwXtgXZ+fG1eWJYY2tE4OQ6ckYXxknp9blxJicTk8n1gQiZrJb3DXk4kCT96Jb3iOmgNhcsFDBqr8eVla0nOE0ZVJmSZZnql7xHRt8Xv4Dk4vp0w==";
+
+		document.addEventListener("DOMContentLoaded", function() {
+			PdfViewer.checkMobileIntegration(book);
+
+			var viewerInitCallback = function(viewer) {
+				
+			};
+
+			var startupApplication = function(initViewerState) {
+				var fileOpenParams = {"type":"fileName","filePath":"data\/book.pdf"};
+				PdfViewer.open(fileOpenParams, document.body, book, viewerInitCallback, initViewerState);
+			};
+
+			(function(startupFunc) {
+				if (startupFunc)
+				{
+					startupFunc(startupApplication);
+				}
+				else
+				{
+					startupApplication();
+				}
+			})();
+		});
+	</script>
+</head>
+<body>
+	<div id="Watermarkind"></div>
+	<div class="btnRegrsar">
+		<a href="../../festivales.php">
+			<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-left-square-fill" viewBox="0 0 16 16">
+				<path d="M16 14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2zm-4.5-6.5H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5a.5.5 0 0 0 0-1"/>
+			</svg> Regresar
+		</a>
+	</div>
+</body>
+</html>

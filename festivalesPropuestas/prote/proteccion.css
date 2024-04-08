@@ -1,0 +1,39 @@
+#Watermarkind{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background-image: url(marca\ de\ agua_5conj.png);
+    filter: opacity(3%);
+    
+}
+.spread{
+    position: relative;
+    z-index: 110;
+}
+
+.thumbnailWrapper{
+    z-index: 111;
+}
+
+.toolbar{
+    z-index: 112;
+}
+
+.fullscreen{
+    display: none;
+}
+
+.btnRegrsar{
+    color: #FFFFFF;
+    margin: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 112;
+}
+
+.btnRegrsar a{
+    text-decoration: none;
+    color: inherit;
+}
