@@ -3,4 +3,6 @@ config-ext.php
 
 # Carpetas
 moodle/
+moodle2/
+moodle3/
 tienda/
