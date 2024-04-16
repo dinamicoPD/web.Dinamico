@@ -69,6 +69,9 @@ require_once(dirname(__FILE__).'/componentes.php');
                             <p><img class="img-thumbnail" src="img/ayuda/pregunta1/ayuda10.png" alt=""></p>
                             <p><strong>Nota: </strong>Si orientas en más de un curso, puedes agregarlo haciendo clic en el símbolo "+".</p>
                             <p><img class="img-thumbnail" src="img/ayuda/pregunta1/ayuda11.png" alt=""></p>
+                            <div class="video-responsive">
+                                <iframe class="youtubeVideo" src="https://www.youtube.com/embed/kZKUmD6O5H8?si=RtanuDP5LCULr_BZ" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                            </div>
                         </ul>
                     </div>
                 </div>
@@ -129,6 +132,9 @@ require_once(dirname(__FILE__).'/componentes.php');
                             <h3><strong>Si quieres, proporciona un número de contacto de tu acudiente.</strong></h3>
                             <br>
                             <p><img class="img-thumbnail" src="img/ayuda/pregunta2/ayuda10.png" alt=""></p>
+                            <div class="video-responsive">
+                                <iframe class="youtubeVideo" src="https://www.youtube.com/embed/UuLWEg_--B8?si=fvSGzrD7yvDPwI7P" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                            </div>
                         </ul>
                     </div>
                 </div>
