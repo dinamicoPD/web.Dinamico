@@ -37,11 +37,13 @@ if($proceder == true){
         $tipoSolicitud = $_POST['tipoSolicitud'];
         $opcionesPermitidas = array("beneficios", "PQRS", "Muestras docentes");
         $mensajeInput = $_POST['mensajeInput'];
+        $telefonoInput = $_POST['telefonoInput'];
 
         // Sanitizar los valores de entrada
         $nameInput = filter_var($nameInput, FILTER_SANITIZE_STRING);
         $mensajeInput = filter_var($mensajeInput, FILTER_SANITIZE_STRING);
         $emailInput = filter_var($emailInput, FILTER_SANITIZE_EMAIL);
+        $telefonoInput = filter_var($telefonoInput, FILTER_SANITIZE_STRING);
         $tipoSolicitud = htmlspecialchars($tipoSolicitud);
 
         if (!preg_match('/^[\p{L}\s]+$/u', $nameInput) || str_word_count($nameInput) < 3) {
@@ -79,9 +81,9 @@ if($proceder == true){
             $stmt->close();
 
             // Insertar un nuevo registro en la base de datos
-            $sql = "INSERT INTO PreDocentes (nombre, email, confirmado) VALUES (?, ?, 1)";
+            $sql = "INSERT INTO PreDocentes (nombre, email,	telefono, confirmado) VALUES (?, ?, ?, 1)";
             $stmt = $link->prepare($sql);
-            $stmt->bind_param("ss", $nameInput, $emailInput);
+            $stmt->bind_param("sss", $nameInput, $emailInput, $telefonoInput);
 
             if ($stmt->execute()) {
                 $stmt->close();

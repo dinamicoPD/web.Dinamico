@@ -85,6 +85,13 @@ require_once(dirname(__FILE__).'/componentes.php');
                                 </div>
                             </div>
                             <div class="input-group mb-3">
+                                <span class="input-group-text iconoBeneficios" id="telefono"><img src="img/wpp@3x.png" alt=""></span>
+                                <div class="form-floating">
+                                    <input type="text" class="form-control inputBeneficios" name="telefonoInput" id="telefonoInput" placeholder="teléfono">
+                                    <label class="labelBeneficios" for="emailInput">Teléfono</label>
+                                </div>
+                            </div>
+                            <div class="input-group mb-3">
                                 <span class="input-group-text iconoBeneficios"><img src="img/beneficios/beneficios.png" alt=""></span>
                                 <select class="form-select inputBeneficios" name="tipoSolicitud" id="tipoSolicitud" require>
                                     <option disabled value="" selected>Asunto</option>
