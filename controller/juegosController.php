@@ -22,8 +22,8 @@ if ($resultado->num_rows > 0) {
                     $JuegosCatalogo .= '<h5 class="card-title">' . $fila["titulo"] . '</h5>';
                     $JuegosCatalogo .= '<div class="accordion">';
                         $JuegosCatalogo .= '<h2 class="accordion-item">';
-                            $JuegosCatalogo .= '<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse'.$fila["id_juegos"].'" aria-expanded="true" aria-controls="collapse'.$fila["id_juegos"].'">
-                                                    Ver mas
+                            $JuegosCatalogo .= '<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse'.$fila["id_juegos"].'" aria-expanded="true" aria-controls="collapse'.$fila["id_juegos"].'">
+                                                    Ver más
                                                 </button>';
                         $JuegosCatalogo .= '</h2>';
                         $JuegosCatalogo .= '<div id="collapse'.$fila["id_juegos"].'" class="accordion-collapse collapse" data-bs-parent="#accordionExample">';
