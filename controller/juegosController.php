@@ -42,9 +42,6 @@ if ($resultado->num_rows > 0) {
                         $JuegosCatalogo .= '</div>';
                     $JuegosCatalogo .= '</div>';
                 $JuegosCatalogo .= "</div>";
-                $JuegosCatalogo .= "<div class='card-footer btnPlataforma'>";
-                    $JuegosCatalogo .= "<p class='fs-3 text-center'><strong>Valor: </strong> $ <span class='font-monospace'>" . $preciovalor . "</span></p>";
-                $JuegosCatalogo .= "</div>";
             $JuegosCatalogo .= "</div>";
         $JuegosCatalogo .= "</article>";
         
