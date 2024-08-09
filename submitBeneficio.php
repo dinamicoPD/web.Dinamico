@@ -133,10 +133,12 @@ function mensajeEnvioBeneficio($nameInput, $emailInput, $tipoSolicitud, $mensaje
 			.tabla{width:450px;margin:auto;border-collapse:collapse;border:none;text-align:center;}table *{margin:0;padding:0;box-sizing:border-box;}.SkyBlue{background-color:#81D4E7;}.SkyBlueClaro{background-color:#CEF2F8;}.PaleGreen{background-color:#BDE298;}.PaleGreenClaro{background-color:#E5F1D6;}.Khaki{background-color:#FAD263;}.KhakiClaro{background-color:#FDDE90;}.Moccasin{background-color:#FFEBBA;}.oscuro{background-color:#424242;}.MediumPurple{background-color:#9AAFFE;}.MediumPurpleClaro{background-color:#D1DBFE;}.Blanco{background-color:#ffffff;}.fontBlanco{color:#ffffff;}.fontNegro{color:#424242;}.fontAzul{color:#368A9B;}.fontRojo{color:#F6746D;}.fontPoppins{font-family:"Poppins",sans-serif;}.fontRoboto{font-family:"Roboto",sans-serif;}.fontRobotoMono{font-family:"Roboto Mono",monospace;}.titulo{font-weight:700;padding:9px 0px;font-size:26px;}.span{background-color:#F6746D;}.tabla img{display:block;margin:auto;}.tablax4 td{width:112.5px;}.tablaX8 td{width:56.25px;}.tablaX6 td{width:75px;}.grupoTitulo{margin-top:17px;}.img80{width:80%;}.img100{width:100%;}.img50{width:50%;}.img30{width:30%;}.pestana{border-radius:12px 12px 0 0;font-size:12px;}.periodico{background-color:#EADED4;font-size:12px;padding:9px 6px 9px 6px;}.margenesDP{padding:9px 0px;}.carpetas{font-size:12px;padding:9px 6px 9px 6px;}.servicios{padding:5px;text-decoration:none;cursor:pointer;display:block;}.pantalla{width:100%;padding:10px 34px;}.play{width:35px;height:35px;border-radius:50%;padding:9.5px 0px 0px 2.5px;}.play img{width:15px;height:15px;}.progreso{width:90%;margin:auto;padding:3px 0;}.btnReproducir{width:60%;margin:auto;padding:3px 0;}.footer1{width:95%;margin:auto;font-size:10px;text-align:left;}.footer1 .social{width:15px;}.footer1 .social img{width:10px;}.footer1 .logo{width:49px;}.footer1 .logo img{width:40px;padding-right:5px;border-right:1px solid #ffffff;}.altoMensaje{height:215px;}.inputLicencia{width:90%;margin:auto;border:2px solid #424242;height:30px;border-radius:20px;margin:5px 0;}.bordeRedondeado{border-radius:3px;}.bordeSuperior{border-top:6px solid #ffffff;}.pasos1{padding:6.5px 3px;margin-right:3px;line-height:16px;}
 		';
 
-        $mail->setFrom('dinamico.moodle@gmail.com', 'Dinamico Web');
+        $mail->setFrom('soporte@dinamicopd.com', 'Dinamico Web');
         $mail->addAddress($emailInput, $nameInput);        // a quien envia
-        $mail->addAddress('dinamicopdadm@gmail.com', 'Dinamico Ventas');
-        $mail->addCC('dinamico.moodle@gmail.com', 'Dinamico Web');
+        $mail->addBCC('dinamicopdadm@gmail.com', 'Dinamico Ventas');
+        $mail->addBCC('dinamico.moodle@gmail.com', 'Dinamico Soporte');
+        $mail->addBCC('logistica@dinamicopd.com', 'Dinamico logistica');
+        $mail->addBCC('proyectos@dinamicopd.com', 'Dinamico proyectos');
 
         $ruta_img = 'moodle/dinapage/img/correos/Recurso_1.png';
         $ruta_icon = 'moodle/dinapage/img/correos/Recurso_2.png';
